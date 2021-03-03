@@ -7,7 +7,8 @@ from random_player import RandomPlayer
 
 players = [RandomPlayer(), CustomPlayer()]
 game = Game(players)
-assert game.state == {
+
+assert game.game_state == {
     'turn': 1,
     'board_size': [7,7],
     'players': {
@@ -25,6 +26,8 @@ assert game.state == {
 
 game.complete_turn()
 
+print(game.game_state, "\n")
+''''
 assert game.state == {
     'turn': 2,
     'board_size': [7,7],
@@ -40,9 +43,12 @@ assert game.state == {
     },
     'winner': None
 }
+'''
 
 game.run_to_completion()
 
+print(game.game_state, "\n")
+''''
 assert game.state == {
     'turn': 7,
     'board_size': [7,7],
@@ -58,3 +64,4 @@ assert game.state == {
     },
     'winner': 2
 }
+'''

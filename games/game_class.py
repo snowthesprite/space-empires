@@ -1,3 +1,5 @@
+import math
+
 class Game:
     def __init__(self, players, board_size=[7,7]):
         self.players = players
@@ -47,15 +49,16 @@ class Game:
         in_bounds_translations = []
         for translation in translations:
             if self.check_if_translation_is_in_bounds(coords, translation):
-                in_bounds_translation.append(translation)
+                in_bounds_translations.append(translation)
+        return in_bounds_translations
 
     def complete_turn(self):
         for player in self.players :
             player_data = self.game_state['players'][player.player_number]
             coords = player_data['scout_coords']
             translations = self.get_in_bounds_translations(coords)
-            new_coords = player.choose_translation(self.game_state, translations)
-            self.player_data['scout_coords'] = new_coords
+            chosen_trans = player.choose_translation(self.game_state, translations)
+            player_data['scout_coords'] = (coords[0] + chosen_trans[0], coords[1] + chosen_trans[1])
 
         self.game_state['turn'] += 1
 

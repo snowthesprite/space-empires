@@ -1,3 +1,6 @@
+from random import random
+import math
+
 class CustomPlayer():
     def __init__(self):
         self.player_number = None
@@ -25,8 +28,10 @@ class CustomPlayer():
         best_movement = None
 
         for choice in choices :
-            choice_dist_sqr = (choice[0] - opponent_home_colony_coords[0]) ** 2 + (choice[1] - opponent_home_colony_coords[1])
-            if choice_dist_sqr < dist_sqr :
+            option = (choice[0] + my_scout_coords[0], choice[1] + my_scout_coords[1])
+            option_dist_sqr = (option[0] - opponent_home_colony_coords[0]) ** 2 + (option[1] - opponent_home_colony_coords[1])
+            if option_dist_sqr < dist_sqr :
                 best_movement = choice
-                dist_sqr = choice_dist_sqr
+                dist_sqr = option_dist_sqr
+
         return best_movement

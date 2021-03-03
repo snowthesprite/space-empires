@@ -1,3 +1,6 @@
+from random import random
+import math
+
 class RandomPlayer():
     def __init__(self):
         self.player_number = None
@@ -11,3 +14,4 @@ class RandomPlayer():
         # scout is in the bottom-right corner of the board
 
         random_idx = math.floor(len(choices) * random())
+        return choices[random_idx]
