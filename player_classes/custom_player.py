@@ -14,9 +14,6 @@ class CustomPlayer():
             return 1
 
     def choose_translation(self, game_state, choices):
-        # `choices` is a list of possible translations,
-        # e.g. [(0,0), (-1,0), (0,1)] if the player's
-        # scout is in the bottom-right corner of the board
         myself = game_state['players'][self.player_number]
         opponent_player_number = self.get_opponent_player_number()
         opponent = game_state['players'][opponent_player_number]
@@ -24,8 +21,12 @@ class CustomPlayer():
         my_scout_coords = myself['scout_coords']
         opponent_home_colony_coords = opponent['home_colony_coords']
 
-        # FOR YOU TO DO:
-        # you need to use `my_scout_coords` and
-        # `opponent_home_colony_coords` to return the
-        # translation that will bring you closest to
-        # the opponent
+        dist_sqr = (my_scout_coords[0] - opponent_home_colony_coords[0]) ** 2 + (my_scout_coords[1] - opponent_home_colony_coords[1])
+        best_movement = None
+
+        for choice in choices :
+            choice_dist_sqr = (choice[0] - opponent_home_colony_coords[0]) ** 2 + (choice[1] - opponent_home_colony_coords[1])
+            if choice_dist_sqr < dist_sqr :
+                best_movement = choice
+                dist_sqr = choice_dist_sqr
+        return best_movement

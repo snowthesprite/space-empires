@@ -40,7 +40,7 @@ class Game:
         x, y = coords
         dx, dy = translation
         new_coords = (x+dx,y+dy)
-        return self.is_in_bounds(new_coords)
+        return self.check_if_coords_are_in_bounds(new_coords)
 
     def get_in_bounds_translations(self, coords):
         translations = [(0,0), (0,1), (0,-1), (1,0), (-1,0)]
@@ -49,15 +49,34 @@ class Game:
             if self.check_if_translation_is_in_bounds(coords, translation):
                 in_bounds_translation.append(translation)
 
-    def complete_turn():
+    def complete_turn(self):
+        for player in self.players :
+            player_data = self.game_state['players'][player.player_number]
+            coords = player_data['scout_coords']
+            translations = self.get_in_bounds_translations(coords)
+            new_coords = player.choose_translation(self.game_state, translations)
+            self.player_data['scout_coords'] = new_coords
+
+        self.game_state['turn'] += 1
+
+
         # YOUR CODE HERE
         # for each player, figure out what translations
         # are in bounds for their scout, and get the player's
         # choice of where they want to move their scout.
         # Then, update the game state accordingly.
 
-    def run_to_completion():
-        # YOUR CODE HERE
-        # complete turns until there is a winner
+    def run_to_completion(self):
+        while self.game_state['winner'] == None :
+            self.complete_turn()
+            self.check_winner()
+
+    def check_winner(self) :
+        all_players = self.game_state['players']
+        for player_id in range(1, 3) :
+            alt_id = (player_id % 2) + 1
+            if all_players[player_id]['scout_coords'] == all_players[alt_id]['home_colony_coords'] :
+                self.game_state['winner'] = player_id
+
 
     # you can add more helper methods if you want
