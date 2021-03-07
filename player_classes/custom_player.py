@@ -24,14 +24,14 @@ class CustomPlayer():
         my_scout_coords = myself['scout_coords']
         opponent_home_colony_coords = opponent['home_colony_coords']
 
-        dist_sqr = (my_scout_coords[0] - opponent_home_colony_coords[0]) ** 2 + (my_scout_coords[1] - opponent_home_colony_coords[1])
+        dist_sqr = (my_scout_coords[0] - opponent_home_colony_coords[0]) ** 2 + (my_scout_coords[1] - opponent_home_colony_coords[1]) ** 2
         best_movement = None
 
         for choice in choices :
             option = (choice[0] + my_scout_coords[0], choice[1] + my_scout_coords[1])
-            option_dist_sqr = (option[0] - opponent_home_colony_coords[0]) ** 2 + (option[1] - opponent_home_colony_coords[1])
+            option_dist_sqr = (option[0] - opponent_home_colony_coords[0]) ** 2 + (option[1] - opponent_home_colony_coords[1]) ** 2
             if option_dist_sqr < dist_sqr :
                 best_movement = choice
                 dist_sqr = option_dist_sqr
-
+                
         return best_movement
