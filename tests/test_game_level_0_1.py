@@ -1,7 +1,7 @@
 import sys
 sys.path.append('player_classes')
 sys.path.append('games')
-from game_class import Game
+from game_0_1 import Game
 from custom_player import CustomPlayer
 
 

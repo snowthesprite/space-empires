@@ -1,5 +1,4 @@
 import math
-import random as rand
 
 class Game:
     def __init__(self, players, board_size=[7,7]):
@@ -54,8 +53,12 @@ class Game:
         return in_bounds_translations
 
     def complete_turn(self):
-        self.complete_movement_phase()
-        self.complete_combat_phase()
+        for player in self.players :
+            player_data = self.game_state['players'][player.player_number]
+            coords = player_data['scout_coords']
+            translations = self.get_in_bounds_translations(coords)
+            chosen_trans = player.choose_translation(self.game_state, translations)
+            player_data['scout_coords'] = (coords[0] + chosen_trans[0], coords[1] + chosen_trans[1])
 
         self.game_state['turn'] += 1
 
@@ -66,7 +69,7 @@ class Game:
         # choice of where they want to move their scout.
         # Then, update the game state accordingly.
 
-    def run_to_completion(self) :
+    def run_to_completion(self):
         while self.game_state['winner'] == None :
             self.complete_turn()
             self.check_winner()
@@ -78,21 +81,5 @@ class Game:
             if all_players[player_id]['scout_coords'] == all_players[alt_id]['home_colony_coords'] :
                 self.game_state['winner'] = player_id
 
-    def complete_movement_phase(self) :
-        for player in self.players :
-            player_data = self.game_state['players'][player.player_number]
-            coords = player_data['scout_coords']
-            translations = self.get_in_bounds_translations(coords)
-            chosen_trans = player.choose_translation(self.game_state, translations)
-            player_data['scout_coords'] = (coords[0] + chosen_trans[0], coords[1] + chosen_trans[1])
-            
-            if player_data['scout_coords'] == self.game_state['players'][(player.player_number % 2) + 1]['scout_coords'] :
-                return
-    
-    def complete_combat_phase(self) :
-        all_players = self.game_state['players']
-        if all_players[1]['scout_coords'] == all_players[2]['scout_coords'] :
-            judgement = rand.randint(1,2)
-            all_players[judgement]['scout_coords'] = None
-            self.game_state['winner'] = (judgement % 2) + 1
+
     # you can add more helper methods if you want

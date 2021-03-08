@@ -33,5 +33,5 @@ class CustomPlayer():
             if option_dist_sqr < dist_sqr :
                 best_movement = choice
                 dist_sqr = option_dist_sqr
-                
+
         return best_movement
