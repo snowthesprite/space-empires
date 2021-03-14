@@ -14,19 +14,11 @@ class Game:
             'board_size': board_size,
             'players': {
                 1: {
-                    'scout_coords': {
-                        1: (mid_x, 1),
-                        2: (mid_x, 1),
-                        3: (mid_x, 1)
-                    },
+                    'scout_coords': [(mid_x, 1), (mid_x, 1), (mid_x, 1)],
                     'home_colony_coords': (mid_x, 1)
                 },
                 2: {
-                    'scout_coords': {
-                        1: (mid_x, 1),
-                        2: (mid_x, 1),
-                        3: (mid_x, 1)
-                    },
+                    'scout_coords': [(mid_x, 1), (mid_x, 1), (mid_x, 1)],
                     'home_colony_coords': (mid_x, board_y)
                 }
             },
@@ -75,16 +67,16 @@ class Game:
         all_players = self.game_state['players']
         for player_id in range(1, 3) :
             alt_id = (player_id % 2) + 1
-            if list(all_players[player_id]['scout_coords'].values()) == [None for _ in range(3)] :
+            if all_players[player_id]['scout_coords'] == [] :
                 self.game_state['winner'] = alt_id
 
     def complete_movement_phase(self) :
         for player in self.players :
             player_data = self.game_state['players'][player.player_number]
-            for scout_id in player_data['scout_coords'].keys() :
+            for scout_id in range(len(player_data['scout_coords'])) :
                 coords = player_data['scout_coords'][scout_id]
 
-                if coords in list(self.game_state['players'][(player.player_number % 2) + 1]['scout_coords'].values()) :
+                if coords in self.game_state['players'][(player.player_number % 2) + 1]['scout_coords'] :
                     continue
 
                 translations = self.get_in_bounds_translations(coords)
@@ -95,11 +87,9 @@ class Game:
         all_players = self.game_state['players']
         p1_scouts = all_players[1]['scout_coords']
         p2_scouts = all_players[2]['scout_coords']
-        for (p1_scout_id, p1_scout_loc) in p1_scouts.items() :
-            for (p2_scout_id, p2_scout_loc) in p2_scouts.items() :
-                    if p1_scout_loc == p2_scout_loc :
-                        scout_indices = [p1_scout_id, p2_scout_id]
-                        judge = round(rand.random())+1
-                        all_players[judge]['scout_coords'][scout_indices[judge-1]] = None
-        
+        for p1_scout in p1_scouts :
+            if p1_scout in p2_scouts :
+                scout_indices = [p1_scouts.index(p1_scout), p2_scouts.index(p1_scout)]
+                judge = rand.randint(1,2)
+                all_players[judge]['scout_coords'].pop(scout_indices[judge-1])
     # you can add more helper methods if you want
