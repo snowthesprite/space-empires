@@ -99,7 +99,8 @@ class Game:
             for (p2_scout_id, p2_scout_loc) in p2_scouts.items() :
                     if p1_scout_loc == p2_scout_loc :
                         scout_indices = [p1_scout_id, p2_scout_id]
-                        judge = round(rand.random())+1
+                        judge = rand.randint(1,2)
                         all_players[judge]['scout_coords'][scout_indices[judge-1]] = None
+                        break
         
     # you can add more helper methods if you want

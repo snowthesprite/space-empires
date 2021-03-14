@@ -11,7 +11,9 @@ for _ in range(200):
         game = Game(players)
         game.run_to_completion()
         winner = game.game_state['winner']
-        scouts_remaining[winner] += len(game.game_state['players'][winner]['scout_coords'])
+        for scout in game.game_state['players'][winner]['scout_coords'].values() :
+            if scout != None :
+                scouts_remaining[winner] += 1
 
         num_wins[winner] += 1
 avg_scouts_remaining = {k:v/200 for k,v in scouts_remaining.items()}
