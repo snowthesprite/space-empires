@@ -1,7 +1,12 @@
 import random as rand
+import sys
+sys.path.append('logs')
+from logger import *
 
 class Game:
     def __init__(self, players, board_size=[7,7]):
+        self.log = GameLogger('/home/runner/space-empires/logs/game-3-log.txt')
+        self.log.clear_log()
         self.players = players
         self.set_player_numbers()
 
@@ -14,11 +19,19 @@ class Game:
             'board_size': board_size,
             'players': {
                 1: {
-                    'scout_coords': [(mid_x, 1), (mid_x, 1), (mid_x, 1)],
+                    'scout_coords': {
+                        1: (mid_x, 1),
+                        2: (mid_x, 1),
+                        3: (mid_x, 1)
+                    },
                     'home_colony_coords': (mid_x, 1)
                 },
                 2: {
-                    'scout_coords': [(mid_x, 1), (mid_x, 1), (mid_x, 1)],
+                    'scout_coords': {
+                        1: (mid_x, 7),
+                        2: (mid_x, 7),
+                        3: (mid_x, 7)
+                    },
                     'home_colony_coords': (mid_x, board_y)
                 }
             },
@@ -62,34 +75,57 @@ class Game:
         while self.game_state['winner'] == None :
             self.complete_turn()
             self.check_winner()
+        self.log.log_winner(self.game_state['winner'])
 
     def check_winner(self) :
         all_players = self.game_state['players']
         for player_id in range(1, 3) :
             alt_id = (player_id % 2) + 1
-            if all_players[player_id]['scout_coords'] == [] :
-                self.game_state['winner'] = alt_id
+            for scout_loc in all_players[player_id]['scout_coords'].values() :
+                if scout_loc == all_players[alt_id]['home_colony_coords'] :
+                    self.game_state['winner'] = player_id
 
     def complete_movement_phase(self) :
+        self.log.begin_phase(self.game_state['turn'], 'M')
         for player in self.players :
             player_data = self.game_state['players'][player.player_number]
-            for scout_id in range(len(player_data['scout_coords'])) :
+            for scout_id in player_data['scout_coords'].keys() :
                 coords = player_data['scout_coords'][scout_id]
 
-                if coords in self.game_state['players'][(player.player_number % 2) + 1]['scout_coords'] :
+                if coords in list(self.game_state['players'][(player.player_number % 2) + 1]['scout_coords'].values()) or coords == None :
                     continue
 
                 translations = self.get_in_bounds_translations(coords)
                 chosen_trans = player.choose_translation(self.game_state,   translations, scout_id)
-                player_data['scout_coords'][scout_id] = (coords[0] + chosen_trans[0], coords[1] + chosen_trans[1])
+                new_coords = (coords[0] + chosen_trans[0], coords[1] + chosen_trans[1])
+                player_data['scout_coords'][scout_id] = new_coords
+                self.log.log_movement(player.player_number, scout_id, coords, new_coords)
+        self.log.end_phase(self.game_state['turn'], 'M')
     
     def complete_combat_phase(self) :
+        self.log.begin_phase(self.game_state['turn'], 'C')
         all_players = self.game_state['players']
         p1_scouts = all_players[1]['scout_coords']
         p2_scouts = all_players[2]['scout_coords']
-        for p1_scout in p1_scouts :
-            if p1_scout in p2_scouts :
-                scout_indices = [p1_scouts.index(p1_scout), p2_scouts.index(p1_scout)]
-                judge = rand.randint(1,2)
-                all_players[judge]['scout_coords'].pop(scout_indices[judge-1])
+        fight_coords = None
+        keep_running = True
+        
+        while keep_running :
+            for (p1_scout_id, p1_scout_loc) in p1_scouts.items() :
+                if p1_scout_loc in list(p2_scouts.values()) and p1_scout_loc != fight_coords and p1_scout_loc != None :
+                    fight_coords = p1_scout_loc
+                    self.log.begin_combat(fight_coords)
+
+                for (p2_scout_id, p2_scout_loc) in p2_scouts.items() :
+                        if p1_scout_loc == p2_scout_loc and p1_scout_loc != None :
+                            keep_running = True
+                            scout_indices = [p1_scout_id, p2_scout_id]
+                            judge = rand.randint(1,2)
+                            all_players[judge]['scout_coords'][scout_indices[judge-1]] = None
+                            self.log.log_combat(judge, scout_indices[judge-1])
+                            break
+                        else:
+                            keep_running = False
+        self.log.end_phase(self.game_state['turn'], 'C')
+        
     # you can add more helper methods if you want
