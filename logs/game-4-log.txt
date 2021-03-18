@@ -45,29 +45,63 @@ BEGIN TURN 3 COMBAT PHASE
 
  	Begin Combat at (4, 4)
 
- 	 	Player 1, Scout 1 has been destroyed!
- 	 	Player 2, Scout 1 has been destroyed!
- 	 	Player 1, Scout 3 has been destroyed!
- 	 	Player 2, Scout 2 has been destroyed!
+ 	 	Attacker : Player 1, Scout 1
+ 	 	Defender : Player 2, Scout 1
+ 	 	(Miss)
+
+ 	 	Attacker : Player 1, Scout 2
+ 	 	Defender : Player 2, Scout 1
+ 	 	Hit!
+ 	 	
+
+ 	 	Attacker : Player 1, Scout 3
+ 	 	Defender : Player 2, Scout 2
+ 	 	Hit!
+ 	 	
+
+ 	 	Attacker : Player 2, Scout 3
+ 	 	Defender : Player 1, Scout 1
+ 	 	(Miss)
+
+ 	 	Attacker : Player 1, Scout 1
+ 	 	Defender : Player 2, Scout 3
+ 	 	(Miss)
+
+ 	 	Attacker : Player 1, Scout 2
+ 	 	Defender : Player 2, Scout 3
+ 	 	(Miss)
+
+ 	 	Attacker : Player 1, Scout 3
+ 	 	Defender : Player 2, Scout 3
+ 	 	Hit!
+ 	 	
+
+ 	 End of encounter
+ 	 Survivors:
+ 	 	Player 1, Scout 1
+ 	 	Player 1, Scout 2
+ 	 	Player 1, Scout 3
  
 END TURN 3 COMBAT PHASE
  
 BEGIN TURN 4 MOVEMENT PHASE
 
+ 	Player 1, Scout 1: (4, 4) --> (4, 5)
+ 	Player 1, Scout 2: (4, 4) --> (4, 5)
+ 	Player 1, Scout 3: (4, 4) --> (4, 5)
  
 END TURN 4 MOVEMENT PHASE
  
 BEGIN TURN 4 COMBAT PHASE
 
- 	Begin Combat at (4, 4)
-
- 	 	Player 2, Scout 3 has been destroyed!
  
 END TURN 4 COMBAT PHASE
  
 BEGIN TURN 5 MOVEMENT PHASE
 
- 	Player 1, Scout 2: (4, 4) --> (4, 5)
+ 	Player 1, Scout 1: (4, 5) --> (4, 6)
+ 	Player 1, Scout 2: (4, 5) --> (4, 6)
+ 	Player 1, Scout 3: (4, 5) --> (4, 6)
  
 END TURN 5 MOVEMENT PHASE
  
@@ -78,7 +112,9 @@ END TURN 5 COMBAT PHASE
  
 BEGIN TURN 6 MOVEMENT PHASE
 
- 	Player 1, Scout 2: (4, 5) --> (4, 6)
+ 	Player 1, Scout 1: (4, 6) --> (4, 7)
+ 	Player 1, Scout 2: (4, 6) --> (4, 7)
+ 	Player 1, Scout 3: (4, 6) --> (4, 7)
  
 END TURN 6 MOVEMENT PHASE
  
@@ -86,16 +122,5 @@ BEGIN TURN 6 COMBAT PHASE
 
  
 END TURN 6 COMBAT PHASE
- 
-BEGIN TURN 7 MOVEMENT PHASE
-
- 	Player 1, Scout 2: (4, 6) --> (4, 7)
- 
-END TURN 7 MOVEMENT PHASE
- 
-BEGIN TURN 7 COMBAT PHASE
-
- 
-END TURN 7 COMBAT PHASE
  
 WINNER: PLAYER 1

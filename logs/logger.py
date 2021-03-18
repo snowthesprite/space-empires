@@ -58,3 +58,32 @@ class GameLogger (Logger) :
     def log_winner(self,winner):
         line = 'WINNER: PLAYER {}'.format(winner)
         self.write(line)
+
+class GameLoggerMK2 (GameLogger) :
+    def __init__(self, filename='log.txt'):
+        self.filename = filename
+    
+    def log_combat(self, attacker, defender, hit) :
+        self.write('\n \t \t')
+        line = 'Attacker : Player {}, Scout {}'.format(attacker[0],attacker[1])
+        self.write(line)
+
+        self.write('\n \t \t')
+        line = 'Defender : Player {}, Scout {}'.format(defender[0],defender[1])
+        self.write(line)
+
+        if hit :
+            self.write('\n \t \tHit!')
+            self.write('\n \t \t')
+            line = 'Player {}, Scout {} was destroyed!'.format(defender[0],defender[1])
+        else :
+            self.write('\n \t \t(Miss)')
+        self.write('\n')
+            
+    def log_survivors(self, survivors, winner) :
+        self.write('\n \t End of encounter')
+        self.write('\n \t Survivors:')
+        for survivor in survivors :
+            self.write('\n \t \t')
+            line = 'Player {}, Scout {}'.format(winner, survivor)
+            self.write(line) 
