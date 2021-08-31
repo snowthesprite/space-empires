@@ -4,7 +4,8 @@ class Scout() :
         self.dmg = 3
         self.df = 0
         self.pn = player_number
-        self.id = 'S' + str(id)
+        self.id = 'SC' + str(id)
+        self.type = 'E'
 
 
 class BattleCruiser () :
@@ -14,3 +15,4 @@ class BattleCruiser () :
         self.dmg = 5
         self.pn = player_number
         self.id = 'BC' + str(id)
+        self.type = 'B'

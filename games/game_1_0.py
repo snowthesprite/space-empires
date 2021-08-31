@@ -41,7 +41,7 @@ class Game:
         self.board[mid_x][0].push([(1,'Home Colony'), (1,'S0'), (1,'S1'), (1,'S3')])
         self.board[mid_x][mid_y].push([(2, 'Home Colony'), (2,'S0'), (2,'S1'), (2,'S3')])
         '''
-        self.used_space = {(mid_x,7) : [(2,'S0'),(2,'S1'),(2,'S2')], (mid_x,1) : [(1,'S0'),(1,'S1'),(1,'S2')]}
+        self.used_space = {(mid_x,7) : [(2,'SC0'),(2,'SC1'),(2,'SC2')], (mid_x,1) : [(1,'SC0'),(1,'SC1'),(1,'SC2')]}
 
     def set_player_numbers(self):
         for i, player in enumerate(self.players):
@@ -72,7 +72,7 @@ class Game:
 
     def complete_turn(self):
         self.complete_movement_phase()
-        #self.complete_combat_phase()
+        self.complete_combat_phase()
 
         self.turn += 1
 
@@ -83,14 +83,12 @@ class Game:
         self.log.write('WINNER: PLAYER {}'.format(self.winner))
 
     def check_winner(self) :
-        for player_id in range(1, 3) :
-            if self.plr_data[player_id]['Home Colony'] not in self.used_space.keys() :
+        for player_num in range(1, 3) :
+            if self.plr_data[player_num]['Home Colony'] not in self.used_space.keys() :
                 continue
-            alt_id = (player_id % 2) + 1
-            for (player, ship_id) in self.used_space[self.plr_data[player_id]['Home Colony']] :
-                if player == alt_id :
-                    self.winner = alt_id
-                    break
+            if self.opponent_there(self.plr_data[player_num]['Home Colony']) :
+                self.winner = (player_num % 2) + 1
+                break
 
     def find_ship_coords(self, plr_num, ship_id) :
         for (coord, ships) in self.used_space.items() :
@@ -98,7 +96,10 @@ class Game:
                 return coord
     
     def opponent_there(self, coord) :
-        pass
+        test = {plr_id for (plr_id,ship_id) in self.used_space[coord]}
+        if len(test) == 1 :
+            return False
+        return True
 
     def complete_movement_phase(self) :
         self.log.begin_phase(self.turn, 'MOVEMENT')
@@ -110,6 +111,7 @@ class Game:
                 coords = self.find_ship_coords(player.player_number, ship.id)
 
                 if self.opponent_there(coords) :
+                    self.log.write('\n\tPlayer {} Ship {} is caught in battle at {}'.format(player.player_number, ship.id, coords))
                     continue
 
                 translations = self.get_in_bounds_translations(coords)
@@ -128,46 +130,63 @@ class Game:
             if ships == [] :
                 self.used_space.pop(key)
     
+    def if_hit(self, rolled, attacker, defender) :
+        if rolled == 1 :
+            return True
+        
+    
+    def find_ship_from_id(self, player_id, ship_id) :
+        index = 0
+        for ship in self.plr_data[player_id]['ships'] :
+            if ship.id == ship_id :
+                return (index, ship)
+            index += 1
+        print('ERROR: NO SUCH SHIP WITH ID')
+            
+
     def complete_combat_phase(self) :
         all_battles = self.combat_order()
-        self.log.begin_phase(self.game_state['turn'], 'COMBAT')
-        all_players = self.game_state['players']
+        self.log.begin_phase(self.turn, 'COMBAT')
         survivors = {}
         self.log.log_combat_locations({loc : self.used_space[loc] for loc in all_battles})
         for (fight_coords, players) in all_battles.items() :
             keep_running = True
             self.log.write('\n\tCombat at {}\n'.format(fight_coords))
             current_battle = all_battles[fight_coords]
-            fighters = self.used_space[fight_coords]
+            fighters = all_battles[fight_coords]['combat order']
             while keep_running :
-                for (p_id, ship.id) in fighters.copy() :
-                    alt_id = (p_id % 2) + 1
-                    if current_battle[alt_id] == [] :
+                for (plr_id, ship_id) in fighters.copy() :
+                    alt_id = (plr_id % 2) + 1
+                    if not self.opponent_there(fight_coords) :
                         keep_running = False
                         survivors[fight_coords] = fighters
                         break
-                    if ship.id not in current_battle[p_id] :
+                    if ship_id not in current_battle[plr_id] :
                         continue
-                    hit = round(rand.random())
-                    alt_scout = current_battle[alt_id][0]
-                    self.log.log_combat((p_id,ship.id),(alt_id, alt_scout), hit)
-                    if hit == 1 : 
-                        all_players[alt_id]['scout_coords'][alt_scout] = None
-                        current_battle[alt_id].pop(0)
-                        fighters.pop(fighters.index((alt_id,alt_scout)))
+                    attacker = self.find_ship_from_id(plr_id, ship_id)
+                    defender = self.find_ship_from_id(alt_id, current_battle[alt_id][0])
+                    hit = self.if_hit(rand.randint(1,10), attacker[1], defender[1])
+                    self.log.log_combat((plr_id,ship_id),(alt_id, defender[1].id), hit)
+                    if hit : 
+                        self.plr_data[alt_id]['ships'].pop(defender[0])
+                        self.used_space[fight_coords].pop(self.used_space[fight_coords].index((alt_id,defender[1].id)))
         
         self.log.log_survivors(survivors)
-        self.log.end_phase(self.game_state['turn'], 'COMBAT')
+        self.log.end_phase(self.turn, 'COMBAT')
     
     def combat_order(self) :
         combat_dict = {}
-        for (loc, scouts) in self.used_space.items() :
-            test = {plr_id for (plr_id,ship.id) in scouts}
-            if len(test) == 1 :
+        for (coord, ship_ref) in self.used_space.items() :
+            if not self.opponent_there(coord) :
                 continue
-            combat_dict[loc] = {1:[],2:[]}
-            for (plr_id, ship.id) in scouts :
-                combat_dict[loc][plr_id].append(ship.id)
+            combat_dict[coord] = {1:[],2:[]}
+            ship_class = {'A': [], 'B': [], 'C':[], 'D': [], 'E': []}
+            for (plr_id, ship_id) in ship_ref :
+                combat_dict[coord][plr_id].append(ship_id)
+                ship = self.find_ship_from_id(plr_id, ship_id)[1]
+                ship_class[ship.type].append((plr_id, ship_id))
+            combat_dict[coord]['combat order'] = ship_class['A'] + ship_class['B'] + ship_class['C'] + ship_class['D'] + ship_class['E']
+
         return combat_dict
        
         
