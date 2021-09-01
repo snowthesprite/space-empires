@@ -17,7 +17,7 @@ class CustomPlayer():
         opponent = player_data[opponent_player_number]
 
         my_ship_coords = myself['ships'][ship_id]
-        opponent_home_colony_coords = opponent['home_colony_coords']
+        opponent_home_colony_coords = opponent['Home Colony']
 
         dist_sqr = (my_ship_coords[0] - opponent_home_colony_coords[0]) ** 2 + (my_ship_coords[1] - opponent_home_colony_coords[1]) ** 2
         best_movement = None
