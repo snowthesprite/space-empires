@@ -1,11 +1,11 @@
 BEGINNING OF TURN 1 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (4, 1) -> (5, 1)
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
-	Player 1 Ship SC2: (4, 1) -> (3, 1)
-	Player 2 Ship SC0: (4, 7) -> (4, 6)
-	Player 2 Ship SC1: (4, 7) -> (3, 7)
-	Player 2 Ship SC2: (4, 7) -> (3, 7)
+	Player 1 Ship SC0: (4, 1) -> (4, 2)
+	Player 1 Ship SC1: (4, 1) -> (3, 1)
+	Player 1 Ship BC0: (4, 1) -> (3, 1)
+	Player 2 Ship SC0: (4, 7) -> (3, 7)
+	Player 2 Ship SC1: (4, 7) -> (4, 7)
+	Player 2 Ship BC0: (4, 7) -> (4, 7)
 
 END OF TURN 1 MOVEMENT PHASE
 
@@ -15,12 +15,12 @@ END OF TURN 1 COMBAT PHASE
 
 BEGINNING OF TURN 2 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (5, 1) -> (5, 2)
-	Player 1 Ship SC1: (4, 2) -> (5, 2)
-	Player 1 Ship SC2: (3, 1) -> (3, 1)
-	Player 2 Ship SC0: (4, 6) -> (4, 6)
-	Player 2 Ship SC1: (3, 7) -> (4, 7)
-	Player 2 Ship SC2: (3, 7) -> (3, 6)
+	Player 1 Ship SC0: (4, 2) -> (3, 2)
+	Player 1 Ship SC1: (3, 1) -> (3, 2)
+	Player 1 Ship BC0: (3, 1) -> (2, 1)
+	Player 2 Ship SC0: (3, 7) -> (4, 7)
+	Player 2 Ship SC1: (4, 7) -> (3, 7)
+	Player 2 Ship BC0: (4, 7) -> (4, 7)
 
 END OF TURN 2 MOVEMENT PHASE
 
@@ -30,12 +30,12 @@ END OF TURN 2 COMBAT PHASE
 
 BEGINNING OF TURN 3 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (5, 2) -> (5, 3)
-	Player 1 Ship SC1: (5, 2) -> (6, 2)
-	Player 1 Ship SC2: (3, 1) -> (3, 1)
-	Player 2 Ship SC0: (4, 6) -> (4, 6)
-	Player 2 Ship SC1: (4, 7) -> (3, 7)
-	Player 2 Ship SC2: (3, 6) -> (3, 7)
+	Player 1 Ship SC0: (3, 2) -> (2, 2)
+	Player 1 Ship SC1: (3, 2) -> (2, 2)
+	Player 1 Ship BC0: (2, 1) -> (2, 1)
+	Player 2 Ship SC0: (4, 7) -> (4, 7)
+	Player 2 Ship SC1: (3, 7) -> (3, 7)
+	Player 2 Ship BC0: (4, 7) -> (5, 7)
 
 END OF TURN 3 MOVEMENT PHASE
 
@@ -45,12 +45,12 @@ END OF TURN 3 COMBAT PHASE
 
 BEGINNING OF TURN 4 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (5, 3) -> (6, 3)
-	Player 1 Ship SC1: (6, 2) -> (6, 1)
-	Player 1 Ship SC2: (3, 1) -> (3, 2)
-	Player 2 Ship SC0: (4, 6) -> (4, 6)
-	Player 2 Ship SC1: (3, 7) -> (4, 7)
-	Player 2 Ship SC2: (3, 7) -> (4, 7)
+	Player 1 Ship SC0: (2, 2) -> (2, 3)
+	Player 1 Ship SC1: (2, 2) -> (2, 3)
+	Player 1 Ship BC0: (2, 1) -> (2, 2)
+	Player 2 Ship SC0: (4, 7) -> (3, 7)
+	Player 2 Ship SC1: (3, 7) -> (2, 7)
+	Player 2 Ship BC0: (5, 7) -> (5, 6)
 
 END OF TURN 4 MOVEMENT PHASE
 
@@ -60,12 +60,12 @@ END OF TURN 4 COMBAT PHASE
 
 BEGINNING OF TURN 5 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 3) -> (6, 2)
-	Player 1 Ship SC1: (6, 1) -> (7, 1)
-	Player 1 Ship SC2: (3, 2) -> (3, 1)
-	Player 2 Ship SC0: (4, 6) -> (4, 6)
-	Player 2 Ship SC1: (4, 7) -> (4, 7)
-	Player 2 Ship SC2: (4, 7) -> (4, 7)
+	Player 1 Ship SC0: (2, 3) -> (1, 3)
+	Player 1 Ship SC1: (2, 3) -> (3, 3)
+	Player 1 Ship BC0: (2, 2) -> (3, 2)
+	Player 2 Ship SC0: (3, 7) -> (2, 7)
+	Player 2 Ship SC1: (2, 7) -> (1, 7)
+	Player 2 Ship BC0: (5, 6) -> (4, 6)
 
 END OF TURN 5 MOVEMENT PHASE
 
@@ -75,12 +75,12 @@ END OF TURN 5 COMBAT PHASE
 
 BEGINNING OF TURN 6 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 2) -> (7, 2)
-	Player 1 Ship SC1: (7, 1) -> (7, 2)
-	Player 1 Ship SC2: (3, 1) -> (4, 1)
-	Player 2 Ship SC0: (4, 6) -> (4, 6)
-	Player 2 Ship SC1: (4, 7) -> (4, 6)
-	Player 2 Ship SC2: (4, 7) -> (4, 6)
+	Player 1 Ship SC0: (1, 3) -> (1, 4)
+	Player 1 Ship SC1: (3, 3) -> (3, 4)
+	Player 1 Ship BC0: (3, 2) -> (3, 2)
+	Player 2 Ship SC0: (2, 7) -> (1, 7)
+	Player 2 Ship SC1: (1, 7) -> (2, 7)
+	Player 2 Ship BC0: (4, 6) -> (4, 5)
 
 END OF TURN 6 MOVEMENT PHASE
 
@@ -90,27 +90,47 @@ END OF TURN 6 COMBAT PHASE
 
 BEGINNING OF TURN 7 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (7, 2) -> (6, 2)
-	Player 1 Ship SC1: (7, 2) -> (6, 2)
-	Player 1 Ship SC2: (4, 1) -> (4, 1)
-	Player 2 Ship SC0: (4, 6) -> (4, 5)
-	Player 2 Ship SC1: (4, 6) -> (4, 7)
-	Player 2 Ship SC2: (4, 6) -> (4, 7)
+	Player 1 Ship SC0: (1, 4) -> (1, 5)
+	Player 1 Ship SC1: (3, 4) -> (3, 5)
+	Player 1 Ship BC0: (3, 2) -> (3, 1)
+	Player 2 Ship SC0: (1, 7) -> (1, 7)
+	Player 2 Ship SC1: (2, 7) -> (3, 7)
+	Player 2 Ship BC0: (4, 5) -> (3, 5)
 
 END OF TURN 7 MOVEMENT PHASE
 
 BEGINNING OF TURN 7 COMBAT PHASE
 
+	Combat Locations:
+
+		(3, 5)
+
+			Player 1 Ship SC1
+			Player 2 Ship BC0
+
+	Combat at (3, 5)
+
+		Rolled a 5, less than or equal to 5
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship SC1
+		Hit!
+		Player 1 Ship SC1 HP reduced to 0!
+
+	Survivors:
+
+		(3, 5)
+
+			Player 2 Ship BC0
+
 END OF TURN 7 COMBAT PHASE
 
 BEGINNING OF TURN 8 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 2) -> (6, 2)
-	Player 1 Ship SC1: (6, 2) -> (5, 2)
-	Player 1 Ship SC2: (4, 1) -> (4, 1)
-	Player 2 Ship SC0: (4, 5) -> (5, 5)
-	Player 2 Ship SC1: (4, 7) -> (3, 7)
-	Player 2 Ship SC2: (4, 7) -> (4, 6)
+	Player 1 Ship SC0: (1, 5) -> (1, 6)
+	Player 1 Ship BC0: (3, 1) -> (4, 1)
+	Player 2 Ship SC0: (1, 7) -> (2, 7)
+	Player 2 Ship SC1: (3, 7) -> (2, 7)
+	Player 2 Ship BC0: (3, 5) -> (3, 6)
 
 END OF TURN 8 MOVEMENT PHASE
 
@@ -120,27 +140,55 @@ END OF TURN 8 COMBAT PHASE
 
 BEGINNING OF TURN 9 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 2) -> (6, 2)
-	Player 1 Ship SC1: (5, 2) -> (5, 1)
-	Player 1 Ship SC2: (4, 1) -> (5, 1)
-	Player 2 Ship SC0: (5, 5) -> (5, 6)
-	Player 2 Ship SC1: (3, 7) -> (3, 6)
-	Player 2 Ship SC2: (4, 6) -> (4, 6)
+	Player 1 Ship SC0: (1, 6) -> (2, 6)
+	Player 1 Ship BC0: (4, 1) -> (5, 1)
+	Player 2 Ship SC0: (2, 7) -> (2, 7)
+	Player 2 Ship SC1: (2, 7) -> (2, 6)
+	Player 2 Ship BC0: (3, 6) -> (3, 5)
 
 END OF TURN 9 MOVEMENT PHASE
 
 BEGINNING OF TURN 9 COMBAT PHASE
 
+	Combat Locations:
+
+		(2, 6)
+
+			Player 1 Ship SC0
+			Player 2 Ship SC1
+
+	Combat at (2, 6)
+
+		Rolled a 9, less than or equal to 3
+		Attacker: Player 1 Ship SC0
+		Defender: Player 2 Ship SC1
+		(Miss)
+
+		Rolled a 5, less than or equal to 3
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship SC0
+		(Miss)
+
+		Rolled a 3, less than or equal to 3
+		Attacker: Player 1 Ship SC0
+		Defender: Player 2 Ship SC1
+		Hit!
+		Player 2 Ship SC1 HP reduced to 0!
+
+	Survivors:
+
+		(2, 6)
+
+			Player 1 Ship SC0
+
 END OF TURN 9 COMBAT PHASE
 
 BEGINNING OF TURN 10 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 2) -> (6, 1)
-	Player 1 Ship SC1: (5, 1) -> (5, 1)
-	Player 1 Ship SC2: (5, 1) -> (5, 1)
-	Player 2 Ship SC0: (5, 6) -> (4, 6)
-	Player 2 Ship SC1: (3, 6) -> (3, 7)
-	Player 2 Ship SC2: (4, 6) -> (4, 6)
+	Player 1 Ship SC0: (2, 6) -> (1, 6)
+	Player 1 Ship BC0: (5, 1) -> (6, 1)
+	Player 2 Ship SC0: (2, 7) -> (2, 7)
+	Player 2 Ship BC0: (3, 5) -> (3, 4)
 
 END OF TURN 10 MOVEMENT PHASE
 
@@ -150,12 +198,10 @@ END OF TURN 10 COMBAT PHASE
 
 BEGINNING OF TURN 11 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 1) -> (6, 2)
-	Player 1 Ship SC1: (5, 1) -> (5, 1)
-	Player 1 Ship SC2: (5, 1) -> (6, 1)
-	Player 2 Ship SC0: (4, 6) -> (5, 6)
-	Player 2 Ship SC1: (3, 7) -> (4, 7)
-	Player 2 Ship SC2: (4, 6) -> (4, 7)
+	Player 1 Ship SC0: (1, 6) -> (1, 7)
+	Player 1 Ship BC0: (6, 1) -> (5, 1)
+	Player 2 Ship SC0: (2, 7) -> (3, 7)
+	Player 2 Ship BC0: (3, 4) -> (3, 3)
 
 END OF TURN 11 MOVEMENT PHASE
 
@@ -165,12 +211,10 @@ END OF TURN 11 COMBAT PHASE
 
 BEGINNING OF TURN 12 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 2) -> (6, 3)
-	Player 1 Ship SC1: (5, 1) -> (5, 2)
-	Player 1 Ship SC2: (6, 1) -> (6, 1)
-	Player 2 Ship SC0: (5, 6) -> (5, 7)
-	Player 2 Ship SC1: (4, 7) -> (4, 6)
-	Player 2 Ship SC2: (4, 7) -> (4, 6)
+	Player 1 Ship SC0: (1, 7) -> (1, 6)
+	Player 1 Ship BC0: (5, 1) -> (4, 1)
+	Player 2 Ship SC0: (3, 7) -> (3, 6)
+	Player 2 Ship BC0: (3, 3) -> (4, 3)
 
 END OF TURN 12 MOVEMENT PHASE
 
@@ -180,12 +224,10 @@ END OF TURN 12 COMBAT PHASE
 
 BEGINNING OF TURN 13 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 3) -> (5, 3)
-	Player 1 Ship SC1: (5, 2) -> (6, 2)
-	Player 1 Ship SC2: (6, 1) -> (6, 2)
-	Player 2 Ship SC0: (5, 7) -> (5, 7)
-	Player 2 Ship SC1: (4, 6) -> (4, 7)
-	Player 2 Ship SC2: (4, 6) -> (5, 6)
+	Player 1 Ship SC0: (1, 6) -> (1, 6)
+	Player 1 Ship BC0: (4, 1) -> (4, 1)
+	Player 2 Ship SC0: (3, 6) -> (3, 5)
+	Player 2 Ship BC0: (4, 3) -> (4, 4)
 
 END OF TURN 13 MOVEMENT PHASE
 
@@ -195,12 +237,10 @@ END OF TURN 13 COMBAT PHASE
 
 BEGINNING OF TURN 14 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (5, 3) -> (6, 3)
-	Player 1 Ship SC1: (6, 2) -> (6, 3)
-	Player 1 Ship SC2: (6, 2) -> (6, 2)
-	Player 2 Ship SC0: (5, 7) -> (5, 7)
-	Player 2 Ship SC1: (4, 7) -> (4, 6)
-	Player 2 Ship SC2: (5, 6) -> (4, 6)
+	Player 1 Ship SC0: (1, 6) -> (1, 5)
+	Player 1 Ship BC0: (4, 1) -> (3, 1)
+	Player 2 Ship SC0: (3, 5) -> (3, 6)
+	Player 2 Ship BC0: (4, 4) -> (4, 4)
 
 END OF TURN 14 MOVEMENT PHASE
 
@@ -210,12 +250,10 @@ END OF TURN 14 COMBAT PHASE
 
 BEGINNING OF TURN 15 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 3) -> (6, 3)
-	Player 1 Ship SC1: (6, 3) -> (6, 3)
-	Player 1 Ship SC2: (6, 2) -> (7, 2)
-	Player 2 Ship SC0: (5, 7) -> (5, 7)
-	Player 2 Ship SC1: (4, 6) -> (4, 6)
-	Player 2 Ship SC2: (4, 6) -> (4, 5)
+	Player 1 Ship SC0: (1, 5) -> (2, 5)
+	Player 1 Ship BC0: (3, 1) -> (4, 1)
+	Player 2 Ship SC0: (3, 6) -> (4, 6)
+	Player 2 Ship BC0: (4, 4) -> (5, 4)
 
 END OF TURN 15 MOVEMENT PHASE
 
@@ -225,12 +263,10 @@ END OF TURN 15 COMBAT PHASE
 
 BEGINNING OF TURN 16 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 3) -> (5, 3)
-	Player 1 Ship SC1: (6, 3) -> (6, 2)
-	Player 1 Ship SC2: (7, 2) -> (7, 2)
-	Player 2 Ship SC0: (5, 7) -> (5, 7)
-	Player 2 Ship SC1: (4, 6) -> (5, 6)
-	Player 2 Ship SC2: (4, 5) -> (4, 5)
+	Player 1 Ship SC0: (2, 5) -> (1, 5)
+	Player 1 Ship BC0: (4, 1) -> (5, 1)
+	Player 2 Ship SC0: (4, 6) -> (4, 7)
+	Player 2 Ship BC0: (5, 4) -> (6, 4)
 
 END OF TURN 16 MOVEMENT PHASE
 
@@ -240,12 +276,10 @@ END OF TURN 16 COMBAT PHASE
 
 BEGINNING OF TURN 17 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (5, 3) -> (5, 3)
-	Player 1 Ship SC1: (6, 2) -> (6, 3)
-	Player 1 Ship SC2: (7, 2) -> (7, 2)
-	Player 2 Ship SC0: (5, 7) -> (5, 6)
-	Player 2 Ship SC1: (5, 6) -> (4, 6)
-	Player 2 Ship SC2: (4, 5) -> (4, 5)
+	Player 1 Ship SC0: (1, 5) -> (1, 6)
+	Player 1 Ship BC0: (5, 1) -> (5, 2)
+	Player 2 Ship SC0: (4, 7) -> (3, 7)
+	Player 2 Ship BC0: (6, 4) -> (6, 5)
 
 END OF TURN 17 MOVEMENT PHASE
 
@@ -255,12 +289,10 @@ END OF TURN 17 COMBAT PHASE
 
 BEGINNING OF TURN 18 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (5, 3) -> (6, 3)
-	Player 1 Ship SC1: (6, 3) -> (6, 2)
-	Player 1 Ship SC2: (7, 2) -> (7, 1)
-	Player 2 Ship SC0: (5, 6) -> (4, 6)
-	Player 2 Ship SC1: (4, 6) -> (3, 6)
-	Player 2 Ship SC2: (4, 5) -> (3, 5)
+	Player 1 Ship SC0: (1, 6) -> (1, 5)
+	Player 1 Ship BC0: (5, 2) -> (6, 2)
+	Player 2 Ship SC0: (3, 7) -> (3, 6)
+	Player 2 Ship BC0: (6, 5) -> (5, 5)
 
 END OF TURN 18 MOVEMENT PHASE
 
@@ -270,12 +302,10 @@ END OF TURN 18 COMBAT PHASE
 
 BEGINNING OF TURN 19 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 3) -> (6, 3)
-	Player 1 Ship SC1: (6, 2) -> (6, 2)
-	Player 1 Ship SC2: (7, 1) -> (7, 2)
-	Player 2 Ship SC0: (4, 6) -> (4, 5)
-	Player 2 Ship SC1: (3, 6) -> (3, 6)
-	Player 2 Ship SC2: (3, 5) -> (4, 5)
+	Player 1 Ship SC0: (1, 5) -> (1, 5)
+	Player 1 Ship BC0: (6, 2) -> (6, 2)
+	Player 2 Ship SC0: (3, 6) -> (2, 6)
+	Player 2 Ship BC0: (5, 5) -> (4, 5)
 
 END OF TURN 19 MOVEMENT PHASE
 
@@ -285,12 +315,10 @@ END OF TURN 19 COMBAT PHASE
 
 BEGINNING OF TURN 20 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (6, 3) -> (5, 3)
-	Player 1 Ship SC1: (6, 2) -> (5, 2)
-	Player 1 Ship SC2: (7, 2) -> (6, 2)
-	Player 2 Ship SC0: (4, 5) -> (4, 4)
-	Player 2 Ship SC1: (3, 6) -> (3, 5)
-	Player 2 Ship SC2: (4, 5) -> (4, 4)
+	Player 1 Ship SC0: (1, 5) -> (1, 5)
+	Player 1 Ship BC0: (6, 2) -> (6, 3)
+	Player 2 Ship SC0: (2, 6) -> (3, 6)
+	Player 2 Ship BC0: (4, 5) -> (4, 5)
 
 END OF TURN 20 MOVEMENT PHASE
 
@@ -300,97 +328,23 @@ END OF TURN 20 COMBAT PHASE
 
 BEGINNING OF TURN 21 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (5, 3) -> (4, 3)
-	Player 1 Ship SC1: (5, 2) -> (4, 2)
-	Player 1 Ship SC2: (6, 2) -> (6, 1)
-	Player 2 Ship SC0: (4, 4) -> (3, 4)
-	Player 2 Ship SC1: (3, 5) -> (3, 4)
-	Player 2 Ship SC2: (4, 4) -> (4, 3)
+	Player 1 Ship SC0: (1, 5) -> (1, 4)
+	Player 1 Ship BC0: (6, 3) -> (6, 2)
+	Player 2 Ship SC0: (3, 6) -> (3, 5)
+	Player 2 Ship BC0: (4, 5) -> (3, 5)
 
 END OF TURN 21 MOVEMENT PHASE
 
 BEGINNING OF TURN 21 COMBAT PHASE
 
-	Combat Locations:
-
-		(4, 3)
-
-			Player 1 Ship SC0
-			Player 2 Ship SC2
-
-	Combat at (4, 3)
-
-		Rolled a 5, need a max of 3
-		Attacker: Player 1 Ship SC0
-		Defender: Player 2 Ship SC2
-		(Miss)
-
-		Rolled a 10, need a max of 3
-		Attacker: Player 2 Ship SC2
-		Defender: Player 1 Ship SC0
-		(Miss)
-
-		Rolled a 5, need a max of 3
-		Attacker: Player 1 Ship SC0
-		Defender: Player 2 Ship SC2
-		(Miss)
-
-		Rolled a 7, need a max of 3
-		Attacker: Player 2 Ship SC2
-		Defender: Player 1 Ship SC0
-		(Miss)
-
-		Rolled a 4, need a max of 3
-		Attacker: Player 1 Ship SC0
-		Defender: Player 2 Ship SC2
-		(Miss)
-
-		Rolled a 9, need a max of 3
-		Attacker: Player 2 Ship SC2
-		Defender: Player 1 Ship SC0
-		(Miss)
-
-		Rolled a 4, need a max of 3
-		Attacker: Player 1 Ship SC0
-		Defender: Player 2 Ship SC2
-		(Miss)
-
-		Rolled a 7, need a max of 3
-		Attacker: Player 2 Ship SC2
-		Defender: Player 1 Ship SC0
-		(Miss)
-
-		Rolled a 4, need a max of 3
-		Attacker: Player 1 Ship SC0
-		Defender: Player 2 Ship SC2
-		(Miss)
-
-		Rolled a 6, need a max of 3
-		Attacker: Player 2 Ship SC2
-		Defender: Player 1 Ship SC0
-		(Miss)
-
-		Rolled a 3, need a max of 3
-		Attacker: Player 1 Ship SC0
-		Defender: Player 2 Ship SC2
-		Hit!
-		Player 2 Ship SC2 was destroyed
-
-	Survivors:
-
-		(4, 3)
-
-			Player 1 Ship SC0
-
 END OF TURN 21 COMBAT PHASE
 
 BEGINNING OF TURN 22 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (4, 3) -> (4, 4)
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-	Player 1 Ship SC2: (6, 1) -> (6, 2)
-	Player 2 Ship SC0: (3, 4) -> (3, 4)
-	Player 2 Ship SC1: (3, 4) -> (2, 4)
+	Player 1 Ship SC0: (1, 4) -> (1, 3)
+	Player 1 Ship BC0: (6, 2) -> (6, 2)
+	Player 2 Ship SC0: (3, 5) -> (3, 5)
+	Player 2 Ship BC0: (3, 5) -> (3, 5)
 
 END OF TURN 22 MOVEMENT PHASE
 
@@ -400,57 +354,23 @@ END OF TURN 22 COMBAT PHASE
 
 BEGINNING OF TURN 23 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (4, 4) -> (3, 4)
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
-	Player 1 Ship SC2: (6, 2) -> (7, 2)
-	Player 2 Ship SC0 is caught in battle at (3, 4)
-	Player 2 Ship SC1: (2, 4) -> (3, 4)
+	Player 1 Ship SC0: (1, 3) -> (1, 4)
+	Player 1 Ship BC0: (6, 2) -> (6, 2)
+	Player 2 Ship SC0: (3, 5) -> (3, 6)
+	Player 2 Ship BC0: (3, 5) -> (4, 5)
 
 END OF TURN 23 MOVEMENT PHASE
 
 BEGINNING OF TURN 23 COMBAT PHASE
 
-	Combat Locations:
-
-		(3, 4)
-
-			Player 2 Ship SC0
-			Player 1 Ship SC0
-			Player 2 Ship SC1
-
-	Combat at (3, 4)
-
-		Rolled a 5, need a max of 3
-		Attacker: Player 2 Ship SC0
-		Defender: Player 1 Ship SC0
-		(Miss)
-
-		Rolled a 4, need a max of 3
-		Attacker: Player 1 Ship SC0
-		Defender: Player 2 Ship SC0
-		(Miss)
-
-		Rolled a 3, need a max of 3
-		Attacker: Player 2 Ship SC1
-		Defender: Player 1 Ship SC0
-		Hit!
-		Player 1 Ship SC0 was destroyed
-
-	Survivors:
-
-		(3, 4)
-
-			Player 2 Ship SC0
-			Player 2 Ship SC1
-
 END OF TURN 23 COMBAT PHASE
 
 BEGINNING OF TURN 24 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-	Player 1 Ship SC2: (7, 2) -> (7, 2)
-	Player 2 Ship SC0: (3, 4) -> (3, 3)
-	Player 2 Ship SC1: (3, 4) -> (3, 5)
+	Player 1 Ship SC0: (1, 4) -> (2, 4)
+	Player 1 Ship BC0: (6, 2) -> (5, 2)
+	Player 2 Ship SC0: (3, 6) -> (3, 7)
+	Player 2 Ship BC0: (4, 5) -> (5, 5)
 
 END OF TURN 24 MOVEMENT PHASE
 
@@ -460,10 +380,10 @@ END OF TURN 24 COMBAT PHASE
 
 BEGINNING OF TURN 25 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
-	Player 1 Ship SC2: (7, 2) -> (6, 2)
-	Player 2 Ship SC0: (3, 3) -> (4, 3)
-	Player 2 Ship SC1: (3, 5) -> (3, 5)
+	Player 1 Ship SC0: (2, 4) -> (2, 4)
+	Player 1 Ship BC0: (5, 2) -> (5, 2)
+	Player 2 Ship SC0: (3, 7) -> (2, 7)
+	Player 2 Ship BC0: (5, 5) -> (6, 5)
 
 END OF TURN 25 MOVEMENT PHASE
 
@@ -473,68 +393,23 @@ END OF TURN 25 COMBAT PHASE
 
 BEGINNING OF TURN 26 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 2) -> (4, 3)
-	Player 1 Ship SC2: (6, 2) -> (7, 2)
-	Player 2 Ship SC0 is caught in battle at (4, 3)
-	Player 2 Ship SC1: (3, 5) -> (4, 5)
+	Player 1 Ship SC0: (2, 4) -> (1, 4)
+	Player 1 Ship BC0: (5, 2) -> (5, 2)
+	Player 2 Ship SC0: (2, 7) -> (3, 7)
+	Player 2 Ship BC0: (6, 5) -> (6, 4)
 
 END OF TURN 26 MOVEMENT PHASE
 
 BEGINNING OF TURN 26 COMBAT PHASE
 
-	Combat Locations:
-
-		(4, 3)
-
-			Player 2 Ship SC0
-			Player 1 Ship SC1
-
-	Combat at (4, 3)
-
-		Rolled a 8, need a max of 3
-		Attacker: Player 2 Ship SC0
-		Defender: Player 1 Ship SC1
-		(Miss)
-
-		Rolled a 4, need a max of 3
-		Attacker: Player 1 Ship SC1
-		Defender: Player 2 Ship SC0
-		(Miss)
-
-		Rolled a 8, need a max of 3
-		Attacker: Player 2 Ship SC0
-		Defender: Player 1 Ship SC1
-		(Miss)
-
-		Rolled a 10, need a max of 3
-		Attacker: Player 1 Ship SC1
-		Defender: Player 2 Ship SC0
-		(Miss)
-
-		Rolled a 9, need a max of 3
-		Attacker: Player 2 Ship SC0
-		Defender: Player 1 Ship SC1
-		(Miss)
-
-		Rolled a 3, need a max of 3
-		Attacker: Player 1 Ship SC1
-		Defender: Player 2 Ship SC0
-		Hit!
-		Player 2 Ship SC0 was destroyed
-
-	Survivors:
-
-		(4, 3)
-
-			Player 1 Ship SC1
-
 END OF TURN 26 COMBAT PHASE
 
 BEGINNING OF TURN 27 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 3) -> (4, 3)
-	Player 1 Ship SC2: (7, 2) -> (7, 3)
-	Player 2 Ship SC1: (4, 5) -> (5, 5)
+	Player 1 Ship SC0: (1, 4) -> (1, 5)
+	Player 1 Ship BC0: (5, 2) -> (5, 2)
+	Player 2 Ship SC0: (3, 7) -> (3, 6)
+	Player 2 Ship BC0: (6, 4) -> (6, 3)
 
 END OF TURN 27 MOVEMENT PHASE
 
@@ -544,9 +419,10 @@ END OF TURN 27 COMBAT PHASE
 
 BEGINNING OF TURN 28 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 3) -> (3, 3)
-	Player 1 Ship SC2: (7, 3) -> (7, 3)
-	Player 2 Ship SC1: (5, 5) -> (6, 5)
+	Player 1 Ship SC0: (1, 5) -> (2, 5)
+	Player 1 Ship BC0: (5, 2) -> (5, 3)
+	Player 2 Ship SC0: (3, 6) -> (3, 6)
+	Player 2 Ship BC0: (6, 3) -> (6, 4)
 
 END OF TURN 28 MOVEMENT PHASE
 
@@ -556,9 +432,10 @@ END OF TURN 28 COMBAT PHASE
 
 BEGINNING OF TURN 29 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 3) -> (2, 3)
-	Player 1 Ship SC2: (7, 3) -> (6, 3)
-	Player 2 Ship SC1: (6, 5) -> (6, 6)
+	Player 1 Ship SC0: (2, 5) -> (1, 5)
+	Player 1 Ship BC0: (5, 3) -> (5, 4)
+	Player 2 Ship SC0: (3, 6) -> (4, 6)
+	Player 2 Ship BC0: (6, 4) -> (6, 4)
 
 END OF TURN 29 MOVEMENT PHASE
 
@@ -568,21 +445,120 @@ END OF TURN 29 COMBAT PHASE
 
 BEGINNING OF TURN 30 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 3) -> (3, 3)
-	Player 1 Ship SC2: (6, 3) -> (6, 2)
-	Player 2 Ship SC1: (6, 6) -> (6, 7)
+	Player 1 Ship SC0: (1, 5) -> (1, 4)
+	Player 1 Ship BC0: (5, 4) -> (6, 4)
+	Player 2 Ship SC0: (4, 6) -> (4, 7)
+	Player 2 Ship BC0 is caught in battle at (6, 4)
 
 END OF TURN 30 MOVEMENT PHASE
 
 BEGINNING OF TURN 30 COMBAT PHASE
 
+	Combat Locations:
+
+		(6, 4)
+
+			Player 2 Ship BC0
+			Player 1 Ship BC0
+
+	Combat at (6, 4)
+
+		Rolled a 9, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
+
+		Rolled a 9, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		(Miss)
+
+		Rolled a 5, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
+
+		Rolled a 10, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		(Miss)
+
+		Rolled a 8, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
+
+		Rolled a 10, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		(Miss)
+
+		Rolled a 8, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
+
+		Rolled a 4, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		Hit!
+		Player 2 Ship BC0 HP reduced to 1!
+
+		Rolled a 8, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
+
+		Rolled a 10, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		(Miss)
+
+		Rolled a 10, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
+
+		Rolled a 5, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		(Miss)
+
+		Rolled a 2, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		Hit!
+		Player 1 Ship BC0 HP reduced to 1!
+
+		Rolled a 8, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		(Miss)
+
+		Rolled a 8, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
+
+		Rolled a 1, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		Hit!
+		Player 2 Ship BC0 HP reduced to 0!
+
+	Survivors:
+
+		(6, 4)
+
+			Player 1 Ship BC0
+
 END OF TURN 30 COMBAT PHASE
 
 BEGINNING OF TURN 31 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 3) -> (4, 3)
-	Player 1 Ship SC2: (6, 2) -> (6, 3)
-	Player 2 Ship SC1: (6, 7) -> (6, 6)
+	Player 1 Ship SC0: (1, 4) -> (2, 4)
+	Player 1 Ship BC0: (6, 4) -> (7, 4)
+	Player 2 Ship SC0: (4, 7) -> (5, 7)
 
 END OF TURN 31 MOVEMENT PHASE
 
@@ -592,9 +568,9 @@ END OF TURN 31 COMBAT PHASE
 
 BEGINNING OF TURN 32 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 3) -> (4, 2)
-	Player 1 Ship SC2: (6, 3) -> (6, 3)
-	Player 2 Ship SC1: (6, 6) -> (6, 6)
+	Player 1 Ship SC0: (2, 4) -> (1, 4)
+	Player 1 Ship BC0: (7, 4) -> (7, 3)
+	Player 2 Ship SC0: (5, 7) -> (5, 6)
 
 END OF TURN 32 MOVEMENT PHASE
 
@@ -604,9 +580,9 @@ END OF TURN 32 COMBAT PHASE
 
 BEGINNING OF TURN 33 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 2) -> (3, 2)
-	Player 1 Ship SC2: (6, 3) -> (6, 2)
-	Player 2 Ship SC1: (6, 6) -> (6, 6)
+	Player 1 Ship SC0: (1, 4) -> (1, 5)
+	Player 1 Ship BC0: (7, 3) -> (7, 2)
+	Player 2 Ship SC0: (5, 6) -> (5, 7)
 
 END OF TURN 33 MOVEMENT PHASE
 
@@ -616,9 +592,9 @@ END OF TURN 33 COMBAT PHASE
 
 BEGINNING OF TURN 34 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 2) -> (3, 2)
-	Player 1 Ship SC2: (6, 2) -> (5, 2)
-	Player 2 Ship SC1: (6, 6) -> (5, 6)
+	Player 1 Ship SC0: (1, 5) -> (2, 5)
+	Player 1 Ship BC0: (7, 2) -> (7, 3)
+	Player 2 Ship SC0: (5, 7) -> (4, 7)
 
 END OF TURN 34 MOVEMENT PHASE
 
@@ -628,9 +604,9 @@ END OF TURN 34 COMBAT PHASE
 
 BEGINNING OF TURN 35 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 2) -> (3, 2)
-	Player 1 Ship SC2: (5, 2) -> (5, 2)
-	Player 2 Ship SC1: (5, 6) -> (6, 6)
+	Player 1 Ship SC0: (2, 5) -> (2, 5)
+	Player 1 Ship BC0: (7, 3) -> (7, 3)
+	Player 2 Ship SC0: (4, 7) -> (4, 6)
 
 END OF TURN 35 MOVEMENT PHASE
 
@@ -640,9 +616,9 @@ END OF TURN 35 COMBAT PHASE
 
 BEGINNING OF TURN 36 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 2) -> (2, 2)
-	Player 1 Ship SC2: (5, 2) -> (6, 2)
-	Player 2 Ship SC1: (6, 6) -> (7, 6)
+	Player 1 Ship SC0: (2, 5) -> (2, 5)
+	Player 1 Ship BC0: (7, 3) -> (7, 2)
+	Player 2 Ship SC0: (4, 6) -> (3, 6)
 
 END OF TURN 36 MOVEMENT PHASE
 
@@ -652,9 +628,9 @@ END OF TURN 36 COMBAT PHASE
 
 BEGINNING OF TURN 37 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 2) -> (2, 1)
-	Player 1 Ship SC2: (6, 2) -> (7, 2)
-	Player 2 Ship SC1: (7, 6) -> (7, 6)
+	Player 1 Ship SC0: (2, 5) -> (2, 4)
+	Player 1 Ship BC0: (7, 2) -> (6, 2)
+	Player 2 Ship SC0: (3, 6) -> (4, 6)
 
 END OF TURN 37 MOVEMENT PHASE
 
@@ -664,9 +640,9 @@ END OF TURN 37 COMBAT PHASE
 
 BEGINNING OF TURN 38 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 1) -> (3, 1)
-	Player 1 Ship SC2: (7, 2) -> (7, 2)
-	Player 2 Ship SC1: (7, 6) -> (7, 5)
+	Player 1 Ship SC0: (2, 4) -> (1, 4)
+	Player 1 Ship BC0: (6, 2) -> (6, 1)
+	Player 2 Ship SC0: (4, 6) -> (4, 7)
 
 END OF TURN 38 MOVEMENT PHASE
 
@@ -676,9 +652,9 @@ END OF TURN 38 COMBAT PHASE
 
 BEGINNING OF TURN 39 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 1) -> (2, 1)
-	Player 1 Ship SC2: (7, 2) -> (7, 2)
-	Player 2 Ship SC1: (7, 5) -> (7, 4)
+	Player 1 Ship SC0: (1, 4) -> (1, 4)
+	Player 1 Ship BC0: (6, 1) -> (6, 1)
+	Player 2 Ship SC0: (4, 7) -> (3, 7)
 
 END OF TURN 39 MOVEMENT PHASE
 
@@ -688,9 +664,9 @@ END OF TURN 39 COMBAT PHASE
 
 BEGINNING OF TURN 40 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 1) -> (2, 2)
-	Player 1 Ship SC2: (7, 2) -> (7, 3)
-	Player 2 Ship SC1: (7, 4) -> (7, 4)
+	Player 1 Ship SC0: (1, 4) -> (1, 3)
+	Player 1 Ship BC0: (6, 1) -> (7, 1)
+	Player 2 Ship SC0: (3, 7) -> (2, 7)
 
 END OF TURN 40 MOVEMENT PHASE
 
@@ -700,66 +676,21 @@ END OF TURN 40 COMBAT PHASE
 
 BEGINNING OF TURN 41 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 2) -> (2, 1)
-	Player 1 Ship SC2: (7, 3) -> (7, 3)
-	Player 2 Ship SC1: (7, 4) -> (7, 3)
+	Player 1 Ship SC0: (1, 3) -> (1, 4)
+	Player 1 Ship BC0: (7, 1) -> (6, 1)
+	Player 2 Ship SC0: (2, 7) -> (2, 6)
 
 END OF TURN 41 MOVEMENT PHASE
 
 BEGINNING OF TURN 41 COMBAT PHASE
 
-	Combat Locations:
-
-		(7, 3)
-
-			Player 1 Ship SC2
-			Player 2 Ship SC1
-
-	Combat at (7, 3)
-
-		Rolled a 4, need a max of 3
-		Attacker: Player 1 Ship SC2
-		Defender: Player 2 Ship SC1
-		(Miss)
-
-		Rolled a 4, need a max of 3
-		Attacker: Player 2 Ship SC1
-		Defender: Player 1 Ship SC2
-		(Miss)
-
-		Rolled a 4, need a max of 3
-		Attacker: Player 1 Ship SC2
-		Defender: Player 2 Ship SC1
-		(Miss)
-
-		Rolled a 10, need a max of 3
-		Attacker: Player 2 Ship SC1
-		Defender: Player 1 Ship SC2
-		(Miss)
-
-		Rolled a 5, need a max of 3
-		Attacker: Player 1 Ship SC2
-		Defender: Player 2 Ship SC1
-		(Miss)
-
-		Rolled a 3, need a max of 3
-		Attacker: Player 2 Ship SC1
-		Defender: Player 1 Ship SC2
-		Hit!
-		Player 1 Ship SC2 was destroyed
-
-	Survivors:
-
-		(7, 3)
-
-			Player 2 Ship SC1
-
 END OF TURN 41 COMBAT PHASE
 
 BEGINNING OF TURN 42 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 1) -> (1, 1)
-	Player 2 Ship SC1: (7, 3) -> (7, 3)
+	Player 1 Ship SC0: (1, 4) -> (1, 5)
+	Player 1 Ship BC0: (6, 1) -> (7, 1)
+	Player 2 Ship SC0: (2, 6) -> (3, 6)
 
 END OF TURN 42 MOVEMENT PHASE
 
@@ -769,8 +700,9 @@ END OF TURN 42 COMBAT PHASE
 
 BEGINNING OF TURN 43 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (1, 1) -> (2, 1)
-	Player 2 Ship SC1: (7, 3) -> (6, 3)
+	Player 1 Ship SC0: (1, 5) -> (1, 6)
+	Player 1 Ship BC0: (7, 1) -> (6, 1)
+	Player 2 Ship SC0: (3, 6) -> (3, 5)
 
 END OF TURN 43 MOVEMENT PHASE
 
@@ -780,8 +712,9 @@ END OF TURN 43 COMBAT PHASE
 
 BEGINNING OF TURN 44 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 1) -> (2, 2)
-	Player 2 Ship SC1: (6, 3) -> (6, 3)
+	Player 1 Ship SC0: (1, 6) -> (2, 6)
+	Player 1 Ship BC0: (6, 1) -> (6, 2)
+	Player 2 Ship SC0: (3, 5) -> (2, 5)
 
 END OF TURN 44 MOVEMENT PHASE
 
@@ -791,8 +724,9 @@ END OF TURN 44 COMBAT PHASE
 
 BEGINNING OF TURN 45 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 2) -> (1, 2)
-	Player 2 Ship SC1: (6, 3) -> (6, 3)
+	Player 1 Ship SC0: (2, 6) -> (2, 6)
+	Player 1 Ship BC0: (6, 2) -> (7, 2)
+	Player 2 Ship SC0: (2, 5) -> (3, 5)
 
 END OF TURN 45 MOVEMENT PHASE
 
@@ -802,8 +736,9 @@ END OF TURN 45 COMBAT PHASE
 
 BEGINNING OF TURN 46 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (1, 2) -> (1, 1)
-	Player 2 Ship SC1: (6, 3) -> (7, 3)
+	Player 1 Ship SC0: (2, 6) -> (2, 7)
+	Player 1 Ship BC0: (7, 2) -> (7, 3)
+	Player 2 Ship SC0: (3, 5) -> (3, 6)
 
 END OF TURN 46 MOVEMENT PHASE
 
@@ -813,8 +748,9 @@ END OF TURN 46 COMBAT PHASE
 
 BEGINNING OF TURN 47 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (1, 1) -> (2, 1)
-	Player 2 Ship SC1: (7, 3) -> (7, 2)
+	Player 1 Ship SC0: (2, 7) -> (1, 7)
+	Player 1 Ship BC0: (7, 3) -> (6, 3)
+	Player 2 Ship SC0: (3, 6) -> (3, 5)
 
 END OF TURN 47 MOVEMENT PHASE
 
@@ -824,8 +760,9 @@ END OF TURN 47 COMBAT PHASE
 
 BEGINNING OF TURN 48 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-	Player 2 Ship SC1: (7, 2) -> (6, 2)
+	Player 1 Ship SC0: (1, 7) -> (1, 6)
+	Player 1 Ship BC0: (6, 3) -> (6, 2)
+	Player 2 Ship SC0: (3, 5) -> (3, 6)
 
 END OF TURN 48 MOVEMENT PHASE
 
@@ -835,8 +772,9 @@ END OF TURN 48 COMBAT PHASE
 
 BEGINNING OF TURN 49 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 1) -> (1, 1)
-	Player 2 Ship SC1: (6, 2) -> (6, 3)
+	Player 1 Ship SC0: (1, 6) -> (2, 6)
+	Player 1 Ship BC0: (6, 2) -> (6, 1)
+	Player 2 Ship SC0: (3, 6) -> (4, 6)
 
 END OF TURN 49 MOVEMENT PHASE
 
@@ -846,8 +784,9 @@ END OF TURN 49 COMBAT PHASE
 
 BEGINNING OF TURN 50 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (1, 1) -> (1, 1)
-	Player 2 Ship SC1: (6, 3) -> (6, 2)
+	Player 1 Ship SC0: (2, 6) -> (1, 6)
+	Player 1 Ship BC0: (6, 1) -> (6, 1)
+	Player 2 Ship SC0: (4, 6) -> (4, 6)
 
 END OF TURN 50 MOVEMENT PHASE
 
@@ -857,8 +796,9 @@ END OF TURN 50 COMBAT PHASE
 
 BEGINNING OF TURN 51 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (1, 1) -> (2, 1)
-	Player 2 Ship SC1: (6, 2) -> (6, 1)
+	Player 1 Ship SC0: (1, 6) -> (1, 7)
+	Player 1 Ship BC0: (6, 1) -> (6, 1)
+	Player 2 Ship SC0: (4, 6) -> (4, 5)
 
 END OF TURN 51 MOVEMENT PHASE
 
@@ -868,8 +808,9 @@ END OF TURN 51 COMBAT PHASE
 
 BEGINNING OF TURN 52 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 1) -> (2, 2)
-	Player 2 Ship SC1: (6, 1) -> (7, 1)
+	Player 1 Ship SC0: (1, 7) -> (1, 6)
+	Player 1 Ship BC0: (6, 1) -> (7, 1)
+	Player 2 Ship SC0: (4, 5) -> (5, 5)
 
 END OF TURN 52 MOVEMENT PHASE
 
@@ -879,8 +820,9 @@ END OF TURN 52 COMBAT PHASE
 
 BEGINNING OF TURN 53 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 2) -> (2, 3)
-	Player 2 Ship SC1: (7, 1) -> (7, 1)
+	Player 1 Ship SC0: (1, 6) -> (2, 6)
+	Player 1 Ship BC0: (7, 1) -> (7, 2)
+	Player 2 Ship SC0: (5, 5) -> (6, 5)
 
 END OF TURN 53 MOVEMENT PHASE
 
@@ -890,8 +832,9 @@ END OF TURN 53 COMBAT PHASE
 
 BEGINNING OF TURN 54 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 3) -> (2, 2)
-	Player 2 Ship SC1: (7, 1) -> (7, 2)
+	Player 1 Ship SC0: (2, 6) -> (2, 7)
+	Player 1 Ship BC0: (7, 2) -> (6, 2)
+	Player 2 Ship SC0: (6, 5) -> (6, 6)
 
 END OF TURN 54 MOVEMENT PHASE
 
@@ -901,8 +844,9 @@ END OF TURN 54 COMBAT PHASE
 
 BEGINNING OF TURN 55 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 2) -> (2, 1)
-	Player 2 Ship SC1: (7, 2) -> (7, 1)
+	Player 1 Ship SC0: (2, 7) -> (2, 7)
+	Player 1 Ship BC0: (6, 2) -> (7, 2)
+	Player 2 Ship SC0: (6, 6) -> (7, 6)
 
 END OF TURN 55 MOVEMENT PHASE
 
@@ -912,8 +856,9 @@ END OF TURN 55 COMBAT PHASE
 
 BEGINNING OF TURN 56 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 1) -> (3, 1)
-	Player 2 Ship SC1: (7, 1) -> (7, 2)
+	Player 1 Ship SC0: (2, 7) -> (2, 6)
+	Player 1 Ship BC0: (7, 2) -> (7, 1)
+	Player 2 Ship SC0: (7, 6) -> (6, 6)
 
 END OF TURN 56 MOVEMENT PHASE
 
@@ -923,8 +868,9 @@ END OF TURN 56 COMBAT PHASE
 
 BEGINNING OF TURN 57 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-	Player 2 Ship SC1: (7, 2) -> (7, 3)
+	Player 1 Ship SC0: (2, 6) -> (3, 6)
+	Player 1 Ship BC0: (7, 1) -> (6, 1)
+	Player 2 Ship SC0: (6, 6) -> (5, 6)
 
 END OF TURN 57 MOVEMENT PHASE
 
@@ -934,8 +880,9 @@ END OF TURN 57 COMBAT PHASE
 
 BEGINNING OF TURN 58 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 1) -> (2, 1)
-	Player 2 Ship SC1: (7, 3) -> (7, 2)
+	Player 1 Ship SC0: (3, 6) -> (3, 5)
+	Player 1 Ship BC0: (6, 1) -> (5, 1)
+	Player 2 Ship SC0: (5, 6) -> (5, 7)
 
 END OF TURN 58 MOVEMENT PHASE
 
@@ -945,8 +892,9 @@ END OF TURN 58 COMBAT PHASE
 
 BEGINNING OF TURN 59 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 1) -> (3, 1)
-	Player 2 Ship SC1: (7, 2) -> (6, 2)
+	Player 1 Ship SC0: (3, 5) -> (3, 5)
+	Player 1 Ship BC0: (5, 1) -> (6, 1)
+	Player 2 Ship SC0: (5, 7) -> (5, 6)
 
 END OF TURN 59 MOVEMENT PHASE
 
@@ -956,8 +904,9 @@ END OF TURN 59 COMBAT PHASE
 
 BEGINNING OF TURN 60 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 1) -> (4, 1)
-	Player 2 Ship SC1: (6, 2) -> (6, 3)
+	Player 1 Ship SC0: (3, 5) -> (3, 6)
+	Player 1 Ship BC0: (6, 1) -> (6, 2)
+	Player 2 Ship SC0: (5, 6) -> (5, 6)
 
 END OF TURN 60 MOVEMENT PHASE
 
@@ -967,8 +916,9 @@ END OF TURN 60 COMBAT PHASE
 
 BEGINNING OF TURN 61 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
-	Player 2 Ship SC1: (6, 3) -> (6, 2)
+	Player 1 Ship SC0: (3, 6) -> (2, 6)
+	Player 1 Ship BC0: (6, 2) -> (7, 2)
+	Player 2 Ship SC0: (5, 6) -> (5, 7)
 
 END OF TURN 61 MOVEMENT PHASE
 
@@ -978,8 +928,9 @@ END OF TURN 61 COMBAT PHASE
 
 BEGINNING OF TURN 62 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-	Player 2 Ship SC1: (6, 2) -> (6, 3)
+	Player 1 Ship SC0: (2, 6) -> (2, 7)
+	Player 1 Ship BC0: (7, 2) -> (7, 1)
+	Player 2 Ship SC0: (5, 7) -> (6, 7)
 
 END OF TURN 62 MOVEMENT PHASE
 
@@ -989,8 +940,9 @@ END OF TURN 62 COMBAT PHASE
 
 BEGINNING OF TURN 63 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-	Player 2 Ship SC1: (6, 3) -> (6, 4)
+	Player 1 Ship SC0: (2, 7) -> (1, 7)
+	Player 1 Ship BC0: (7, 1) -> (6, 1)
+	Player 2 Ship SC0: (6, 7) -> (7, 7)
 
 END OF TURN 63 MOVEMENT PHASE
 
@@ -1000,8 +952,9 @@ END OF TURN 63 COMBAT PHASE
 
 BEGINNING OF TURN 64 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (5, 1)
-	Player 2 Ship SC1: (6, 4) -> (6, 4)
+	Player 1 Ship SC0: (1, 7) -> (1, 7)
+	Player 1 Ship BC0: (6, 1) -> (6, 2)
+	Player 2 Ship SC0: (7, 7) -> (7, 6)
 
 END OF TURN 64 MOVEMENT PHASE
 
@@ -1011,8 +964,9 @@ END OF TURN 64 COMBAT PHASE
 
 BEGINNING OF TURN 65 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 1) -> (5, 1)
-	Player 2 Ship SC1: (6, 4) -> (7, 4)
+	Player 1 Ship SC0: (1, 7) -> (1, 6)
+	Player 1 Ship BC0: (6, 2) -> (5, 2)
+	Player 2 Ship SC0: (7, 6) -> (7, 7)
 
 END OF TURN 65 MOVEMENT PHASE
 
@@ -1022,8 +976,9 @@ END OF TURN 65 COMBAT PHASE
 
 BEGINNING OF TURN 66 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 1) -> (4, 1)
-	Player 2 Ship SC1: (7, 4) -> (7, 4)
+	Player 1 Ship SC0: (1, 6) -> (2, 6)
+	Player 1 Ship BC0: (5, 2) -> (5, 2)
+	Player 2 Ship SC0: (7, 7) -> (7, 7)
 
 END OF TURN 66 MOVEMENT PHASE
 
@@ -1033,8 +988,9 @@ END OF TURN 66 COMBAT PHASE
 
 BEGINNING OF TURN 67 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-	Player 2 Ship SC1: (7, 4) -> (7, 3)
+	Player 1 Ship SC0: (2, 6) -> (3, 6)
+	Player 1 Ship BC0: (5, 2) -> (5, 2)
+	Player 2 Ship SC0: (7, 7) -> (7, 7)
 
 END OF TURN 67 MOVEMENT PHASE
 
@@ -1044,8 +1000,9 @@ END OF TURN 67 COMBAT PHASE
 
 BEGINNING OF TURN 68 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (5, 1)
-	Player 2 Ship SC1: (7, 3) -> (7, 4)
+	Player 1 Ship SC0: (3, 6) -> (2, 6)
+	Player 1 Ship BC0: (5, 2) -> (5, 2)
+	Player 2 Ship SC0: (7, 7) -> (7, 6)
 
 END OF TURN 68 MOVEMENT PHASE
 
@@ -1055,8 +1012,9 @@ END OF TURN 68 COMBAT PHASE
 
 BEGINNING OF TURN 69 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-	Player 2 Ship SC1: (7, 4) -> (6, 4)
+	Player 1 Ship SC0: (2, 6) -> (2, 6)
+	Player 1 Ship BC0: (5, 2) -> (6, 2)
+	Player 2 Ship SC0: (7, 6) -> (6, 6)
 
 END OF TURN 69 MOVEMENT PHASE
 
@@ -1066,8 +1024,9 @@ END OF TURN 69 COMBAT PHASE
 
 BEGINNING OF TURN 70 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 1) -> (7, 1)
-	Player 2 Ship SC1: (6, 4) -> (6, 5)
+	Player 1 Ship SC0: (2, 6) -> (2, 6)
+	Player 1 Ship BC0: (6, 2) -> (6, 2)
+	Player 2 Ship SC0: (6, 6) -> (7, 6)
 
 END OF TURN 70 MOVEMENT PHASE
 
@@ -1077,8 +1036,9 @@ END OF TURN 70 COMBAT PHASE
 
 BEGINNING OF TURN 71 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (7, 1) -> (6, 1)
-	Player 2 Ship SC1: (6, 5) -> (6, 5)
+	Player 1 Ship SC0: (2, 6) -> (2, 5)
+	Player 1 Ship BC0: (6, 2) -> (6, 3)
+	Player 2 Ship SC0: (7, 6) -> (6, 6)
 
 END OF TURN 71 MOVEMENT PHASE
 
@@ -1088,8 +1048,9 @@ END OF TURN 71 COMBAT PHASE
 
 BEGINNING OF TURN 72 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-	Player 2 Ship SC1: (6, 5) -> (6, 6)
+	Player 1 Ship SC0: (2, 5) -> (1, 5)
+	Player 1 Ship BC0: (6, 3) -> (6, 4)
+	Player 2 Ship SC0: (6, 6) -> (6, 6)
 
 END OF TURN 72 MOVEMENT PHASE
 
@@ -1099,8 +1060,9 @@ END OF TURN 72 COMBAT PHASE
 
 BEGINNING OF TURN 73 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-	Player 2 Ship SC1: (6, 6) -> (7, 6)
+	Player 1 Ship SC0: (1, 5) -> (1, 4)
+	Player 1 Ship BC0: (6, 4) -> (6, 5)
+	Player 2 Ship SC0: (6, 6) -> (6, 6)
 
 END OF TURN 73 MOVEMENT PHASE
 
@@ -1110,8 +1072,9 @@ END OF TURN 73 COMBAT PHASE
 
 BEGINNING OF TURN 74 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 1) -> (4, 1)
-	Player 2 Ship SC1: (7, 6) -> (7, 5)
+	Player 1 Ship SC0: (1, 4) -> (1, 5)
+	Player 1 Ship BC0: (6, 5) -> (6, 5)
+	Player 2 Ship SC0: (6, 6) -> (6, 6)
 
 END OF TURN 74 MOVEMENT PHASE
 
@@ -1121,8 +1084,9 @@ END OF TURN 74 COMBAT PHASE
 
 BEGINNING OF TURN 75 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-	Player 2 Ship SC1: (7, 5) -> (6, 5)
+	Player 1 Ship SC0: (1, 5) -> (1, 4)
+	Player 1 Ship BC0: (6, 5) -> (6, 4)
+	Player 2 Ship SC0: (6, 6) -> (6, 6)
 
 END OF TURN 75 MOVEMENT PHASE
 
@@ -1132,8 +1096,9 @@ END OF TURN 75 COMBAT PHASE
 
 BEGINNING OF TURN 76 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 1) -> (3, 2)
-	Player 2 Ship SC1: (6, 5) -> (7, 5)
+	Player 1 Ship SC0: (1, 4) -> (1, 5)
+	Player 1 Ship BC0: (6, 4) -> (6, 5)
+	Player 2 Ship SC0: (6, 6) -> (5, 6)
 
 END OF TURN 76 MOVEMENT PHASE
 
@@ -1143,8 +1108,9 @@ END OF TURN 76 COMBAT PHASE
 
 BEGINNING OF TURN 77 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 2) -> (2, 2)
-	Player 2 Ship SC1: (7, 5) -> (7, 4)
+	Player 1 Ship SC0: (1, 5) -> (2, 5)
+	Player 1 Ship BC0: (6, 5) -> (6, 5)
+	Player 2 Ship SC0: (5, 6) -> (5, 6)
 
 END OF TURN 77 MOVEMENT PHASE
 
@@ -1154,8 +1120,9 @@ END OF TURN 77 COMBAT PHASE
 
 BEGINNING OF TURN 78 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 2) -> (2, 3)
-	Player 2 Ship SC1: (7, 4) -> (7, 5)
+	Player 1 Ship SC0: (2, 5) -> (2, 5)
+	Player 1 Ship BC0: (6, 5) -> (6, 4)
+	Player 2 Ship SC0: (5, 6) -> (6, 6)
 
 END OF TURN 78 MOVEMENT PHASE
 
@@ -1165,19 +1132,41 @@ END OF TURN 78 COMBAT PHASE
 
 BEGINNING OF TURN 79 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 3) -> (2, 3)
-	Player 2 Ship SC1: (7, 5) -> (7, 5)
+	Player 1 Ship SC0: (2, 5) -> (2, 5)
+	Player 1 Ship BC0: (6, 4) -> (6, 5)
+	Player 2 Ship SC0: (6, 6) -> (6, 5)
 
 END OF TURN 79 MOVEMENT PHASE
 
 BEGINNING OF TURN 79 COMBAT PHASE
 
+	Combat Locations:
+
+		(6, 5)
+
+			Player 1 Ship BC0
+			Player 2 Ship SC0
+
+	Combat at (6, 5)
+
+		Rolled a 2, less than or equal to 5
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship SC0
+		Hit!
+		Player 2 Ship SC0 HP reduced to 0!
+
+	Survivors:
+
+		(6, 5)
+
+			Player 1 Ship BC0
+
 END OF TURN 79 COMBAT PHASE
 
 BEGINNING OF TURN 80 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 3) -> (2, 2)
-	Player 2 Ship SC1: (7, 5) -> (7, 4)
+	Player 1 Ship SC0: (2, 5) -> (1, 5)
+	Player 1 Ship BC0: (6, 5) -> (6, 4)
 
 END OF TURN 80 MOVEMENT PHASE
 
@@ -1187,8 +1176,8 @@ END OF TURN 80 COMBAT PHASE
 
 BEGINNING OF TURN 81 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 2) -> (2, 2)
-	Player 2 Ship SC1: (7, 4) -> (7, 3)
+	Player 1 Ship SC0: (1, 5) -> (1, 6)
+	Player 1 Ship BC0: (6, 4) -> (7, 4)
 
 END OF TURN 81 MOVEMENT PHASE
 
@@ -1198,8 +1187,8 @@ END OF TURN 81 COMBAT PHASE
 
 BEGINNING OF TURN 82 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 2) -> (2, 3)
-	Player 2 Ship SC1: (7, 3) -> (7, 4)
+	Player 1 Ship SC0: (1, 6) -> (1, 5)
+	Player 1 Ship BC0: (7, 4) -> (7, 5)
 
 END OF TURN 82 MOVEMENT PHASE
 
@@ -1209,8 +1198,8 @@ END OF TURN 82 COMBAT PHASE
 
 BEGINNING OF TURN 83 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 3) -> (2, 4)
-	Player 2 Ship SC1: (7, 4) -> (7, 3)
+	Player 1 Ship SC0: (1, 5) -> (1, 4)
+	Player 1 Ship BC0: (7, 5) -> (6, 5)
 
 END OF TURN 83 MOVEMENT PHASE
 
@@ -1220,8 +1209,8 @@ END OF TURN 83 COMBAT PHASE
 
 BEGINNING OF TURN 84 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 4) -> (2, 5)
-	Player 2 Ship SC1: (7, 3) -> (6, 3)
+	Player 1 Ship SC0: (1, 4) -> (1, 4)
+	Player 1 Ship BC0: (6, 5) -> (6, 4)
 
 END OF TURN 84 MOVEMENT PHASE
 
@@ -1231,8 +1220,8 @@ END OF TURN 84 COMBAT PHASE
 
 BEGINNING OF TURN 85 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 5) -> (2, 6)
-	Player 2 Ship SC1: (6, 3) -> (6, 3)
+	Player 1 Ship SC0: (1, 4) -> (1, 5)
+	Player 1 Ship BC0: (6, 4) -> (7, 4)
 
 END OF TURN 85 MOVEMENT PHASE
 
@@ -1242,8 +1231,8 @@ END OF TURN 85 COMBAT PHASE
 
 BEGINNING OF TURN 86 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 6) -> (2, 6)
-	Player 2 Ship SC1: (6, 3) -> (6, 4)
+	Player 1 Ship SC0: (1, 5) -> (1, 4)
+	Player 1 Ship BC0: (7, 4) -> (6, 4)
 
 END OF TURN 86 MOVEMENT PHASE
 
@@ -1253,8 +1242,8 @@ END OF TURN 86 COMBAT PHASE
 
 BEGINNING OF TURN 87 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (2, 6) -> (3, 6)
-	Player 2 Ship SC1: (6, 4) -> (5, 4)
+	Player 1 Ship SC0: (1, 4) -> (1, 3)
+	Player 1 Ship BC0: (6, 4) -> (6, 5)
 
 END OF TURN 87 MOVEMENT PHASE
 
@@ -1264,8 +1253,8 @@ END OF TURN 87 COMBAT PHASE
 
 BEGINNING OF TURN 88 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 6) -> (3, 5)
-	Player 2 Ship SC1: (5, 4) -> (6, 4)
+	Player 1 Ship SC0: (1, 3) -> (1, 3)
+	Player 1 Ship BC0: (6, 5) -> (6, 5)
 
 END OF TURN 88 MOVEMENT PHASE
 
@@ -1275,8 +1264,8 @@ END OF TURN 88 COMBAT PHASE
 
 BEGINNING OF TURN 89 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 5) -> (4, 5)
-	Player 2 Ship SC1: (6, 4) -> (7, 4)
+	Player 1 Ship SC0: (1, 3) -> (2, 3)
+	Player 1 Ship BC0: (6, 5) -> (5, 5)
 
 END OF TURN 89 MOVEMENT PHASE
 
@@ -1286,8 +1275,8 @@ END OF TURN 89 COMBAT PHASE
 
 BEGINNING OF TURN 90 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 5) -> (4, 6)
-	Player 2 Ship SC1: (7, 4) -> (7, 4)
+	Player 1 Ship SC0: (2, 3) -> (2, 3)
+	Player 1 Ship BC0: (5, 5) -> (5, 6)
 
 END OF TURN 90 MOVEMENT PHASE
 
@@ -1297,8 +1286,8 @@ END OF TURN 90 COMBAT PHASE
 
 BEGINNING OF TURN 91 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 6) -> (4, 5)
-	Player 2 Ship SC1: (7, 4) -> (7, 4)
+	Player 1 Ship SC0: (2, 3) -> (3, 3)
+	Player 1 Ship BC0: (5, 6) -> (5, 7)
 
 END OF TURN 91 MOVEMENT PHASE
 
@@ -1308,8 +1297,8 @@ END OF TURN 91 COMBAT PHASE
 
 BEGINNING OF TURN 92 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 5) -> (3, 5)
-	Player 2 Ship SC1: (7, 4) -> (7, 4)
+	Player 1 Ship SC0: (3, 3) -> (4, 3)
+	Player 1 Ship BC0: (5, 7) -> (5, 6)
 
 END OF TURN 92 MOVEMENT PHASE
 
@@ -1319,8 +1308,8 @@ END OF TURN 92 COMBAT PHASE
 
 BEGINNING OF TURN 93 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 5) -> (3, 5)
-	Player 2 Ship SC1: (7, 4) -> (6, 4)
+	Player 1 Ship SC0: (4, 3) -> (4, 4)
+	Player 1 Ship BC0: (5, 6) -> (6, 6)
 
 END OF TURN 93 MOVEMENT PHASE
 
@@ -1330,8 +1319,8 @@ END OF TURN 93 COMBAT PHASE
 
 BEGINNING OF TURN 94 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 5) -> (3, 5)
-	Player 2 Ship SC1: (6, 4) -> (6, 5)
+	Player 1 Ship SC0: (4, 4) -> (5, 4)
+	Player 1 Ship BC0: (6, 6) -> (6, 7)
 
 END OF TURN 94 MOVEMENT PHASE
 
@@ -1341,8 +1330,8 @@ END OF TURN 94 COMBAT PHASE
 
 BEGINNING OF TURN 95 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 5) -> (3, 6)
-	Player 2 Ship SC1: (6, 5) -> (6, 6)
+	Player 1 Ship SC0: (5, 4) -> (5, 5)
+	Player 1 Ship BC0: (6, 7) -> (7, 7)
 
 END OF TURN 95 MOVEMENT PHASE
 
@@ -1352,8 +1341,8 @@ END OF TURN 95 COMBAT PHASE
 
 BEGINNING OF TURN 96 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 6) -> (3, 6)
-	Player 2 Ship SC1: (6, 6) -> (5, 6)
+	Player 1 Ship SC0: (5, 5) -> (6, 5)
+	Player 1 Ship BC0: (7, 7) -> (7, 7)
 
 END OF TURN 96 MOVEMENT PHASE
 
@@ -1363,8 +1352,8 @@ END OF TURN 96 COMBAT PHASE
 
 BEGINNING OF TURN 97 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 6) -> (3, 6)
-	Player 2 Ship SC1: (5, 6) -> (5, 7)
+	Player 1 Ship SC0: (6, 5) -> (6, 5)
+	Player 1 Ship BC0: (7, 7) -> (6, 7)
 
 END OF TURN 97 MOVEMENT PHASE
 
@@ -1374,8 +1363,8 @@ END OF TURN 97 COMBAT PHASE
 
 BEGINNING OF TURN 98 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 6) -> (4, 6)
-	Player 2 Ship SC1: (5, 7) -> (5, 6)
+	Player 1 Ship SC0: (6, 5) -> (6, 4)
+	Player 1 Ship BC0: (6, 7) -> (7, 7)
 
 END OF TURN 98 MOVEMENT PHASE
 
@@ -1385,8 +1374,8 @@ END OF TURN 98 COMBAT PHASE
 
 BEGINNING OF TURN 99 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 6) -> (4, 5)
-	Player 2 Ship SC1: (5, 6) -> (5, 7)
+	Player 1 Ship SC0: (6, 4) -> (6, 3)
+	Player 1 Ship BC0: (7, 7) -> (7, 6)
 
 END OF TURN 99 MOVEMENT PHASE
 
@@ -1396,8 +1385,8 @@ END OF TURN 99 COMBAT PHASE
 
 BEGINNING OF TURN 100 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 5) -> (3, 5)
-	Player 2 Ship SC1: (5, 7) -> (4, 7)
+	Player 1 Ship SC0: (6, 3) -> (7, 3)
+	Player 1 Ship BC0: (7, 6) -> (6, 6)
 
 END OF TURN 100 MOVEMENT PHASE
 
@@ -1407,8 +1396,8 @@ END OF TURN 100 COMBAT PHASE
 
 BEGINNING OF TURN 101 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 5) -> (4, 5)
-	Player 2 Ship SC1: (4, 7) -> (5, 7)
+	Player 1 Ship SC0: (7, 3) -> (6, 3)
+	Player 1 Ship BC0: (6, 6) -> (6, 5)
 
 END OF TURN 101 MOVEMENT PHASE
 
@@ -1418,8 +1407,8 @@ END OF TURN 101 COMBAT PHASE
 
 BEGINNING OF TURN 102 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 5) -> (4, 5)
-	Player 2 Ship SC1: (5, 7) -> (5, 6)
+	Player 1 Ship SC0: (6, 3) -> (6, 3)
+	Player 1 Ship BC0: (6, 5) -> (6, 4)
 
 END OF TURN 102 MOVEMENT PHASE
 
@@ -1429,8 +1418,8 @@ END OF TURN 102 COMBAT PHASE
 
 BEGINNING OF TURN 103 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 5) -> (4, 4)
-	Player 2 Ship SC1: (5, 6) -> (4, 6)
+	Player 1 Ship SC0: (6, 3) -> (7, 3)
+	Player 1 Ship BC0: (6, 4) -> (7, 4)
 
 END OF TURN 103 MOVEMENT PHASE
 
@@ -1440,8 +1429,8 @@ END OF TURN 103 COMBAT PHASE
 
 BEGINNING OF TURN 104 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 4) -> (4, 3)
-	Player 2 Ship SC1: (4, 6) -> (4, 7)
+	Player 1 Ship SC0: (7, 3) -> (6, 3)
+	Player 1 Ship BC0: (7, 4) -> (6, 4)
 
 END OF TURN 104 MOVEMENT PHASE
 
@@ -1451,8 +1440,8 @@ END OF TURN 104 COMBAT PHASE
 
 BEGINNING OF TURN 105 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 3) -> (3, 3)
-	Player 2 Ship SC1: (4, 7) -> (3, 7)
+	Player 1 Ship SC0: (6, 3) -> (6, 4)
+	Player 1 Ship BC0: (6, 4) -> (7, 4)
 
 END OF TURN 105 MOVEMENT PHASE
 
@@ -1462,8 +1451,8 @@ END OF TURN 105 COMBAT PHASE
 
 BEGINNING OF TURN 106 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 3) -> (4, 3)
-	Player 2 Ship SC1: (3, 7) -> (3, 6)
+	Player 1 Ship SC0: (6, 4) -> (6, 5)
+	Player 1 Ship BC0: (7, 4) -> (7, 4)
 
 END OF TURN 106 MOVEMENT PHASE
 
@@ -1473,8 +1462,8 @@ END OF TURN 106 COMBAT PHASE
 
 BEGINNING OF TURN 107 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 3) -> (4, 4)
-	Player 2 Ship SC1: (3, 6) -> (3, 5)
+	Player 1 Ship SC0: (6, 5) -> (5, 5)
+	Player 1 Ship BC0: (7, 4) -> (7, 3)
 
 END OF TURN 107 MOVEMENT PHASE
 
@@ -1484,8 +1473,8 @@ END OF TURN 107 COMBAT PHASE
 
 BEGINNING OF TURN 108 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 4) -> (4, 3)
-	Player 2 Ship SC1: (3, 5) -> (4, 5)
+	Player 1 Ship SC0: (5, 5) -> (4, 5)
+	Player 1 Ship BC0: (7, 3) -> (7, 3)
 
 END OF TURN 108 MOVEMENT PHASE
 
@@ -1495,8 +1484,8 @@ END OF TURN 108 COMBAT PHASE
 
 BEGINNING OF TURN 109 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 3) -> (4, 2)
-	Player 2 Ship SC1: (4, 5) -> (4, 4)
+	Player 1 Ship SC0: (4, 5) -> (4, 4)
+	Player 1 Ship BC0: (7, 3) -> (7, 3)
 
 END OF TURN 109 MOVEMENT PHASE
 
@@ -1506,8 +1495,8 @@ END OF TURN 109 COMBAT PHASE
 
 BEGINNING OF TURN 110 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-	Player 2 Ship SC1: (4, 4) -> (5, 4)
+	Player 1 Ship SC0: (4, 4) -> (4, 3)
+	Player 1 Ship BC0: (7, 3) -> (7, 2)
 
 END OF TURN 110 MOVEMENT PHASE
 
@@ -1517,8 +1506,8 @@ END OF TURN 110 COMBAT PHASE
 
 BEGINNING OF TURN 111 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-	Player 2 Ship SC1: (5, 4) -> (5, 5)
+	Player 1 Ship SC0: (4, 3) -> (4, 2)
+	Player 1 Ship BC0: (7, 2) -> (6, 2)
 
 END OF TURN 111 MOVEMENT PHASE
 
@@ -1528,8 +1517,8 @@ END OF TURN 111 COMBAT PHASE
 
 BEGINNING OF TURN 112 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (5, 1)
-	Player 2 Ship SC1: (5, 5) -> (4, 5)
+	Player 1 Ship SC0: (4, 2) -> (3, 2)
+	Player 1 Ship BC0: (6, 2) -> (5, 2)
 
 END OF TURN 112 MOVEMENT PHASE
 
@@ -1539,8 +1528,8 @@ END OF TURN 112 COMBAT PHASE
 
 BEGINNING OF TURN 113 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 1) -> (5, 1)
-	Player 2 Ship SC1: (4, 5) -> (4, 5)
+	Player 1 Ship SC0: (3, 2) -> (3, 3)
+	Player 1 Ship BC0: (5, 2) -> (5, 3)
 
 END OF TURN 113 MOVEMENT PHASE
 
@@ -1550,8 +1539,8 @@ END OF TURN 113 COMBAT PHASE
 
 BEGINNING OF TURN 114 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 1) -> (4, 1)
-	Player 2 Ship SC1: (4, 5) -> (4, 4)
+	Player 1 Ship SC0: (3, 3) -> (3, 2)
+	Player 1 Ship BC0: (5, 3) -> (5, 4)
 
 END OF TURN 114 MOVEMENT PHASE
 
@@ -1561,8 +1550,8 @@ END OF TURN 114 COMBAT PHASE
 
 BEGINNING OF TURN 115 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-	Player 2 Ship SC1: (4, 4) -> (4, 3)
+	Player 1 Ship SC0: (3, 2) -> (2, 2)
+	Player 1 Ship BC0: (5, 4) -> (5, 3)
 
 END OF TURN 115 MOVEMENT PHASE
 
@@ -1572,8 +1561,8 @@ END OF TURN 115 COMBAT PHASE
 
 BEGINNING OF TURN 116 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 1) -> (3, 2)
-	Player 2 Ship SC1: (4, 3) -> (3, 3)
+	Player 1 Ship SC0: (2, 2) -> (1, 2)
+	Player 1 Ship BC0: (5, 3) -> (6, 3)
 
 END OF TURN 116 MOVEMENT PHASE
 
@@ -1583,8 +1572,8 @@ END OF TURN 116 COMBAT PHASE
 
 BEGINNING OF TURN 117 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 2) -> (3, 1)
-	Player 2 Ship SC1: (3, 3) -> (3, 2)
+	Player 1 Ship SC0: (1, 2) -> (2, 2)
+	Player 1 Ship BC0: (6, 3) -> (6, 4)
 
 END OF TURN 117 MOVEMENT PHASE
 
@@ -1594,8 +1583,8 @@ END OF TURN 117 COMBAT PHASE
 
 BEGINNING OF TURN 118 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-	Player 2 Ship SC1: (3, 2) -> (3, 2)
+	Player 1 Ship SC0: (2, 2) -> (2, 2)
+	Player 1 Ship BC0: (6, 4) -> (6, 5)
 
 END OF TURN 118 MOVEMENT PHASE
 
@@ -1605,8 +1594,8 @@ END OF TURN 118 COMBAT PHASE
 
 BEGINNING OF TURN 119 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-	Player 2 Ship SC1: (3, 2) -> (2, 2)
+	Player 1 Ship SC0: (2, 2) -> (3, 2)
+	Player 1 Ship BC0: (6, 5) -> (6, 4)
 
 END OF TURN 119 MOVEMENT PHASE
 
@@ -1616,8 +1605,8 @@ END OF TURN 119 COMBAT PHASE
 
 BEGINNING OF TURN 120 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-	Player 2 Ship SC1: (2, 2) -> (2, 2)
+	Player 1 Ship SC0: (3, 2) -> (4, 2)
+	Player 1 Ship BC0: (6, 4) -> (6, 5)
 
 END OF TURN 120 MOVEMENT PHASE
 
@@ -1627,8 +1616,8 @@ END OF TURN 120 COMBAT PHASE
 
 BEGINNING OF TURN 121 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 1) -> (3, 2)
-	Player 2 Ship SC1: (2, 2) -> (2, 2)
+	Player 1 Ship SC0: (4, 2) -> (5, 2)
+	Player 1 Ship BC0: (6, 5) -> (6, 4)
 
 END OF TURN 121 MOVEMENT PHASE
 
@@ -1638,8 +1627,8 @@ END OF TURN 121 COMBAT PHASE
 
 BEGINNING OF TURN 122 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (3, 2) -> (4, 2)
-	Player 2 Ship SC1: (2, 2) -> (3, 2)
+	Player 1 Ship SC0: (5, 2) -> (5, 1)
+	Player 1 Ship BC0: (6, 4) -> (7, 4)
 
 END OF TURN 122 MOVEMENT PHASE
 
@@ -1649,8 +1638,8 @@ END OF TURN 122 COMBAT PHASE
 
 BEGINNING OF TURN 123 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-	Player 2 Ship SC1: (3, 2) -> (3, 1)
+	Player 1 Ship SC0: (5, 1) -> (5, 1)
+	Player 1 Ship BC0: (7, 4) -> (7, 4)
 
 END OF TURN 123 MOVEMENT PHASE
 
@@ -1660,8 +1649,8 @@ END OF TURN 123 COMBAT PHASE
 
 BEGINNING OF TURN 124 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-	Player 2 Ship SC1: (3, 1) -> (3, 2)
+	Player 1 Ship SC0: (5, 1) -> (6, 1)
+	Player 1 Ship BC0: (7, 4) -> (7, 5)
 
 END OF TURN 124 MOVEMENT PHASE
 
@@ -1671,8 +1660,8 @@ END OF TURN 124 COMBAT PHASE
 
 BEGINNING OF TURN 125 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
-	Player 2 Ship SC1: (3, 2) -> (2, 2)
+	Player 1 Ship SC0: (6, 1) -> (6, 2)
+	Player 1 Ship BC0: (7, 5) -> (7, 4)
 
 END OF TURN 125 MOVEMENT PHASE
 
@@ -1682,8 +1671,8 @@ END OF TURN 125 COMBAT PHASE
 
 BEGINNING OF TURN 126 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 2) -> (4, 2)
-	Player 2 Ship SC1: (2, 2) -> (2, 1)
+	Player 1 Ship SC0: (6, 2) -> (6, 2)
+	Player 1 Ship BC0: (7, 4) -> (7, 4)
 
 END OF TURN 126 MOVEMENT PHASE
 
@@ -1693,8 +1682,8 @@ END OF TURN 126 COMBAT PHASE
 
 BEGINNING OF TURN 127 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-	Player 2 Ship SC1: (2, 1) -> (3, 1)
+	Player 1 Ship SC0: (6, 2) -> (5, 2)
+	Player 1 Ship BC0: (7, 4) -> (6, 4)
 
 END OF TURN 127 MOVEMENT PHASE
 
@@ -1704,8 +1693,8 @@ END OF TURN 127 COMBAT PHASE
 
 BEGINNING OF TURN 128 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-	Player 2 Ship SC1: (3, 1) -> (3, 2)
+	Player 1 Ship SC0: (5, 2) -> (4, 2)
+	Player 1 Ship BC0: (6, 4) -> (7, 4)
 
 END OF TURN 128 MOVEMENT PHASE
 
@@ -1715,8 +1704,8 @@ END OF TURN 128 COMBAT PHASE
 
 BEGINNING OF TURN 129 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (5, 1)
-	Player 2 Ship SC1: (3, 2) -> (2, 2)
+	Player 1 Ship SC0: (4, 2) -> (4, 1)
+	Player 1 Ship BC0: (7, 4) -> (7, 3)
 
 END OF TURN 129 MOVEMENT PHASE
 
@@ -1726,8 +1715,8 @@ END OF TURN 129 COMBAT PHASE
 
 BEGINNING OF TURN 130 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 1) -> (5, 1)
-	Player 2 Ship SC1: (2, 2) -> (3, 2)
+	Player 1 Ship SC0: (4, 1) -> (3, 1)
+	Player 1 Ship BC0: (7, 3) -> (7, 4)
 
 END OF TURN 130 MOVEMENT PHASE
 
@@ -1737,8 +1726,8 @@ END OF TURN 130 COMBAT PHASE
 
 BEGINNING OF TURN 131 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-	Player 2 Ship SC1: (3, 2) -> (4, 2)
+	Player 1 Ship SC0: (3, 1) -> (3, 2)
+	Player 1 Ship BC0: (7, 4) -> (7, 4)
 
 END OF TURN 131 MOVEMENT PHASE
 
@@ -1748,8 +1737,8 @@ END OF TURN 131 COMBAT PHASE
 
 BEGINNING OF TURN 132 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 1) -> (6, 2)
-	Player 2 Ship SC1: (4, 2) -> (4, 3)
+	Player 1 Ship SC0: (3, 2) -> (2, 2)
+	Player 1 Ship BC0: (7, 4) -> (6, 4)
 
 END OF TURN 132 MOVEMENT PHASE
 
@@ -1759,8 +1748,8 @@ END OF TURN 132 COMBAT PHASE
 
 BEGINNING OF TURN 133 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 2) -> (6, 3)
-	Player 2 Ship SC1: (4, 3) -> (4, 3)
+	Player 1 Ship SC0: (2, 2) -> (2, 1)
+	Player 1 Ship BC0: (6, 4) -> (6, 4)
 
 END OF TURN 133 MOVEMENT PHASE
 
@@ -1770,8 +1759,8 @@ END OF TURN 133 COMBAT PHASE
 
 BEGINNING OF TURN 134 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 3) -> (5, 3)
-	Player 2 Ship SC1: (4, 3) -> (4, 4)
+	Player 1 Ship SC0: (2, 1) -> (3, 1)
+	Player 1 Ship BC0: (6, 4) -> (6, 3)
 
 END OF TURN 134 MOVEMENT PHASE
 
@@ -1781,39 +1770,19 @@ END OF TURN 134 COMBAT PHASE
 
 BEGINNING OF TURN 135 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 3) -> (4, 3)
-	Player 2 Ship SC1: (4, 4) -> (4, 3)
+	Player 1 Ship SC0: (3, 1) -> (3, 1)
+	Player 1 Ship BC0: (6, 3) -> (7, 3)
 
 END OF TURN 135 MOVEMENT PHASE
 
 BEGINNING OF TURN 135 COMBAT PHASE
 
-	Combat Locations:
-
-		(4, 3)
-
-			Player 1 Ship SC1
-			Player 2 Ship SC1
-
-	Combat at (4, 3)
-
-		Rolled a 1, need a max of 3
-		Attacker: Player 1 Ship SC1
-		Defender: Player 2 Ship SC1
-		Hit!
-		Player 2 Ship SC1 was destroyed
-
-	Survivors:
-
-		(4, 3)
-
-			Player 1 Ship SC1
-
 END OF TURN 135 COMBAT PHASE
 
 BEGINNING OF TURN 136 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 3) -> (5, 3)
+	Player 1 Ship SC0: (3, 1) -> (3, 1)
+	Player 1 Ship BC0: (7, 3) -> (7, 2)
 
 END OF TURN 136 MOVEMENT PHASE
 
@@ -1823,7 +1792,8 @@ END OF TURN 136 COMBAT PHASE
 
 BEGINNING OF TURN 137 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 3) -> (6, 3)
+	Player 1 Ship SC0: (3, 1) -> (3, 1)
+	Player 1 Ship BC0: (7, 2) -> (6, 2)
 
 END OF TURN 137 MOVEMENT PHASE
 
@@ -1833,7 +1803,8 @@ END OF TURN 137 COMBAT PHASE
 
 BEGINNING OF TURN 138 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 3) -> (6, 3)
+	Player 1 Ship SC0: (3, 1) -> (2, 1)
+	Player 1 Ship BC0: (6, 2) -> (6, 1)
 
 END OF TURN 138 MOVEMENT PHASE
 
@@ -1843,7 +1814,8 @@ END OF TURN 138 COMBAT PHASE
 
 BEGINNING OF TURN 139 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 3) -> (6, 3)
+	Player 1 Ship SC0: (2, 1) -> (3, 1)
+	Player 1 Ship BC0: (6, 1) -> (6, 2)
 
 END OF TURN 139 MOVEMENT PHASE
 
@@ -1853,7 +1825,8 @@ END OF TURN 139 COMBAT PHASE
 
 BEGINNING OF TURN 140 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 3) -> (7, 3)
+	Player 1 Ship SC0: (3, 1) -> (3, 1)
+	Player 1 Ship BC0: (6, 2) -> (6, 3)
 
 END OF TURN 140 MOVEMENT PHASE
 
@@ -1863,7 +1836,8 @@ END OF TURN 140 COMBAT PHASE
 
 BEGINNING OF TURN 141 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (7, 3) -> (7, 4)
+	Player 1 Ship SC0: (3, 1) -> (3, 2)
+	Player 1 Ship BC0: (6, 3) -> (6, 3)
 
 END OF TURN 141 MOVEMENT PHASE
 
@@ -1873,7 +1847,8 @@ END OF TURN 141 COMBAT PHASE
 
 BEGINNING OF TURN 142 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (7, 4) -> (6, 4)
+	Player 1 Ship SC0: (3, 2) -> (3, 1)
+	Player 1 Ship BC0: (6, 3) -> (5, 3)
 
 END OF TURN 142 MOVEMENT PHASE
 
@@ -1883,7 +1858,8 @@ END OF TURN 142 COMBAT PHASE
 
 BEGINNING OF TURN 143 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 4) -> (6, 4)
+	Player 1 Ship SC0: (3, 1) -> (3, 2)
+	Player 1 Ship BC0: (5, 3) -> (5, 2)
 
 END OF TURN 143 MOVEMENT PHASE
 
@@ -1893,7 +1869,8 @@ END OF TURN 143 COMBAT PHASE
 
 BEGINNING OF TURN 144 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 4) -> (6, 3)
+	Player 1 Ship SC0: (3, 2) -> (3, 3)
+	Player 1 Ship BC0: (5, 2) -> (4, 2)
 
 END OF TURN 144 MOVEMENT PHASE
 
@@ -1903,7 +1880,8 @@ END OF TURN 144 COMBAT PHASE
 
 BEGINNING OF TURN 145 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 3) -> (7, 3)
+	Player 1 Ship SC0: (3, 3) -> (3, 2)
+	Player 1 Ship BC0: (4, 2) -> (4, 2)
 
 END OF TURN 145 MOVEMENT PHASE
 
@@ -1913,7 +1891,8 @@ END OF TURN 145 COMBAT PHASE
 
 BEGINNING OF TURN 146 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (7, 3) -> (7, 3)
+	Player 1 Ship SC0: (3, 2) -> (3, 1)
+	Player 1 Ship BC0: (4, 2) -> (4, 1)
 
 END OF TURN 146 MOVEMENT PHASE
 
@@ -1923,7 +1902,8 @@ END OF TURN 146 COMBAT PHASE
 
 BEGINNING OF TURN 147 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (7, 3) -> (6, 3)
+	Player 1 Ship SC0: (3, 1) -> (4, 1)
+	Player 1 Ship BC0: (4, 1) -> (4, 2)
 
 END OF TURN 147 MOVEMENT PHASE
 
@@ -1933,7 +1913,8 @@ END OF TURN 147 COMBAT PHASE
 
 BEGINNING OF TURN 148 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 3) -> (6, 2)
+	Player 1 Ship SC0: (4, 1) -> (4, 1)
+	Player 1 Ship BC0: (4, 2) -> (3, 2)
 
 END OF TURN 148 MOVEMENT PHASE
 
@@ -1943,7 +1924,8 @@ END OF TURN 148 COMBAT PHASE
 
 BEGINNING OF TURN 149 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 2) -> (6, 1)
+	Player 1 Ship SC0: (4, 1) -> (3, 1)
+	Player 1 Ship BC0: (3, 2) -> (3, 3)
 
 END OF TURN 149 MOVEMENT PHASE
 
@@ -1953,7 +1935,8 @@ END OF TURN 149 COMBAT PHASE
 
 BEGINNING OF TURN 150 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
+	Player 1 Ship SC0: (3, 1) -> (3, 2)
+	Player 1 Ship BC0: (3, 3) -> (3, 3)
 
 END OF TURN 150 MOVEMENT PHASE
 
@@ -1963,7 +1946,8 @@ END OF TURN 150 COMBAT PHASE
 
 BEGINNING OF TURN 151 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
+	Player 1 Ship SC0: (3, 2) -> (2, 2)
+	Player 1 Ship BC0: (3, 3) -> (3, 3)
 
 END OF TURN 151 MOVEMENT PHASE
 
@@ -1973,7 +1957,8 @@ END OF TURN 151 COMBAT PHASE
 
 BEGINNING OF TURN 152 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
+	Player 1 Ship SC0: (2, 2) -> (2, 2)
+	Player 1 Ship BC0: (3, 3) -> (3, 4)
 
 END OF TURN 152 MOVEMENT PHASE
 
@@ -1983,7 +1968,8 @@ END OF TURN 152 COMBAT PHASE
 
 BEGINNING OF TURN 153 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
+	Player 1 Ship SC0: (2, 2) -> (2, 3)
+	Player 1 Ship BC0: (3, 4) -> (3, 5)
 
 END OF TURN 153 MOVEMENT PHASE
 
@@ -1993,7 +1979,8 @@ END OF TURN 153 COMBAT PHASE
 
 BEGINNING OF TURN 154 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
+	Player 1 Ship SC0: (2, 3) -> (1, 3)
+	Player 1 Ship BC0: (3, 5) -> (3, 6)
 
 END OF TURN 154 MOVEMENT PHASE
 
@@ -2003,7 +1990,8 @@ END OF TURN 154 COMBAT PHASE
 
 BEGINNING OF TURN 155 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 1) -> (4, 1)
+	Player 1 Ship SC0: (1, 3) -> (1, 2)
+	Player 1 Ship BC0: (3, 6) -> (3, 5)
 
 END OF TURN 155 MOVEMENT PHASE
 
@@ -2013,7 +2001,8 @@ END OF TURN 155 COMBAT PHASE
 
 BEGINNING OF TURN 156 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
+	Player 1 Ship SC0: (1, 2) -> (2, 2)
+	Player 1 Ship BC0: (3, 5) -> (4, 5)
 
 END OF TURN 156 MOVEMENT PHASE
 
@@ -2023,7 +2012,8 @@ END OF TURN 156 COMBAT PHASE
 
 BEGINNING OF TURN 157 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 2) -> (5, 2)
+	Player 1 Ship SC0: (2, 2) -> (2, 3)
+	Player 1 Ship BC0: (4, 5) -> (4, 5)
 
 END OF TURN 157 MOVEMENT PHASE
 
@@ -2033,7 +2023,8 @@ END OF TURN 157 COMBAT PHASE
 
 BEGINNING OF TURN 158 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 2) -> (4, 2)
+	Player 1 Ship SC0: (2, 3) -> (2, 4)
+	Player 1 Ship BC0: (4, 5) -> (5, 5)
 
 END OF TURN 158 MOVEMENT PHASE
 
@@ -2043,7 +2034,8 @@ END OF TURN 158 COMBAT PHASE
 
 BEGINNING OF TURN 159 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (4, 2) -> (5, 2)
+	Player 1 Ship SC0: (2, 4) -> (3, 4)
+	Player 1 Ship BC0: (5, 5) -> (5, 6)
 
 END OF TURN 159 MOVEMENT PHASE
 
@@ -2053,7 +2045,8 @@ END OF TURN 159 COMBAT PHASE
 
 BEGINNING OF TURN 160 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 2) -> (5, 3)
+	Player 1 Ship SC0: (3, 4) -> (3, 3)
+	Player 1 Ship BC0: (5, 6) -> (5, 7)
 
 END OF TURN 160 MOVEMENT PHASE
 
@@ -2063,4472 +2056,13 @@ END OF TURN 160 COMBAT PHASE
 
 BEGINNING OF TURN 161 MOVEMENT PHASE
 
-	Player 1 Ship SC1: (5, 3) -> (4, 3)
+	Player 1 Ship SC0: (3, 3) -> (3, 4)
+	Player 1 Ship BC0: (5, 7) -> (4, 7)
 
 END OF TURN 161 MOVEMENT PHASE
 
 BEGINNING OF TURN 161 COMBAT PHASE
 
 END OF TURN 161 COMBAT PHASE
-
-BEGINNING OF TURN 162 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 3)
-
-END OF TURN 162 MOVEMENT PHASE
-
-BEGINNING OF TURN 162 COMBAT PHASE
-
-END OF TURN 162 COMBAT PHASE
-
-BEGINNING OF TURN 163 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 2)
-
-END OF TURN 163 MOVEMENT PHASE
-
-BEGINNING OF TURN 163 COMBAT PHASE
-
-END OF TURN 163 COMBAT PHASE
-
-BEGINNING OF TURN 164 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-
-END OF TURN 164 MOVEMENT PHASE
-
-BEGINNING OF TURN 164 COMBAT PHASE
-
-END OF TURN 164 COMBAT PHASE
-
-BEGINNING OF TURN 165 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-
-END OF TURN 165 MOVEMENT PHASE
-
-BEGINNING OF TURN 165 COMBAT PHASE
-
-END OF TURN 165 COMBAT PHASE
-
-BEGINNING OF TURN 166 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (5, 1)
-
-END OF TURN 166 MOVEMENT PHASE
-
-BEGINNING OF TURN 166 COMBAT PHASE
-
-END OF TURN 166 COMBAT PHASE
-
-BEGINNING OF TURN 167 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (5, 2)
-
-END OF TURN 167 MOVEMENT PHASE
-
-BEGINNING OF TURN 167 COMBAT PHASE
-
-END OF TURN 167 COMBAT PHASE
-
-BEGINNING OF TURN 168 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 2)
-
-END OF TURN 168 MOVEMENT PHASE
-
-BEGINNING OF TURN 168 COMBAT PHASE
-
-END OF TURN 168 COMBAT PHASE
-
-BEGINNING OF TURN 169 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 1)
-
-END OF TURN 169 MOVEMENT PHASE
-
-BEGINNING OF TURN 169 COMBAT PHASE
-
-END OF TURN 169 COMBAT PHASE
-
-BEGINNING OF TURN 170 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (4, 1)
-
-END OF TURN 170 MOVEMENT PHASE
-
-BEGINNING OF TURN 170 COMBAT PHASE
-
-END OF TURN 170 COMBAT PHASE
-
-BEGINNING OF TURN 171 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 171 MOVEMENT PHASE
-
-BEGINNING OF TURN 171 COMBAT PHASE
-
-END OF TURN 171 COMBAT PHASE
-
-BEGINNING OF TURN 172 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (4, 1)
-
-END OF TURN 172 MOVEMENT PHASE
-
-BEGINNING OF TURN 172 COMBAT PHASE
-
-END OF TURN 172 COMBAT PHASE
-
-BEGINNING OF TURN 173 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
-
-END OF TURN 173 MOVEMENT PHASE
-
-BEGINNING OF TURN 173 COMBAT PHASE
-
-END OF TURN 173 COMBAT PHASE
-
-BEGINNING OF TURN 174 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-
-END OF TURN 174 MOVEMENT PHASE
-
-BEGINNING OF TURN 174 COMBAT PHASE
-
-END OF TURN 174 COMBAT PHASE
-
-BEGINNING OF TURN 175 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 175 MOVEMENT PHASE
-
-BEGINNING OF TURN 175 COMBAT PHASE
-
-END OF TURN 175 COMBAT PHASE
-
-BEGINNING OF TURN 176 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (4, 1)
-
-END OF TURN 176 MOVEMENT PHASE
-
-BEGINNING OF TURN 176 COMBAT PHASE
-
-END OF TURN 176 COMBAT PHASE
-
-BEGINNING OF TURN 177 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 177 MOVEMENT PHASE
-
-BEGINNING OF TURN 177 COMBAT PHASE
-
-END OF TURN 177 COMBAT PHASE
-
-BEGINNING OF TURN 178 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-
-END OF TURN 178 MOVEMENT PHASE
-
-BEGINNING OF TURN 178 COMBAT PHASE
-
-END OF TURN 178 COMBAT PHASE
-
-BEGINNING OF TURN 179 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (4, 1)
-
-END OF TURN 179 MOVEMENT PHASE
-
-BEGINNING OF TURN 179 COMBAT PHASE
-
-END OF TURN 179 COMBAT PHASE
-
-BEGINNING OF TURN 180 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 180 MOVEMENT PHASE
-
-BEGINNING OF TURN 180 COMBAT PHASE
-
-END OF TURN 180 COMBAT PHASE
-
-BEGINNING OF TURN 181 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 2)
-
-END OF TURN 181 MOVEMENT PHASE
-
-BEGINNING OF TURN 181 COMBAT PHASE
-
-END OF TURN 181 COMBAT PHASE
-
-BEGINNING OF TURN 182 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (4, 2)
-
-END OF TURN 182 MOVEMENT PHASE
-
-BEGINNING OF TURN 182 COMBAT PHASE
-
-END OF TURN 182 COMBAT PHASE
-
-BEGINNING OF TURN 183 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (5, 2)
-
-END OF TURN 183 MOVEMENT PHASE
-
-BEGINNING OF TURN 183 COMBAT PHASE
-
-END OF TURN 183 COMBAT PHASE
-
-BEGINNING OF TURN 184 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (4, 2)
-
-END OF TURN 184 MOVEMENT PHASE
-
-BEGINNING OF TURN 184 COMBAT PHASE
-
-END OF TURN 184 COMBAT PHASE
-
-BEGINNING OF TURN 185 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (5, 2)
-
-END OF TURN 185 MOVEMENT PHASE
-
-BEGINNING OF TURN 185 COMBAT PHASE
-
-END OF TURN 185 COMBAT PHASE
-
-BEGINNING OF TURN 186 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (4, 2)
-
-END OF TURN 186 MOVEMENT PHASE
-
-BEGINNING OF TURN 186 COMBAT PHASE
-
-END OF TURN 186 COMBAT PHASE
-
-BEGINNING OF TURN 187 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-
-END OF TURN 187 MOVEMENT PHASE
-
-BEGINNING OF TURN 187 COMBAT PHASE
-
-END OF TURN 187 COMBAT PHASE
-
-BEGINNING OF TURN 188 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 188 MOVEMENT PHASE
-
-BEGINNING OF TURN 188 COMBAT PHASE
-
-END OF TURN 188 COMBAT PHASE
-
-BEGINNING OF TURN 189 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (2, 1)
-
-END OF TURN 189 MOVEMENT PHASE
-
-BEGINNING OF TURN 189 COMBAT PHASE
-
-END OF TURN 189 COMBAT PHASE
-
-BEGINNING OF TURN 190 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (3, 1)
-
-END OF TURN 190 MOVEMENT PHASE
-
-BEGINNING OF TURN 190 COMBAT PHASE
-
-END OF TURN 190 COMBAT PHASE
-
-BEGINNING OF TURN 191 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (4, 1)
-
-END OF TURN 191 MOVEMENT PHASE
-
-BEGINNING OF TURN 191 COMBAT PHASE
-
-END OF TURN 191 COMBAT PHASE
-
-BEGINNING OF TURN 192 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-
-END OF TURN 192 MOVEMENT PHASE
-
-BEGINNING OF TURN 192 COMBAT PHASE
-
-END OF TURN 192 COMBAT PHASE
-
-BEGINNING OF TURN 193 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (5, 1)
-
-END OF TURN 193 MOVEMENT PHASE
-
-BEGINNING OF TURN 193 COMBAT PHASE
-
-END OF TURN 193 COMBAT PHASE
-
-BEGINNING OF TURN 194 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (4, 1)
-
-END OF TURN 194 MOVEMENT PHASE
-
-BEGINNING OF TURN 194 COMBAT PHASE
-
-END OF TURN 194 COMBAT PHASE
-
-BEGINNING OF TURN 195 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
-
-END OF TURN 195 MOVEMENT PHASE
-
-BEGINNING OF TURN 195 COMBAT PHASE
-
-END OF TURN 195 COMBAT PHASE
-
-BEGINNING OF TURN 196 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 2)
-
-END OF TURN 196 MOVEMENT PHASE
-
-BEGINNING OF TURN 196 COMBAT PHASE
-
-END OF TURN 196 COMBAT PHASE
-
-BEGINNING OF TURN 197 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 2)
-
-END OF TURN 197 MOVEMENT PHASE
-
-BEGINNING OF TURN 197 COMBAT PHASE
-
-END OF TURN 197 COMBAT PHASE
-
-BEGINNING OF TURN 198 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (5, 2)
-
-END OF TURN 198 MOVEMENT PHASE
-
-BEGINNING OF TURN 198 COMBAT PHASE
-
-END OF TURN 198 COMBAT PHASE
-
-BEGINNING OF TURN 199 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 1)
-
-END OF TURN 199 MOVEMENT PHASE
-
-BEGINNING OF TURN 199 COMBAT PHASE
-
-END OF TURN 199 COMBAT PHASE
-
-BEGINNING OF TURN 200 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (5, 2)
-
-END OF TURN 200 MOVEMENT PHASE
-
-BEGINNING OF TURN 200 COMBAT PHASE
-
-END OF TURN 200 COMBAT PHASE
-
-BEGINNING OF TURN 201 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (4, 2)
-
-END OF TURN 201 MOVEMENT PHASE
-
-BEGINNING OF TURN 201 COMBAT PHASE
-
-END OF TURN 201 COMBAT PHASE
-
-BEGINNING OF TURN 202 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-
-END OF TURN 202 MOVEMENT PHASE
-
-BEGINNING OF TURN 202 COMBAT PHASE
-
-END OF TURN 202 COMBAT PHASE
-
-BEGINNING OF TURN 203 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (5, 1)
-
-END OF TURN 203 MOVEMENT PHASE
-
-BEGINNING OF TURN 203 COMBAT PHASE
-
-END OF TURN 203 COMBAT PHASE
-
-BEGINNING OF TURN 204 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (4, 1)
-
-END OF TURN 204 MOVEMENT PHASE
-
-BEGINNING OF TURN 204 COMBAT PHASE
-
-END OF TURN 204 COMBAT PHASE
-
-BEGINNING OF TURN 205 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-
-END OF TURN 205 MOVEMENT PHASE
-
-BEGINNING OF TURN 205 COMBAT PHASE
-
-END OF TURN 205 COMBAT PHASE
-
-BEGINNING OF TURN 206 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 206 MOVEMENT PHASE
-
-BEGINNING OF TURN 206 COMBAT PHASE
-
-END OF TURN 206 COMBAT PHASE
-
-BEGINNING OF TURN 207 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-
-END OF TURN 207 MOVEMENT PHASE
-
-BEGINNING OF TURN 207 COMBAT PHASE
-
-END OF TURN 207 COMBAT PHASE
-
-BEGINNING OF TURN 208 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-
-END OF TURN 208 MOVEMENT PHASE
-
-BEGINNING OF TURN 208 COMBAT PHASE
-
-END OF TURN 208 COMBAT PHASE
-
-BEGINNING OF TURN 209 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (2, 1)
-
-END OF TURN 209 MOVEMENT PHASE
-
-BEGINNING OF TURN 209 COMBAT PHASE
-
-END OF TURN 209 COMBAT PHASE
-
-BEGINNING OF TURN 210 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 210 MOVEMENT PHASE
-
-BEGINNING OF TURN 210 COMBAT PHASE
-
-END OF TURN 210 COMBAT PHASE
-
-BEGINNING OF TURN 211 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (3, 1)
-
-END OF TURN 211 MOVEMENT PHASE
-
-BEGINNING OF TURN 211 COMBAT PHASE
-
-END OF TURN 211 COMBAT PHASE
-
-BEGINNING OF TURN 212 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (4, 1)
-
-END OF TURN 212 MOVEMENT PHASE
-
-BEGINNING OF TURN 212 COMBAT PHASE
-
-END OF TURN 212 COMBAT PHASE
-
-BEGINNING OF TURN 213 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 213 MOVEMENT PHASE
-
-BEGINNING OF TURN 213 COMBAT PHASE
-
-END OF TURN 213 COMBAT PHASE
-
-BEGINNING OF TURN 214 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 2)
-
-END OF TURN 214 MOVEMENT PHASE
-
-BEGINNING OF TURN 214 COMBAT PHASE
-
-END OF TURN 214 COMBAT PHASE
-
-BEGINNING OF TURN 215 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (3, 1)
-
-END OF TURN 215 MOVEMENT PHASE
-
-BEGINNING OF TURN 215 COMBAT PHASE
-
-END OF TURN 215 COMBAT PHASE
-
-BEGINNING OF TURN 216 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 2)
-
-END OF TURN 216 MOVEMENT PHASE
-
-BEGINNING OF TURN 216 COMBAT PHASE
-
-END OF TURN 216 COMBAT PHASE
-
-BEGINNING OF TURN 217 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (3, 1)
-
-END OF TURN 217 MOVEMENT PHASE
-
-BEGINNING OF TURN 217 COMBAT PHASE
-
-END OF TURN 217 COMBAT PHASE
-
-BEGINNING OF TURN 218 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (4, 1)
-
-END OF TURN 218 MOVEMENT PHASE
-
-BEGINNING OF TURN 218 COMBAT PHASE
-
-END OF TURN 218 COMBAT PHASE
-
-BEGINNING OF TURN 219 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
-
-END OF TURN 219 MOVEMENT PHASE
-
-BEGINNING OF TURN 219 COMBAT PHASE
-
-END OF TURN 219 COMBAT PHASE
-
-BEGINNING OF TURN 220 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (5, 2)
-
-END OF TURN 220 MOVEMENT PHASE
-
-BEGINNING OF TURN 220 COMBAT PHASE
-
-END OF TURN 220 COMBAT PHASE
-
-BEGINNING OF TURN 221 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 3)
-
-END OF TURN 221 MOVEMENT PHASE
-
-BEGINNING OF TURN 221 COMBAT PHASE
-
-END OF TURN 221 COMBAT PHASE
-
-BEGINNING OF TURN 222 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (5, 4)
-
-END OF TURN 222 MOVEMENT PHASE
-
-BEGINNING OF TURN 222 COMBAT PHASE
-
-END OF TURN 222 COMBAT PHASE
-
-BEGINNING OF TURN 223 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 4)
-
-END OF TURN 223 MOVEMENT PHASE
-
-BEGINNING OF TURN 223 COMBAT PHASE
-
-END OF TURN 223 COMBAT PHASE
-
-BEGINNING OF TURN 224 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 3)
-
-END OF TURN 224 MOVEMENT PHASE
-
-BEGINNING OF TURN 224 COMBAT PHASE
-
-END OF TURN 224 COMBAT PHASE
-
-BEGINNING OF TURN 225 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (5, 4)
-
-END OF TURN 225 MOVEMENT PHASE
-
-BEGINNING OF TURN 225 COMBAT PHASE
-
-END OF TURN 225 COMBAT PHASE
-
-BEGINNING OF TURN 226 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (6, 4)
-
-END OF TURN 226 MOVEMENT PHASE
-
-BEGINNING OF TURN 226 COMBAT PHASE
-
-END OF TURN 226 COMBAT PHASE
-
-BEGINNING OF TURN 227 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 4)
-
-END OF TURN 227 MOVEMENT PHASE
-
-BEGINNING OF TURN 227 COMBAT PHASE
-
-END OF TURN 227 COMBAT PHASE
-
-BEGINNING OF TURN 228 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 4)
-
-END OF TURN 228 MOVEMENT PHASE
-
-BEGINNING OF TURN 228 COMBAT PHASE
-
-END OF TURN 228 COMBAT PHASE
-
-BEGINNING OF TURN 229 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (5, 4)
-
-END OF TURN 229 MOVEMENT PHASE
-
-BEGINNING OF TURN 229 COMBAT PHASE
-
-END OF TURN 229 COMBAT PHASE
-
-BEGINNING OF TURN 230 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 4)
-
-END OF TURN 230 MOVEMENT PHASE
-
-BEGINNING OF TURN 230 COMBAT PHASE
-
-END OF TURN 230 COMBAT PHASE
-
-BEGINNING OF TURN 231 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 3)
-
-END OF TURN 231 MOVEMENT PHASE
-
-BEGINNING OF TURN 231 COMBAT PHASE
-
-END OF TURN 231 COMBAT PHASE
-
-BEGINNING OF TURN 232 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (6, 3)
-
-END OF TURN 232 MOVEMENT PHASE
-
-BEGINNING OF TURN 232 COMBAT PHASE
-
-END OF TURN 232 COMBAT PHASE
-
-BEGINNING OF TURN 233 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (6, 4)
-
-END OF TURN 233 MOVEMENT PHASE
-
-BEGINNING OF TURN 233 COMBAT PHASE
-
-END OF TURN 233 COMBAT PHASE
-
-BEGINNING OF TURN 234 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 3)
-
-END OF TURN 234 MOVEMENT PHASE
-
-BEGINNING OF TURN 234 COMBAT PHASE
-
-END OF TURN 234 COMBAT PHASE
-
-BEGINNING OF TURN 235 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (7, 3)
-
-END OF TURN 235 MOVEMENT PHASE
-
-BEGINNING OF TURN 235 COMBAT PHASE
-
-END OF TURN 235 COMBAT PHASE
-
-BEGINNING OF TURN 236 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 3) -> (6, 3)
-
-END OF TURN 236 MOVEMENT PHASE
-
-BEGINNING OF TURN 236 COMBAT PHASE
-
-END OF TURN 236 COMBAT PHASE
-
-BEGINNING OF TURN 237 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (7, 3)
-
-END OF TURN 237 MOVEMENT PHASE
-
-BEGINNING OF TURN 237 COMBAT PHASE
-
-END OF TURN 237 COMBAT PHASE
-
-BEGINNING OF TURN 238 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 3) -> (6, 3)
-
-END OF TURN 238 MOVEMENT PHASE
-
-BEGINNING OF TURN 238 COMBAT PHASE
-
-END OF TURN 238 COMBAT PHASE
-
-BEGINNING OF TURN 239 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (6, 4)
-
-END OF TURN 239 MOVEMENT PHASE
-
-BEGINNING OF TURN 239 COMBAT PHASE
-
-END OF TURN 239 COMBAT PHASE
-
-BEGINNING OF TURN 240 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 5)
-
-END OF TURN 240 MOVEMENT PHASE
-
-BEGINNING OF TURN 240 COMBAT PHASE
-
-END OF TURN 240 COMBAT PHASE
-
-BEGINNING OF TURN 241 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 5) -> (6, 4)
-
-END OF TURN 241 MOVEMENT PHASE
-
-BEGINNING OF TURN 241 COMBAT PHASE
-
-END OF TURN 241 COMBAT PHASE
-
-BEGINNING OF TURN 242 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 3)
-
-END OF TURN 242 MOVEMENT PHASE
-
-BEGINNING OF TURN 242 COMBAT PHASE
-
-END OF TURN 242 COMBAT PHASE
-
-BEGINNING OF TURN 243 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (6, 2)
-
-END OF TURN 243 MOVEMENT PHASE
-
-BEGINNING OF TURN 243 COMBAT PHASE
-
-END OF TURN 243 COMBAT PHASE
-
-BEGINNING OF TURN 244 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (5, 2)
-
-END OF TURN 244 MOVEMENT PHASE
-
-BEGINNING OF TURN 244 COMBAT PHASE
-
-END OF TURN 244 COMBAT PHASE
-
-BEGINNING OF TURN 245 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (6, 2)
-
-END OF TURN 245 MOVEMENT PHASE
-
-BEGINNING OF TURN 245 COMBAT PHASE
-
-END OF TURN 245 COMBAT PHASE
-
-BEGINNING OF TURN 246 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (5, 2)
-
-END OF TURN 246 MOVEMENT PHASE
-
-BEGINNING OF TURN 246 COMBAT PHASE
-
-END OF TURN 246 COMBAT PHASE
-
-BEGINNING OF TURN 247 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 1)
-
-END OF TURN 247 MOVEMENT PHASE
-
-BEGINNING OF TURN 247 COMBAT PHASE
-
-END OF TURN 247 COMBAT PHASE
-
-BEGINNING OF TURN 248 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 248 MOVEMENT PHASE
-
-BEGINNING OF TURN 248 COMBAT PHASE
-
-END OF TURN 248 COMBAT PHASE
-
-BEGINNING OF TURN 249 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 249 MOVEMENT PHASE
-
-BEGINNING OF TURN 249 COMBAT PHASE
-
-END OF TURN 249 COMBAT PHASE
-
-BEGINNING OF TURN 250 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 250 MOVEMENT PHASE
-
-BEGINNING OF TURN 250 COMBAT PHASE
-
-END OF TURN 250 COMBAT PHASE
-
-BEGINNING OF TURN 251 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 251 MOVEMENT PHASE
-
-BEGINNING OF TURN 251 COMBAT PHASE
-
-END OF TURN 251 COMBAT PHASE
-
-BEGINNING OF TURN 252 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 252 MOVEMENT PHASE
-
-BEGINNING OF TURN 252 COMBAT PHASE
-
-END OF TURN 252 COMBAT PHASE
-
-BEGINNING OF TURN 253 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 253 MOVEMENT PHASE
-
-BEGINNING OF TURN 253 COMBAT PHASE
-
-END OF TURN 253 COMBAT PHASE
-
-BEGINNING OF TURN 254 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 254 MOVEMENT PHASE
-
-BEGINNING OF TURN 254 COMBAT PHASE
-
-END OF TURN 254 COMBAT PHASE
-
-BEGINNING OF TURN 255 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 255 MOVEMENT PHASE
-
-BEGINNING OF TURN 255 COMBAT PHASE
-
-END OF TURN 255 COMBAT PHASE
-
-BEGINNING OF TURN 256 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 2)
-
-END OF TURN 256 MOVEMENT PHASE
-
-BEGINNING OF TURN 256 COMBAT PHASE
-
-END OF TURN 256 COMBAT PHASE
-
-BEGINNING OF TURN 257 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (5, 2)
-
-END OF TURN 257 MOVEMENT PHASE
-
-BEGINNING OF TURN 257 COMBAT PHASE
-
-END OF TURN 257 COMBAT PHASE
-
-BEGINNING OF TURN 258 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (6, 2)
-
-END OF TURN 258 MOVEMENT PHASE
-
-BEGINNING OF TURN 258 COMBAT PHASE
-
-END OF TURN 258 COMBAT PHASE
-
-BEGINNING OF TURN 259 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (5, 2)
-
-END OF TURN 259 MOVEMENT PHASE
-
-BEGINNING OF TURN 259 COMBAT PHASE
-
-END OF TURN 259 COMBAT PHASE
-
-BEGINNING OF TURN 260 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 1)
-
-END OF TURN 260 MOVEMENT PHASE
-
-BEGINNING OF TURN 260 COMBAT PHASE
-
-END OF TURN 260 COMBAT PHASE
-
-BEGINNING OF TURN 261 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (4, 1)
-
-END OF TURN 261 MOVEMENT PHASE
-
-BEGINNING OF TURN 261 COMBAT PHASE
-
-END OF TURN 261 COMBAT PHASE
-
-BEGINNING OF TURN 262 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
-
-END OF TURN 262 MOVEMENT PHASE
-
-BEGINNING OF TURN 262 COMBAT PHASE
-
-END OF TURN 262 COMBAT PHASE
-
-BEGINNING OF TURN 263 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-
-END OF TURN 263 MOVEMENT PHASE
-
-BEGINNING OF TURN 263 COMBAT PHASE
-
-END OF TURN 263 COMBAT PHASE
-
-BEGINNING OF TURN 264 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-
-END OF TURN 264 MOVEMENT PHASE
-
-BEGINNING OF TURN 264 COMBAT PHASE
-
-END OF TURN 264 COMBAT PHASE
-
-BEGINNING OF TURN 265 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (5, 1)
-
-END OF TURN 265 MOVEMENT PHASE
-
-BEGINNING OF TURN 265 COMBAT PHASE
-
-END OF TURN 265 COMBAT PHASE
-
-BEGINNING OF TURN 266 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 266 MOVEMENT PHASE
-
-BEGINNING OF TURN 266 COMBAT PHASE
-
-END OF TURN 266 COMBAT PHASE
-
-BEGINNING OF TURN 267 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 267 MOVEMENT PHASE
-
-BEGINNING OF TURN 267 COMBAT PHASE
-
-END OF TURN 267 COMBAT PHASE
-
-BEGINNING OF TURN 268 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (5, 1)
-
-END OF TURN 268 MOVEMENT PHASE
-
-BEGINNING OF TURN 268 COMBAT PHASE
-
-END OF TURN 268 COMBAT PHASE
-
-BEGINNING OF TURN 269 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 269 MOVEMENT PHASE
-
-BEGINNING OF TURN 269 COMBAT PHASE
-
-END OF TURN 269 COMBAT PHASE
-
-BEGINNING OF TURN 270 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 270 MOVEMENT PHASE
-
-BEGINNING OF TURN 270 COMBAT PHASE
-
-END OF TURN 270 COMBAT PHASE
-
-BEGINNING OF TURN 271 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 271 MOVEMENT PHASE
-
-BEGINNING OF TURN 271 COMBAT PHASE
-
-END OF TURN 271 COMBAT PHASE
-
-BEGINNING OF TURN 272 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 2)
-
-END OF TURN 272 MOVEMENT PHASE
-
-BEGINNING OF TURN 272 COMBAT PHASE
-
-END OF TURN 272 COMBAT PHASE
-
-BEGINNING OF TURN 273 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (6, 1)
-
-END OF TURN 273 MOVEMENT PHASE
-
-BEGINNING OF TURN 273 COMBAT PHASE
-
-END OF TURN 273 COMBAT PHASE
-
-BEGINNING OF TURN 274 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 274 MOVEMENT PHASE
-
-BEGINNING OF TURN 274 COMBAT PHASE
-
-END OF TURN 274 COMBAT PHASE
-
-BEGINNING OF TURN 275 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (5, 2)
-
-END OF TURN 275 MOVEMENT PHASE
-
-BEGINNING OF TURN 275 COMBAT PHASE
-
-END OF TURN 275 COMBAT PHASE
-
-BEGINNING OF TURN 276 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 3)
-
-END OF TURN 276 MOVEMENT PHASE
-
-BEGINNING OF TURN 276 COMBAT PHASE
-
-END OF TURN 276 COMBAT PHASE
-
-BEGINNING OF TURN 277 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (5, 3)
-
-END OF TURN 277 MOVEMENT PHASE
-
-BEGINNING OF TURN 277 COMBAT PHASE
-
-END OF TURN 277 COMBAT PHASE
-
-BEGINNING OF TURN 278 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (4, 3)
-
-END OF TURN 278 MOVEMENT PHASE
-
-BEGINNING OF TURN 278 COMBAT PHASE
-
-END OF TURN 278 COMBAT PHASE
-
-BEGINNING OF TURN 279 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 4)
-
-END OF TURN 279 MOVEMENT PHASE
-
-BEGINNING OF TURN 279 COMBAT PHASE
-
-END OF TURN 279 COMBAT PHASE
-
-BEGINNING OF TURN 280 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 4) -> (4, 3)
-
-END OF TURN 280 MOVEMENT PHASE
-
-BEGINNING OF TURN 280 COMBAT PHASE
-
-END OF TURN 280 COMBAT PHASE
-
-BEGINNING OF TURN 281 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (3, 3)
-
-END OF TURN 281 MOVEMENT PHASE
-
-BEGINNING OF TURN 281 COMBAT PHASE
-
-END OF TURN 281 COMBAT PHASE
-
-BEGINNING OF TURN 282 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (3, 3)
-
-END OF TURN 282 MOVEMENT PHASE
-
-BEGINNING OF TURN 282 COMBAT PHASE
-
-END OF TURN 282 COMBAT PHASE
-
-BEGINNING OF TURN 283 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (3, 2)
-
-END OF TURN 283 MOVEMENT PHASE
-
-BEGINNING OF TURN 283 COMBAT PHASE
-
-END OF TURN 283 COMBAT PHASE
-
-BEGINNING OF TURN 284 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (2, 2)
-
-END OF TURN 284 MOVEMENT PHASE
-
-BEGINNING OF TURN 284 COMBAT PHASE
-
-END OF TURN 284 COMBAT PHASE
-
-BEGINNING OF TURN 285 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 2)
-
-END OF TURN 285 MOVEMENT PHASE
-
-BEGINNING OF TURN 285 COMBAT PHASE
-
-END OF TURN 285 COMBAT PHASE
-
-BEGINNING OF TURN 286 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 2)
-
-END OF TURN 286 MOVEMENT PHASE
-
-BEGINNING OF TURN 286 COMBAT PHASE
-
-END OF TURN 286 COMBAT PHASE
-
-BEGINNING OF TURN 287 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 2)
-
-END OF TURN 287 MOVEMENT PHASE
-
-BEGINNING OF TURN 287 COMBAT PHASE
-
-END OF TURN 287 COMBAT PHASE
-
-BEGINNING OF TURN 288 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (3, 2)
-
-END OF TURN 288 MOVEMENT PHASE
-
-BEGINNING OF TURN 288 COMBAT PHASE
-
-END OF TURN 288 COMBAT PHASE
-
-BEGINNING OF TURN 289 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (4, 2)
-
-END OF TURN 289 MOVEMENT PHASE
-
-BEGINNING OF TURN 289 COMBAT PHASE
-
-END OF TURN 289 COMBAT PHASE
-
-BEGINNING OF TURN 290 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-
-END OF TURN 290 MOVEMENT PHASE
-
-BEGINNING OF TURN 290 COMBAT PHASE
-
-END OF TURN 290 COMBAT PHASE
-
-BEGINNING OF TURN 291 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 291 MOVEMENT PHASE
-
-BEGINNING OF TURN 291 COMBAT PHASE
-
-END OF TURN 291 COMBAT PHASE
-
-BEGINNING OF TURN 292 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-
-END OF TURN 292 MOVEMENT PHASE
-
-BEGINNING OF TURN 292 COMBAT PHASE
-
-END OF TURN 292 COMBAT PHASE
-
-BEGINNING OF TURN 293 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-
-END OF TURN 293 MOVEMENT PHASE
-
-BEGINNING OF TURN 293 COMBAT PHASE
-
-END OF TURN 293 COMBAT PHASE
-
-BEGINNING OF TURN 294 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (2, 1)
-
-END OF TURN 294 MOVEMENT PHASE
-
-BEGINNING OF TURN 294 COMBAT PHASE
-
-END OF TURN 294 COMBAT PHASE
-
-BEGINNING OF TURN 295 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 295 MOVEMENT PHASE
-
-BEGINNING OF TURN 295 COMBAT PHASE
-
-END OF TURN 295 COMBAT PHASE
-
-BEGINNING OF TURN 296 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (1, 1)
-
-END OF TURN 296 MOVEMENT PHASE
-
-BEGINNING OF TURN 296 COMBAT PHASE
-
-END OF TURN 296 COMBAT PHASE
-
-BEGINNING OF TURN 297 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (2, 1)
-
-END OF TURN 297 MOVEMENT PHASE
-
-BEGINNING OF TURN 297 COMBAT PHASE
-
-END OF TURN 297 COMBAT PHASE
-
-BEGINNING OF TURN 298 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 2)
-
-END OF TURN 298 MOVEMENT PHASE
-
-BEGINNING OF TURN 298 COMBAT PHASE
-
-END OF TURN 298 COMBAT PHASE
-
-BEGINNING OF TURN 299 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 1)
-
-END OF TURN 299 MOVEMENT PHASE
-
-BEGINNING OF TURN 299 COMBAT PHASE
-
-END OF TURN 299 COMBAT PHASE
-
-BEGINNING OF TURN 300 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 300 MOVEMENT PHASE
-
-BEGINNING OF TURN 300 COMBAT PHASE
-
-END OF TURN 300 COMBAT PHASE
-
-BEGINNING OF TURN 301 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 301 MOVEMENT PHASE
-
-BEGINNING OF TURN 301 COMBAT PHASE
-
-END OF TURN 301 COMBAT PHASE
-
-BEGINNING OF TURN 302 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 302 MOVEMENT PHASE
-
-BEGINNING OF TURN 302 COMBAT PHASE
-
-END OF TURN 302 COMBAT PHASE
-
-BEGINNING OF TURN 303 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 303 MOVEMENT PHASE
-
-BEGINNING OF TURN 303 COMBAT PHASE
-
-END OF TURN 303 COMBAT PHASE
-
-BEGINNING OF TURN 304 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 2)
-
-END OF TURN 304 MOVEMENT PHASE
-
-BEGINNING OF TURN 304 COMBAT PHASE
-
-END OF TURN 304 COMBAT PHASE
-
-BEGINNING OF TURN 305 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 3)
-
-END OF TURN 305 MOVEMENT PHASE
-
-BEGINNING OF TURN 305 COMBAT PHASE
-
-END OF TURN 305 COMBAT PHASE
-
-BEGINNING OF TURN 306 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (1, 3)
-
-END OF TURN 306 MOVEMENT PHASE
-
-BEGINNING OF TURN 306 COMBAT PHASE
-
-END OF TURN 306 COMBAT PHASE
-
-BEGINNING OF TURN 307 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 3) -> (1, 3)
-
-END OF TURN 307 MOVEMENT PHASE
-
-BEGINNING OF TURN 307 COMBAT PHASE
-
-END OF TURN 307 COMBAT PHASE
-
-BEGINNING OF TURN 308 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 3) -> (1, 2)
-
-END OF TURN 308 MOVEMENT PHASE
-
-BEGINNING OF TURN 308 COMBAT PHASE
-
-END OF TURN 308 COMBAT PHASE
-
-BEGINNING OF TURN 309 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 1)
-
-END OF TURN 309 MOVEMENT PHASE
-
-BEGINNING OF TURN 309 COMBAT PHASE
-
-END OF TURN 309 COMBAT PHASE
-
-BEGINNING OF TURN 310 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (1, 2)
-
-END OF TURN 310 MOVEMENT PHASE
-
-BEGINNING OF TURN 310 COMBAT PHASE
-
-END OF TURN 310 COMBAT PHASE
-
-BEGINNING OF TURN 311 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 2)
-
-END OF TURN 311 MOVEMENT PHASE
-
-BEGINNING OF TURN 311 COMBAT PHASE
-
-END OF TURN 311 COMBAT PHASE
-
-BEGINNING OF TURN 312 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 2)
-
-END OF TURN 312 MOVEMENT PHASE
-
-BEGINNING OF TURN 312 COMBAT PHASE
-
-END OF TURN 312 COMBAT PHASE
-
-BEGINNING OF TURN 313 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 3)
-
-END OF TURN 313 MOVEMENT PHASE
-
-BEGINNING OF TURN 313 COMBAT PHASE
-
-END OF TURN 313 COMBAT PHASE
-
-BEGINNING OF TURN 314 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 3) -> (1, 4)
-
-END OF TURN 314 MOVEMENT PHASE
-
-BEGINNING OF TURN 314 COMBAT PHASE
-
-END OF TURN 314 COMBAT PHASE
-
-BEGINNING OF TURN 315 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 4) -> (1, 4)
-
-END OF TURN 315 MOVEMENT PHASE
-
-BEGINNING OF TURN 315 COMBAT PHASE
-
-END OF TURN 315 COMBAT PHASE
-
-BEGINNING OF TURN 316 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 4) -> (2, 4)
-
-END OF TURN 316 MOVEMENT PHASE
-
-BEGINNING OF TURN 316 COMBAT PHASE
-
-END OF TURN 316 COMBAT PHASE
-
-BEGINNING OF TURN 317 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 4) -> (2, 3)
-
-END OF TURN 317 MOVEMENT PHASE
-
-BEGINNING OF TURN 317 COMBAT PHASE
-
-END OF TURN 317 COMBAT PHASE
-
-BEGINNING OF TURN 318 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (1, 3)
-
-END OF TURN 318 MOVEMENT PHASE
-
-BEGINNING OF TURN 318 COMBAT PHASE
-
-END OF TURN 318 COMBAT PHASE
-
-BEGINNING OF TURN 319 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 3) -> (1, 2)
-
-END OF TURN 319 MOVEMENT PHASE
-
-BEGINNING OF TURN 319 COMBAT PHASE
-
-END OF TURN 319 COMBAT PHASE
-
-BEGINNING OF TURN 320 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 2)
-
-END OF TURN 320 MOVEMENT PHASE
-
-BEGINNING OF TURN 320 COMBAT PHASE
-
-END OF TURN 320 COMBAT PHASE
-
-BEGINNING OF TURN 321 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (2, 2)
-
-END OF TURN 321 MOVEMENT PHASE
-
-BEGINNING OF TURN 321 COMBAT PHASE
-
-END OF TURN 321 COMBAT PHASE
-
-BEGINNING OF TURN 322 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 1)
-
-END OF TURN 322 MOVEMENT PHASE
-
-BEGINNING OF TURN 322 COMBAT PHASE
-
-END OF TURN 322 COMBAT PHASE
-
-BEGINNING OF TURN 323 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 323 MOVEMENT PHASE
-
-BEGINNING OF TURN 323 COMBAT PHASE
-
-END OF TURN 323 COMBAT PHASE
-
-BEGINNING OF TURN 324 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 2)
-
-END OF TURN 324 MOVEMENT PHASE
-
-BEGINNING OF TURN 324 COMBAT PHASE
-
-END OF TURN 324 COMBAT PHASE
-
-BEGINNING OF TURN 325 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 3)
-
-END OF TURN 325 MOVEMENT PHASE
-
-BEGINNING OF TURN 325 COMBAT PHASE
-
-END OF TURN 325 COMBAT PHASE
-
-BEGINNING OF TURN 326 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (3, 3)
-
-END OF TURN 326 MOVEMENT PHASE
-
-BEGINNING OF TURN 326 COMBAT PHASE
-
-END OF TURN 326 COMBAT PHASE
-
-BEGINNING OF TURN 327 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (3, 3)
-
-END OF TURN 327 MOVEMENT PHASE
-
-BEGINNING OF TURN 327 COMBAT PHASE
-
-END OF TURN 327 COMBAT PHASE
-
-BEGINNING OF TURN 328 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (3, 4)
-
-END OF TURN 328 MOVEMENT PHASE
-
-BEGINNING OF TURN 328 COMBAT PHASE
-
-END OF TURN 328 COMBAT PHASE
-
-BEGINNING OF TURN 329 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 4) -> (3, 3)
-
-END OF TURN 329 MOVEMENT PHASE
-
-BEGINNING OF TURN 329 COMBAT PHASE
-
-END OF TURN 329 COMBAT PHASE
-
-BEGINNING OF TURN 330 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (3, 3)
-
-END OF TURN 330 MOVEMENT PHASE
-
-BEGINNING OF TURN 330 COMBAT PHASE
-
-END OF TURN 330 COMBAT PHASE
-
-BEGINNING OF TURN 331 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (3, 2)
-
-END OF TURN 331 MOVEMENT PHASE
-
-BEGINNING OF TURN 331 COMBAT PHASE
-
-END OF TURN 331 COMBAT PHASE
-
-BEGINNING OF TURN 332 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (3, 1)
-
-END OF TURN 332 MOVEMENT PHASE
-
-BEGINNING OF TURN 332 COMBAT PHASE
-
-END OF TURN 332 COMBAT PHASE
-
-BEGINNING OF TURN 333 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (2, 1)
-
-END OF TURN 333 MOVEMENT PHASE
-
-BEGINNING OF TURN 333 COMBAT PHASE
-
-END OF TURN 333 COMBAT PHASE
-
-BEGINNING OF TURN 334 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (1, 1)
-
-END OF TURN 334 MOVEMENT PHASE
-
-BEGINNING OF TURN 334 COMBAT PHASE
-
-END OF TURN 334 COMBAT PHASE
-
-BEGINNING OF TURN 335 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (1, 2)
-
-END OF TURN 335 MOVEMENT PHASE
-
-BEGINNING OF TURN 335 COMBAT PHASE
-
-END OF TURN 335 COMBAT PHASE
-
-BEGINNING OF TURN 336 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 1)
-
-END OF TURN 336 MOVEMENT PHASE
-
-BEGINNING OF TURN 336 COMBAT PHASE
-
-END OF TURN 336 COMBAT PHASE
-
-BEGINNING OF TURN 337 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (1, 2)
-
-END OF TURN 337 MOVEMENT PHASE
-
-BEGINNING OF TURN 337 COMBAT PHASE
-
-END OF TURN 337 COMBAT PHASE
-
-BEGINNING OF TURN 338 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 2)
-
-END OF TURN 338 MOVEMENT PHASE
-
-BEGINNING OF TURN 338 COMBAT PHASE
-
-END OF TURN 338 COMBAT PHASE
-
-BEGINNING OF TURN 339 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 3)
-
-END OF TURN 339 MOVEMENT PHASE
-
-BEGINNING OF TURN 339 COMBAT PHASE
-
-END OF TURN 339 COMBAT PHASE
-
-BEGINNING OF TURN 340 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 3) -> (2, 3)
-
-END OF TURN 340 MOVEMENT PHASE
-
-BEGINNING OF TURN 340 COMBAT PHASE
-
-END OF TURN 340 COMBAT PHASE
-
-BEGINNING OF TURN 341 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (2, 2)
-
-END OF TURN 341 MOVEMENT PHASE
-
-BEGINNING OF TURN 341 COMBAT PHASE
-
-END OF TURN 341 COMBAT PHASE
-
-BEGINNING OF TURN 342 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (1, 2)
-
-END OF TURN 342 MOVEMENT PHASE
-
-BEGINNING OF TURN 342 COMBAT PHASE
-
-END OF TURN 342 COMBAT PHASE
-
-BEGINNING OF TURN 343 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 2)
-
-END OF TURN 343 MOVEMENT PHASE
-
-BEGINNING OF TURN 343 COMBAT PHASE
-
-END OF TURN 343 COMBAT PHASE
-
-BEGINNING OF TURN 344 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 1)
-
-END OF TURN 344 MOVEMENT PHASE
-
-BEGINNING OF TURN 344 COMBAT PHASE
-
-END OF TURN 344 COMBAT PHASE
-
-BEGINNING OF TURN 345 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (1, 2)
-
-END OF TURN 345 MOVEMENT PHASE
-
-BEGINNING OF TURN 345 COMBAT PHASE
-
-END OF TURN 345 COMBAT PHASE
-
-BEGINNING OF TURN 346 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 3)
-
-END OF TURN 346 MOVEMENT PHASE
-
-BEGINNING OF TURN 346 COMBAT PHASE
-
-END OF TURN 346 COMBAT PHASE
-
-BEGINNING OF TURN 347 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 3) -> (1, 2)
-
-END OF TURN 347 MOVEMENT PHASE
-
-BEGINNING OF TURN 347 COMBAT PHASE
-
-END OF TURN 347 COMBAT PHASE
-
-BEGINNING OF TURN 348 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (2, 2)
-
-END OF TURN 348 MOVEMENT PHASE
-
-BEGINNING OF TURN 348 COMBAT PHASE
-
-END OF TURN 348 COMBAT PHASE
-
-BEGINNING OF TURN 349 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (3, 2)
-
-END OF TURN 349 MOVEMENT PHASE
-
-BEGINNING OF TURN 349 COMBAT PHASE
-
-END OF TURN 349 COMBAT PHASE
-
-BEGINNING OF TURN 350 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (3, 3)
-
-END OF TURN 350 MOVEMENT PHASE
-
-BEGINNING OF TURN 350 COMBAT PHASE
-
-END OF TURN 350 COMBAT PHASE
-
-BEGINNING OF TURN 351 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (4, 3)
-
-END OF TURN 351 MOVEMENT PHASE
-
-BEGINNING OF TURN 351 COMBAT PHASE
-
-END OF TURN 351 COMBAT PHASE
-
-BEGINNING OF TURN 352 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 3)
-
-END OF TURN 352 MOVEMENT PHASE
-
-BEGINNING OF TURN 352 COMBAT PHASE
-
-END OF TURN 352 COMBAT PHASE
-
-BEGINNING OF TURN 353 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (3, 3)
-
-END OF TURN 353 MOVEMENT PHASE
-
-BEGINNING OF TURN 353 COMBAT PHASE
-
-END OF TURN 353 COMBAT PHASE
-
-BEGINNING OF TURN 354 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (3, 2)
-
-END OF TURN 354 MOVEMENT PHASE
-
-BEGINNING OF TURN 354 COMBAT PHASE
-
-END OF TURN 354 COMBAT PHASE
-
-BEGINNING OF TURN 355 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (3, 2)
-
-END OF TURN 355 MOVEMENT PHASE
-
-BEGINNING OF TURN 355 COMBAT PHASE
-
-END OF TURN 355 COMBAT PHASE
-
-BEGINNING OF TURN 356 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (2, 2)
-
-END OF TURN 356 MOVEMENT PHASE
-
-BEGINNING OF TURN 356 COMBAT PHASE
-
-END OF TURN 356 COMBAT PHASE
-
-BEGINNING OF TURN 357 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (3, 2)
-
-END OF TURN 357 MOVEMENT PHASE
-
-BEGINNING OF TURN 357 COMBAT PHASE
-
-END OF TURN 357 COMBAT PHASE
-
-BEGINNING OF TURN 358 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (4, 2)
-
-END OF TURN 358 MOVEMENT PHASE
-
-BEGINNING OF TURN 358 COMBAT PHASE
-
-END OF TURN 358 COMBAT PHASE
-
-BEGINNING OF TURN 359 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (5, 2)
-
-END OF TURN 359 MOVEMENT PHASE
-
-BEGINNING OF TURN 359 COMBAT PHASE
-
-END OF TURN 359 COMBAT PHASE
-
-BEGINNING OF TURN 360 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (6, 2)
-
-END OF TURN 360 MOVEMENT PHASE
-
-BEGINNING OF TURN 360 COMBAT PHASE
-
-END OF TURN 360 COMBAT PHASE
-
-BEGINNING OF TURN 361 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (7, 2)
-
-END OF TURN 361 MOVEMENT PHASE
-
-BEGINNING OF TURN 361 COMBAT PHASE
-
-END OF TURN 361 COMBAT PHASE
-
-BEGINNING OF TURN 362 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 2) -> (6, 2)
-
-END OF TURN 362 MOVEMENT PHASE
-
-BEGINNING OF TURN 362 COMBAT PHASE
-
-END OF TURN 362 COMBAT PHASE
-
-BEGINNING OF TURN 363 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (6, 1)
-
-END OF TURN 363 MOVEMENT PHASE
-
-BEGINNING OF TURN 363 COMBAT PHASE
-
-END OF TURN 363 COMBAT PHASE
-
-BEGINNING OF TURN 364 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 364 MOVEMENT PHASE
-
-BEGINNING OF TURN 364 COMBAT PHASE
-
-END OF TURN 364 COMBAT PHASE
-
-BEGINNING OF TURN 365 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (5, 1)
-
-END OF TURN 365 MOVEMENT PHASE
-
-BEGINNING OF TURN 365 COMBAT PHASE
-
-END OF TURN 365 COMBAT PHASE
-
-BEGINNING OF TURN 366 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 366 MOVEMENT PHASE
-
-BEGINNING OF TURN 366 COMBAT PHASE
-
-END OF TURN 366 COMBAT PHASE
-
-BEGINNING OF TURN 367 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 2)
-
-END OF TURN 367 MOVEMENT PHASE
-
-BEGINNING OF TURN 367 COMBAT PHASE
-
-END OF TURN 367 COMBAT PHASE
-
-BEGINNING OF TURN 368 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (6, 2)
-
-END OF TURN 368 MOVEMENT PHASE
-
-BEGINNING OF TURN 368 COMBAT PHASE
-
-END OF TURN 368 COMBAT PHASE
-
-BEGINNING OF TURN 369 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (7, 2)
-
-END OF TURN 369 MOVEMENT PHASE
-
-BEGINNING OF TURN 369 COMBAT PHASE
-
-END OF TURN 369 COMBAT PHASE
-
-BEGINNING OF TURN 370 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 2) -> (7, 1)
-
-END OF TURN 370 MOVEMENT PHASE
-
-BEGINNING OF TURN 370 COMBAT PHASE
-
-END OF TURN 370 COMBAT PHASE
-
-BEGINNING OF TURN 371 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 1) -> (7, 2)
-
-END OF TURN 371 MOVEMENT PHASE
-
-BEGINNING OF TURN 371 COMBAT PHASE
-
-END OF TURN 371 COMBAT PHASE
-
-BEGINNING OF TURN 372 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 2) -> (6, 2)
-
-END OF TURN 372 MOVEMENT PHASE
-
-BEGINNING OF TURN 372 COMBAT PHASE
-
-END OF TURN 372 COMBAT PHASE
-
-BEGINNING OF TURN 373 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (6, 2)
-
-END OF TURN 373 MOVEMENT PHASE
-
-BEGINNING OF TURN 373 COMBAT PHASE
-
-END OF TURN 373 COMBAT PHASE
-
-BEGINNING OF TURN 374 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (7, 2)
-
-END OF TURN 374 MOVEMENT PHASE
-
-BEGINNING OF TURN 374 COMBAT PHASE
-
-END OF TURN 374 COMBAT PHASE
-
-BEGINNING OF TURN 375 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 2) -> (7, 1)
-
-END OF TURN 375 MOVEMENT PHASE
-
-BEGINNING OF TURN 375 COMBAT PHASE
-
-END OF TURN 375 COMBAT PHASE
-
-BEGINNING OF TURN 376 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 1) -> (7, 1)
-
-END OF TURN 376 MOVEMENT PHASE
-
-BEGINNING OF TURN 376 COMBAT PHASE
-
-END OF TURN 376 COMBAT PHASE
-
-BEGINNING OF TURN 377 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 1) -> (6, 1)
-
-END OF TURN 377 MOVEMENT PHASE
-
-BEGINNING OF TURN 377 COMBAT PHASE
-
-END OF TURN 377 COMBAT PHASE
-
-BEGINNING OF TURN 378 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 378 MOVEMENT PHASE
-
-BEGINNING OF TURN 378 COMBAT PHASE
-
-END OF TURN 378 COMBAT PHASE
-
-BEGINNING OF TURN 379 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 2)
-
-END OF TURN 379 MOVEMENT PHASE
-
-BEGINNING OF TURN 379 COMBAT PHASE
-
-END OF TURN 379 COMBAT PHASE
-
-BEGINNING OF TURN 380 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (7, 2)
-
-END OF TURN 380 MOVEMENT PHASE
-
-BEGINNING OF TURN 380 COMBAT PHASE
-
-END OF TURN 380 COMBAT PHASE
-
-BEGINNING OF TURN 381 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 2) -> (7, 1)
-
-END OF TURN 381 MOVEMENT PHASE
-
-BEGINNING OF TURN 381 COMBAT PHASE
-
-END OF TURN 381 COMBAT PHASE
-
-BEGINNING OF TURN 382 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 1) -> (6, 1)
-
-END OF TURN 382 MOVEMENT PHASE
-
-BEGINNING OF TURN 382 COMBAT PHASE
-
-END OF TURN 382 COMBAT PHASE
-
-BEGINNING OF TURN 383 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 2)
-
-END OF TURN 383 MOVEMENT PHASE
-
-BEGINNING OF TURN 383 COMBAT PHASE
-
-END OF TURN 383 COMBAT PHASE
-
-BEGINNING OF TURN 384 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (6, 3)
-
-END OF TURN 384 MOVEMENT PHASE
-
-BEGINNING OF TURN 384 COMBAT PHASE
-
-END OF TURN 384 COMBAT PHASE
-
-BEGINNING OF TURN 385 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (6, 2)
-
-END OF TURN 385 MOVEMENT PHASE
-
-BEGINNING OF TURN 385 COMBAT PHASE
-
-END OF TURN 385 COMBAT PHASE
-
-BEGINNING OF TURN 386 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (6, 2)
-
-END OF TURN 386 MOVEMENT PHASE
-
-BEGINNING OF TURN 386 COMBAT PHASE
-
-END OF TURN 386 COMBAT PHASE
-
-BEGINNING OF TURN 387 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (6, 3)
-
-END OF TURN 387 MOVEMENT PHASE
-
-BEGINNING OF TURN 387 COMBAT PHASE
-
-END OF TURN 387 COMBAT PHASE
-
-BEGINNING OF TURN 388 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (7, 3)
-
-END OF TURN 388 MOVEMENT PHASE
-
-BEGINNING OF TURN 388 COMBAT PHASE
-
-END OF TURN 388 COMBAT PHASE
-
-BEGINNING OF TURN 389 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 3) -> (7, 3)
-
-END OF TURN 389 MOVEMENT PHASE
-
-BEGINNING OF TURN 389 COMBAT PHASE
-
-END OF TURN 389 COMBAT PHASE
-
-BEGINNING OF TURN 390 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 3) -> (7, 4)
-
-END OF TURN 390 MOVEMENT PHASE
-
-BEGINNING OF TURN 390 COMBAT PHASE
-
-END OF TURN 390 COMBAT PHASE
-
-BEGINNING OF TURN 391 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 4) -> (7, 3)
-
-END OF TURN 391 MOVEMENT PHASE
-
-BEGINNING OF TURN 391 COMBAT PHASE
-
-END OF TURN 391 COMBAT PHASE
-
-BEGINNING OF TURN 392 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 3) -> (7, 4)
-
-END OF TURN 392 MOVEMENT PHASE
-
-BEGINNING OF TURN 392 COMBAT PHASE
-
-END OF TURN 392 COMBAT PHASE
-
-BEGINNING OF TURN 393 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 4) -> (7, 3)
-
-END OF TURN 393 MOVEMENT PHASE
-
-BEGINNING OF TURN 393 COMBAT PHASE
-
-END OF TURN 393 COMBAT PHASE
-
-BEGINNING OF TURN 394 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 3) -> (6, 3)
-
-END OF TURN 394 MOVEMENT PHASE
-
-BEGINNING OF TURN 394 COMBAT PHASE
-
-END OF TURN 394 COMBAT PHASE
-
-BEGINNING OF TURN 395 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (6, 3)
-
-END OF TURN 395 MOVEMENT PHASE
-
-BEGINNING OF TURN 395 COMBAT PHASE
-
-END OF TURN 395 COMBAT PHASE
-
-BEGINNING OF TURN 396 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (6, 4)
-
-END OF TURN 396 MOVEMENT PHASE
-
-BEGINNING OF TURN 396 COMBAT PHASE
-
-END OF TURN 396 COMBAT PHASE
-
-BEGINNING OF TURN 397 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 4)
-
-END OF TURN 397 MOVEMENT PHASE
-
-BEGINNING OF TURN 397 COMBAT PHASE
-
-END OF TURN 397 COMBAT PHASE
-
-BEGINNING OF TURN 398 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 4)
-
-END OF TURN 398 MOVEMENT PHASE
-
-BEGINNING OF TURN 398 COMBAT PHASE
-
-END OF TURN 398 COMBAT PHASE
-
-BEGINNING OF TURN 399 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (7, 4)
-
-END OF TURN 399 MOVEMENT PHASE
-
-BEGINNING OF TURN 399 COMBAT PHASE
-
-END OF TURN 399 COMBAT PHASE
-
-BEGINNING OF TURN 400 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 4) -> (6, 4)
-
-END OF TURN 400 MOVEMENT PHASE
-
-BEGINNING OF TURN 400 COMBAT PHASE
-
-END OF TURN 400 COMBAT PHASE
-
-BEGINNING OF TURN 401 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 3)
-
-END OF TURN 401 MOVEMENT PHASE
-
-BEGINNING OF TURN 401 COMBAT PHASE
-
-END OF TURN 401 COMBAT PHASE
-
-BEGINNING OF TURN 402 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (6, 2)
-
-END OF TURN 402 MOVEMENT PHASE
-
-BEGINNING OF TURN 402 COMBAT PHASE
-
-END OF TURN 402 COMBAT PHASE
-
-BEGINNING OF TURN 403 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (6, 3)
-
-END OF TURN 403 MOVEMENT PHASE
-
-BEGINNING OF TURN 403 COMBAT PHASE
-
-END OF TURN 403 COMBAT PHASE
-
-BEGINNING OF TURN 404 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (6, 4)
-
-END OF TURN 404 MOVEMENT PHASE
-
-BEGINNING OF TURN 404 COMBAT PHASE
-
-END OF TURN 404 COMBAT PHASE
-
-BEGINNING OF TURN 405 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (5, 4)
-
-END OF TURN 405 MOVEMENT PHASE
-
-BEGINNING OF TURN 405 COMBAT PHASE
-
-END OF TURN 405 COMBAT PHASE
-
-BEGINNING OF TURN 406 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 5)
-
-END OF TURN 406 MOVEMENT PHASE
-
-BEGINNING OF TURN 406 COMBAT PHASE
-
-END OF TURN 406 COMBAT PHASE
-
-BEGINNING OF TURN 407 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 5) -> (5, 5)
-
-END OF TURN 407 MOVEMENT PHASE
-
-BEGINNING OF TURN 407 COMBAT PHASE
-
-END OF TURN 407 COMBAT PHASE
-
-BEGINNING OF TURN 408 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 5) -> (5, 4)
-
-END OF TURN 408 MOVEMENT PHASE
-
-BEGINNING OF TURN 408 COMBAT PHASE
-
-END OF TURN 408 COMBAT PHASE
-
-BEGINNING OF TURN 409 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 4)
-
-END OF TURN 409 MOVEMENT PHASE
-
-BEGINNING OF TURN 409 COMBAT PHASE
-
-END OF TURN 409 COMBAT PHASE
-
-BEGINNING OF TURN 410 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (6, 4)
-
-END OF TURN 410 MOVEMENT PHASE
-
-BEGINNING OF TURN 410 COMBAT PHASE
-
-END OF TURN 410 COMBAT PHASE
-
-BEGINNING OF TURN 411 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 4)
-
-END OF TURN 411 MOVEMENT PHASE
-
-BEGINNING OF TURN 411 COMBAT PHASE
-
-END OF TURN 411 COMBAT PHASE
-
-BEGINNING OF TURN 412 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (5, 4)
-
-END OF TURN 412 MOVEMENT PHASE
-
-BEGINNING OF TURN 412 COMBAT PHASE
-
-END OF TURN 412 COMBAT PHASE
-
-BEGINNING OF TURN 413 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (6, 4)
-
-END OF TURN 413 MOVEMENT PHASE
-
-BEGINNING OF TURN 413 COMBAT PHASE
-
-END OF TURN 413 COMBAT PHASE
-
-BEGINNING OF TURN 414 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 3)
-
-END OF TURN 414 MOVEMENT PHASE
-
-BEGINNING OF TURN 414 COMBAT PHASE
-
-END OF TURN 414 COMBAT PHASE
-
-BEGINNING OF TURN 415 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (7, 3)
-
-END OF TURN 415 MOVEMENT PHASE
-
-BEGINNING OF TURN 415 COMBAT PHASE
-
-END OF TURN 415 COMBAT PHASE
-
-BEGINNING OF TURN 416 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 3) -> (6, 3)
-
-END OF TURN 416 MOVEMENT PHASE
-
-BEGINNING OF TURN 416 COMBAT PHASE
-
-END OF TURN 416 COMBAT PHASE
-
-BEGINNING OF TURN 417 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (5, 3)
-
-END OF TURN 417 MOVEMENT PHASE
-
-BEGINNING OF TURN 417 COMBAT PHASE
-
-END OF TURN 417 COMBAT PHASE
-
-BEGINNING OF TURN 418 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (6, 3)
-
-END OF TURN 418 MOVEMENT PHASE
-
-BEGINNING OF TURN 418 COMBAT PHASE
-
-END OF TURN 418 COMBAT PHASE
-
-BEGINNING OF TURN 419 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (5, 3)
-
-END OF TURN 419 MOVEMENT PHASE
-
-BEGINNING OF TURN 419 COMBAT PHASE
-
-END OF TURN 419 COMBAT PHASE
-
-BEGINNING OF TURN 420 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (4, 3)
-
-END OF TURN 420 MOVEMENT PHASE
-
-BEGINNING OF TURN 420 COMBAT PHASE
-
-END OF TURN 420 COMBAT PHASE
-
-BEGINNING OF TURN 421 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 4)
-
-END OF TURN 421 MOVEMENT PHASE
-
-BEGINNING OF TURN 421 COMBAT PHASE
-
-END OF TURN 421 COMBAT PHASE
-
-BEGINNING OF TURN 422 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 4) -> (3, 4)
-
-END OF TURN 422 MOVEMENT PHASE
-
-BEGINNING OF TURN 422 COMBAT PHASE
-
-END OF TURN 422 COMBAT PHASE
-
-BEGINNING OF TURN 423 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 4) -> (3, 4)
-
-END OF TURN 423 MOVEMENT PHASE
-
-BEGINNING OF TURN 423 COMBAT PHASE
-
-END OF TURN 423 COMBAT PHASE
-
-BEGINNING OF TURN 424 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 4) -> (3, 3)
-
-END OF TURN 424 MOVEMENT PHASE
-
-BEGINNING OF TURN 424 COMBAT PHASE
-
-END OF TURN 424 COMBAT PHASE
-
-BEGINNING OF TURN 425 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (3, 4)
-
-END OF TURN 425 MOVEMENT PHASE
-
-BEGINNING OF TURN 425 COMBAT PHASE
-
-END OF TURN 425 COMBAT PHASE
-
-BEGINNING OF TURN 426 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 4) -> (4, 4)
-
-END OF TURN 426 MOVEMENT PHASE
-
-BEGINNING OF TURN 426 COMBAT PHASE
-
-END OF TURN 426 COMBAT PHASE
-
-BEGINNING OF TURN 427 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 4) -> (5, 4)
-
-END OF TURN 427 MOVEMENT PHASE
-
-BEGINNING OF TURN 427 COMBAT PHASE
-
-END OF TURN 427 COMBAT PHASE
-
-BEGINNING OF TURN 428 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 5)
-
-END OF TURN 428 MOVEMENT PHASE
-
-BEGINNING OF TURN 428 COMBAT PHASE
-
-END OF TURN 428 COMBAT PHASE
-
-BEGINNING OF TURN 429 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 5) -> (5, 4)
-
-END OF TURN 429 MOVEMENT PHASE
-
-BEGINNING OF TURN 429 COMBAT PHASE
-
-END OF TURN 429 COMBAT PHASE
-
-BEGINNING OF TURN 430 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (4, 4)
-
-END OF TURN 430 MOVEMENT PHASE
-
-BEGINNING OF TURN 430 COMBAT PHASE
-
-END OF TURN 430 COMBAT PHASE
-
-BEGINNING OF TURN 431 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 4) -> (3, 4)
-
-END OF TURN 431 MOVEMENT PHASE
-
-BEGINNING OF TURN 431 COMBAT PHASE
-
-END OF TURN 431 COMBAT PHASE
-
-BEGINNING OF TURN 432 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 4) -> (3, 4)
-
-END OF TURN 432 MOVEMENT PHASE
-
-BEGINNING OF TURN 432 COMBAT PHASE
-
-END OF TURN 432 COMBAT PHASE
-
-BEGINNING OF TURN 433 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 4) -> (4, 4)
-
-END OF TURN 433 MOVEMENT PHASE
-
-BEGINNING OF TURN 433 COMBAT PHASE
-
-END OF TURN 433 COMBAT PHASE
-
-BEGINNING OF TURN 434 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 4) -> (5, 4)
-
-END OF TURN 434 MOVEMENT PHASE
-
-BEGINNING OF TURN 434 COMBAT PHASE
-
-END OF TURN 434 COMBAT PHASE
-
-BEGINNING OF TURN 435 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 4)
-
-END OF TURN 435 MOVEMENT PHASE
-
-BEGINNING OF TURN 435 COMBAT PHASE
-
-END OF TURN 435 COMBAT PHASE
-
-BEGINNING OF TURN 436 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 5)
-
-END OF TURN 436 MOVEMENT PHASE
-
-BEGINNING OF TURN 436 COMBAT PHASE
-
-END OF TURN 436 COMBAT PHASE
-
-BEGINNING OF TURN 437 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 5) -> (5, 5)
-
-END OF TURN 437 MOVEMENT PHASE
-
-BEGINNING OF TURN 437 COMBAT PHASE
-
-END OF TURN 437 COMBAT PHASE
-
-BEGINNING OF TURN 438 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 5) -> (4, 5)
-
-END OF TURN 438 MOVEMENT PHASE
-
-BEGINNING OF TURN 438 COMBAT PHASE
-
-END OF TURN 438 COMBAT PHASE
-
-BEGINNING OF TURN 439 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 5) -> (3, 5)
-
-END OF TURN 439 MOVEMENT PHASE
-
-BEGINNING OF TURN 439 COMBAT PHASE
-
-END OF TURN 439 COMBAT PHASE
-
-BEGINNING OF TURN 440 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 5) -> (3, 5)
-
-END OF TURN 440 MOVEMENT PHASE
-
-BEGINNING OF TURN 440 COMBAT PHASE
-
-END OF TURN 440 COMBAT PHASE
-
-BEGINNING OF TURN 441 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 5) -> (3, 6)
-
-END OF TURN 441 MOVEMENT PHASE
-
-BEGINNING OF TURN 441 COMBAT PHASE
-
-END OF TURN 441 COMBAT PHASE
-
-BEGINNING OF TURN 442 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 6) -> (4, 6)
-
-END OF TURN 442 MOVEMENT PHASE
-
-BEGINNING OF TURN 442 COMBAT PHASE
-
-END OF TURN 442 COMBAT PHASE
-
-BEGINNING OF TURN 443 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 6) -> (4, 5)
-
-END OF TURN 443 MOVEMENT PHASE
-
-BEGINNING OF TURN 443 COMBAT PHASE
-
-END OF TURN 443 COMBAT PHASE
-
-BEGINNING OF TURN 444 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 5) -> (5, 5)
-
-END OF TURN 444 MOVEMENT PHASE
-
-BEGINNING OF TURN 444 COMBAT PHASE
-
-END OF TURN 444 COMBAT PHASE
-
-BEGINNING OF TURN 445 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 5) -> (5, 5)
-
-END OF TURN 445 MOVEMENT PHASE
-
-BEGINNING OF TURN 445 COMBAT PHASE
-
-END OF TURN 445 COMBAT PHASE
-
-BEGINNING OF TURN 446 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 5) -> (5, 5)
-
-END OF TURN 446 MOVEMENT PHASE
-
-BEGINNING OF TURN 446 COMBAT PHASE
-
-END OF TURN 446 COMBAT PHASE
-
-BEGINNING OF TURN 447 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 5) -> (5, 5)
-
-END OF TURN 447 MOVEMENT PHASE
-
-BEGINNING OF TURN 447 COMBAT PHASE
-
-END OF TURN 447 COMBAT PHASE
-
-BEGINNING OF TURN 448 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 5) -> (5, 4)
-
-END OF TURN 448 MOVEMENT PHASE
-
-BEGINNING OF TURN 448 COMBAT PHASE
-
-END OF TURN 448 COMBAT PHASE
-
-BEGINNING OF TURN 449 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (6, 4)
-
-END OF TURN 449 MOVEMENT PHASE
-
-BEGINNING OF TURN 449 COMBAT PHASE
-
-END OF TURN 449 COMBAT PHASE
-
-BEGINNING OF TURN 450 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 4) -> (6, 3)
-
-END OF TURN 450 MOVEMENT PHASE
-
-BEGINNING OF TURN 450 COMBAT PHASE
-
-END OF TURN 450 COMBAT PHASE
-
-BEGINNING OF TURN 451 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 3) -> (5, 3)
-
-END OF TURN 451 MOVEMENT PHASE
-
-BEGINNING OF TURN 451 COMBAT PHASE
-
-END OF TURN 451 COMBAT PHASE
-
-BEGINNING OF TURN 452 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (5, 3)
-
-END OF TURN 452 MOVEMENT PHASE
-
-BEGINNING OF TURN 452 COMBAT PHASE
-
-END OF TURN 452 COMBAT PHASE
-
-BEGINNING OF TURN 453 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (5, 2)
-
-END OF TURN 453 MOVEMENT PHASE
-
-BEGINNING OF TURN 453 COMBAT PHASE
-
-END OF TURN 453 COMBAT PHASE
-
-BEGINNING OF TURN 454 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 3)
-
-END OF TURN 454 MOVEMENT PHASE
-
-BEGINNING OF TURN 454 COMBAT PHASE
-
-END OF TURN 454 COMBAT PHASE
-
-BEGINNING OF TURN 455 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (4, 3)
-
-END OF TURN 455 MOVEMENT PHASE
-
-BEGINNING OF TURN 455 COMBAT PHASE
-
-END OF TURN 455 COMBAT PHASE
-
-BEGINNING OF TURN 456 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 2)
-
-END OF TURN 456 MOVEMENT PHASE
-
-BEGINNING OF TURN 456 COMBAT PHASE
-
-END OF TURN 456 COMBAT PHASE
-
-BEGINNING OF TURN 457 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-
-END OF TURN 457 MOVEMENT PHASE
-
-BEGINNING OF TURN 457 COMBAT PHASE
-
-END OF TURN 457 COMBAT PHASE
-
-BEGINNING OF TURN 458 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (5, 1)
-
-END OF TURN 458 MOVEMENT PHASE
-
-BEGINNING OF TURN 458 COMBAT PHASE
-
-END OF TURN 458 COMBAT PHASE
-
-BEGINNING OF TURN 459 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (4, 1)
-
-END OF TURN 459 MOVEMENT PHASE
-
-BEGINNING OF TURN 459 COMBAT PHASE
-
-END OF TURN 459 COMBAT PHASE
-
-BEGINNING OF TURN 460 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 460 MOVEMENT PHASE
-
-BEGINNING OF TURN 460 COMBAT PHASE
-
-END OF TURN 460 COMBAT PHASE
-
-BEGINNING OF TURN 461 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 2)
-
-END OF TURN 461 MOVEMENT PHASE
-
-BEGINNING OF TURN 461 COMBAT PHASE
-
-END OF TURN 461 COMBAT PHASE
-
-BEGINNING OF TURN 462 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (3, 1)
-
-END OF TURN 462 MOVEMENT PHASE
-
-BEGINNING OF TURN 462 COMBAT PHASE
-
-END OF TURN 462 COMBAT PHASE
-
-BEGINNING OF TURN 463 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-
-END OF TURN 463 MOVEMENT PHASE
-
-BEGINNING OF TURN 463 COMBAT PHASE
-
-END OF TURN 463 COMBAT PHASE
-
-BEGINNING OF TURN 464 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (4, 1)
-
-END OF TURN 464 MOVEMENT PHASE
-
-BEGINNING OF TURN 464 COMBAT PHASE
-
-END OF TURN 464 COMBAT PHASE
-
-BEGINNING OF TURN 465 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 465 MOVEMENT PHASE
-
-BEGINNING OF TURN 465 COMBAT PHASE
-
-END OF TURN 465 COMBAT PHASE
-
-BEGINNING OF TURN 466 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-
-END OF TURN 466 MOVEMENT PHASE
-
-BEGINNING OF TURN 466 COMBAT PHASE
-
-END OF TURN 466 COMBAT PHASE
-
-BEGINNING OF TURN 467 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (2, 1)
-
-END OF TURN 467 MOVEMENT PHASE
-
-BEGINNING OF TURN 467 COMBAT PHASE
-
-END OF TURN 467 COMBAT PHASE
-
-BEGINNING OF TURN 468 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (3, 1)
-
-END OF TURN 468 MOVEMENT PHASE
-
-BEGINNING OF TURN 468 COMBAT PHASE
-
-END OF TURN 468 COMBAT PHASE
-
-BEGINNING OF TURN 469 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 1)
-
-END OF TURN 469 MOVEMENT PHASE
-
-BEGINNING OF TURN 469 COMBAT PHASE
-
-END OF TURN 469 COMBAT PHASE
-
-BEGINNING OF TURN 470 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (4, 1)
-
-END OF TURN 470 MOVEMENT PHASE
-
-BEGINNING OF TURN 470 COMBAT PHASE
-
-END OF TURN 470 COMBAT PHASE
-
-BEGINNING OF TURN 471 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-
-END OF TURN 471 MOVEMENT PHASE
-
-BEGINNING OF TURN 471 COMBAT PHASE
-
-END OF TURN 471 COMBAT PHASE
-
-BEGINNING OF TURN 472 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 2)
-
-END OF TURN 472 MOVEMENT PHASE
-
-BEGINNING OF TURN 472 COMBAT PHASE
-
-END OF TURN 472 COMBAT PHASE
-
-BEGINNING OF TURN 473 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 2)
-
-END OF TURN 473 MOVEMENT PHASE
-
-BEGINNING OF TURN 473 COMBAT PHASE
-
-END OF TURN 473 COMBAT PHASE
-
-BEGINNING OF TURN 474 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-
-END OF TURN 474 MOVEMENT PHASE
-
-BEGINNING OF TURN 474 COMBAT PHASE
-
-END OF TURN 474 COMBAT PHASE
-
-BEGINNING OF TURN 475 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 475 MOVEMENT PHASE
-
-BEGINNING OF TURN 475 COMBAT PHASE
-
-END OF TURN 475 COMBAT PHASE
-
-BEGINNING OF TURN 476 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 2)
-
-END OF TURN 476 MOVEMENT PHASE
-
-BEGINNING OF TURN 476 COMBAT PHASE
-
-END OF TURN 476 COMBAT PHASE
-
-BEGINNING OF TURN 477 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (2, 2)
-
-END OF TURN 477 MOVEMENT PHASE
-
-BEGINNING OF TURN 477 COMBAT PHASE
-
-END OF TURN 477 COMBAT PHASE
-
-BEGINNING OF TURN 478 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 2)
-
-END OF TURN 478 MOVEMENT PHASE
-
-BEGINNING OF TURN 478 COMBAT PHASE
-
-END OF TURN 478 COMBAT PHASE
-
-BEGINNING OF TURN 479 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (1, 2)
-
-END OF TURN 479 MOVEMENT PHASE
-
-BEGINNING OF TURN 479 COMBAT PHASE
-
-END OF TURN 479 COMBAT PHASE
-
-BEGINNING OF TURN 480 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 1)
-
-END OF TURN 480 MOVEMENT PHASE
-
-BEGINNING OF TURN 480 COMBAT PHASE
-
-END OF TURN 480 COMBAT PHASE
-
-BEGINNING OF TURN 481 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (1, 2)
-
-END OF TURN 481 MOVEMENT PHASE
-
-BEGINNING OF TURN 481 COMBAT PHASE
-
-END OF TURN 481 COMBAT PHASE
-
-BEGINNING OF TURN 482 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (2, 2)
-
-END OF TURN 482 MOVEMENT PHASE
-
-BEGINNING OF TURN 482 COMBAT PHASE
-
-END OF TURN 482 COMBAT PHASE
-
-BEGINNING OF TURN 483 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (3, 2)
-
-END OF TURN 483 MOVEMENT PHASE
-
-BEGINNING OF TURN 483 COMBAT PHASE
-
-END OF TURN 483 COMBAT PHASE
-
-BEGINNING OF TURN 484 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (2, 2)
-
-END OF TURN 484 MOVEMENT PHASE
-
-BEGINNING OF TURN 484 COMBAT PHASE
-
-END OF TURN 484 COMBAT PHASE
-
-BEGINNING OF TURN 485 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 3)
-
-END OF TURN 485 MOVEMENT PHASE
-
-BEGINNING OF TURN 485 COMBAT PHASE
-
-END OF TURN 485 COMBAT PHASE
-
-BEGINNING OF TURN 486 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (1, 3)
-
-END OF TURN 486 MOVEMENT PHASE
-
-BEGINNING OF TURN 486 COMBAT PHASE
-
-END OF TURN 486 COMBAT PHASE
-
-BEGINNING OF TURN 487 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 3) -> (2, 3)
-
-END OF TURN 487 MOVEMENT PHASE
-
-BEGINNING OF TURN 487 COMBAT PHASE
-
-END OF TURN 487 COMBAT PHASE
-
-BEGINNING OF TURN 488 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (2, 2)
-
-END OF TURN 488 MOVEMENT PHASE
-
-BEGINNING OF TURN 488 COMBAT PHASE
-
-END OF TURN 488 COMBAT PHASE
-
-BEGINNING OF TURN 489 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 2)
-
-END OF TURN 489 MOVEMENT PHASE
-
-BEGINNING OF TURN 489 COMBAT PHASE
-
-END OF TURN 489 COMBAT PHASE
-
-BEGINNING OF TURN 490 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 3)
-
-END OF TURN 490 MOVEMENT PHASE
-
-BEGINNING OF TURN 490 COMBAT PHASE
-
-END OF TURN 490 COMBAT PHASE
-
-BEGINNING OF TURN 491 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (2, 2)
-
-END OF TURN 491 MOVEMENT PHASE
-
-BEGINNING OF TURN 491 COMBAT PHASE
-
-END OF TURN 491 COMBAT PHASE
-
-BEGINNING OF TURN 492 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 2)
-
-END OF TURN 492 MOVEMENT PHASE
-
-BEGINNING OF TURN 492 COMBAT PHASE
-
-END OF TURN 492 COMBAT PHASE
-
-BEGINNING OF TURN 493 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 2)
-
-END OF TURN 493 MOVEMENT PHASE
-
-BEGINNING OF TURN 493 COMBAT PHASE
-
-END OF TURN 493 COMBAT PHASE
-
-BEGINNING OF TURN 494 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 3)
-
-END OF TURN 494 MOVEMENT PHASE
-
-BEGINNING OF TURN 494 COMBAT PHASE
-
-END OF TURN 494 COMBAT PHASE
-
-BEGINNING OF TURN 495 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (2, 3)
-
-END OF TURN 495 MOVEMENT PHASE
-
-BEGINNING OF TURN 495 COMBAT PHASE
-
-END OF TURN 495 COMBAT PHASE
-
-BEGINNING OF TURN 496 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (2, 4)
-
-END OF TURN 496 MOVEMENT PHASE
-
-BEGINNING OF TURN 496 COMBAT PHASE
-
-END OF TURN 496 COMBAT PHASE
-
-BEGINNING OF TURN 497 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 4) -> (2, 4)
-
-END OF TURN 497 MOVEMENT PHASE
-
-BEGINNING OF TURN 497 COMBAT PHASE
-
-END OF TURN 497 COMBAT PHASE
-
-BEGINNING OF TURN 498 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 4) -> (1, 4)
-
-END OF TURN 498 MOVEMENT PHASE
-
-BEGINNING OF TURN 498 COMBAT PHASE
-
-END OF TURN 498 COMBAT PHASE
-
-BEGINNING OF TURN 499 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 4) -> (2, 4)
-
-END OF TURN 499 MOVEMENT PHASE
-
-BEGINNING OF TURN 499 COMBAT PHASE
-
-END OF TURN 499 COMBAT PHASE
-
-BEGINNING OF TURN 500 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 4) -> (1, 4)
-
-END OF TURN 500 MOVEMENT PHASE
-
-BEGINNING OF TURN 500 COMBAT PHASE
-
-END OF TURN 500 COMBAT PHASE
-
-BEGINNING OF TURN 501 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 4) -> (1, 3)
-
-END OF TURN 501 MOVEMENT PHASE
-
-BEGINNING OF TURN 501 COMBAT PHASE
-
-END OF TURN 501 COMBAT PHASE
-
-BEGINNING OF TURN 502 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 3) -> (1, 3)
-
-END OF TURN 502 MOVEMENT PHASE
-
-BEGINNING OF TURN 502 COMBAT PHASE
-
-END OF TURN 502 COMBAT PHASE
-
-BEGINNING OF TURN 503 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 3) -> (2, 3)
-
-END OF TURN 503 MOVEMENT PHASE
-
-BEGINNING OF TURN 503 COMBAT PHASE
-
-END OF TURN 503 COMBAT PHASE
-
-BEGINNING OF TURN 504 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (2, 3)
-
-END OF TURN 504 MOVEMENT PHASE
-
-BEGINNING OF TURN 504 COMBAT PHASE
-
-END OF TURN 504 COMBAT PHASE
-
-BEGINNING OF TURN 505 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (2, 3)
-
-END OF TURN 505 MOVEMENT PHASE
-
-BEGINNING OF TURN 505 COMBAT PHASE
-
-END OF TURN 505 COMBAT PHASE
-
-BEGINNING OF TURN 506 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (2, 2)
-
-END OF TURN 506 MOVEMENT PHASE
-
-BEGINNING OF TURN 506 COMBAT PHASE
-
-END OF TURN 506 COMBAT PHASE
-
-BEGINNING OF TURN 507 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (3, 2)
-
-END OF TURN 507 MOVEMENT PHASE
-
-BEGINNING OF TURN 507 COMBAT PHASE
-
-END OF TURN 507 COMBAT PHASE
-
-BEGINNING OF TURN 508 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (2, 2)
-
-END OF TURN 508 MOVEMENT PHASE
-
-BEGINNING OF TURN 508 COMBAT PHASE
-
-END OF TURN 508 COMBAT PHASE
-
-BEGINNING OF TURN 509 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 2)
-
-END OF TURN 509 MOVEMENT PHASE
-
-BEGINNING OF TURN 509 COMBAT PHASE
-
-END OF TURN 509 COMBAT PHASE
-
-BEGINNING OF TURN 510 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (1, 2)
-
-END OF TURN 510 MOVEMENT PHASE
-
-BEGINNING OF TURN 510 COMBAT PHASE
-
-END OF TURN 510 COMBAT PHASE
-
-BEGINNING OF TURN 511 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 1)
-
-END OF TURN 511 MOVEMENT PHASE
-
-BEGINNING OF TURN 511 COMBAT PHASE
-
-END OF TURN 511 COMBAT PHASE
-
-BEGINNING OF TURN 512 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (1, 2)
-
-END OF TURN 512 MOVEMENT PHASE
-
-BEGINNING OF TURN 512 COMBAT PHASE
-
-END OF TURN 512 COMBAT PHASE
-
-BEGINNING OF TURN 513 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (2, 2)
-
-END OF TURN 513 MOVEMENT PHASE
-
-BEGINNING OF TURN 513 COMBAT PHASE
-
-END OF TURN 513 COMBAT PHASE
-
-BEGINNING OF TURN 514 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 3)
-
-END OF TURN 514 MOVEMENT PHASE
-
-BEGINNING OF TURN 514 COMBAT PHASE
-
-END OF TURN 514 COMBAT PHASE
-
-BEGINNING OF TURN 515 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 3) -> (3, 3)
-
-END OF TURN 515 MOVEMENT PHASE
-
-BEGINNING OF TURN 515 COMBAT PHASE
-
-END OF TURN 515 COMBAT PHASE
-
-BEGINNING OF TURN 516 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (4, 3)
-
-END OF TURN 516 MOVEMENT PHASE
-
-BEGINNING OF TURN 516 COMBAT PHASE
-
-END OF TURN 516 COMBAT PHASE
-
-BEGINNING OF TURN 517 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 4)
-
-END OF TURN 517 MOVEMENT PHASE
-
-BEGINNING OF TURN 517 COMBAT PHASE
-
-END OF TURN 517 COMBAT PHASE
-
-BEGINNING OF TURN 518 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 4) -> (5, 4)
-
-END OF TURN 518 MOVEMENT PHASE
-
-BEGINNING OF TURN 518 COMBAT PHASE
-
-END OF TURN 518 COMBAT PHASE
-
-BEGINNING OF TURN 519 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 4)
-
-END OF TURN 519 MOVEMENT PHASE
-
-BEGINNING OF TURN 519 COMBAT PHASE
-
-END OF TURN 519 COMBAT PHASE
-
-BEGINNING OF TURN 520 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 4) -> (5, 3)
-
-END OF TURN 520 MOVEMENT PHASE
-
-BEGINNING OF TURN 520 COMBAT PHASE
-
-END OF TURN 520 COMBAT PHASE
-
-BEGINNING OF TURN 521 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (4, 3)
-
-END OF TURN 521 MOVEMENT PHASE
-
-BEGINNING OF TURN 521 COMBAT PHASE
-
-END OF TURN 521 COMBAT PHASE
-
-BEGINNING OF TURN 522 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 2)
-
-END OF TURN 522 MOVEMENT PHASE
-
-BEGINNING OF TURN 522 COMBAT PHASE
-
-END OF TURN 522 COMBAT PHASE
-
-BEGINNING OF TURN 523 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (5, 2)
-
-END OF TURN 523 MOVEMENT PHASE
-
-BEGINNING OF TURN 523 COMBAT PHASE
-
-END OF TURN 523 COMBAT PHASE
-
-BEGINNING OF TURN 524 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 3)
-
-END OF TURN 524 MOVEMENT PHASE
-
-BEGINNING OF TURN 524 COMBAT PHASE
-
-END OF TURN 524 COMBAT PHASE
-
-BEGINNING OF TURN 525 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 3) -> (5, 2)
-
-END OF TURN 525 MOVEMENT PHASE
-
-BEGINNING OF TURN 525 COMBAT PHASE
-
-END OF TURN 525 COMBAT PHASE
-
-BEGINNING OF TURN 526 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (4, 2)
-
-END OF TURN 526 MOVEMENT PHASE
-
-BEGINNING OF TURN 526 COMBAT PHASE
-
-END OF TURN 526 COMBAT PHASE
-
-BEGINNING OF TURN 527 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (5, 2)
-
-END OF TURN 527 MOVEMENT PHASE
-
-BEGINNING OF TURN 527 COMBAT PHASE
-
-END OF TURN 527 COMBAT PHASE
-
-BEGINNING OF TURN 528 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (6, 2)
-
-END OF TURN 528 MOVEMENT PHASE
-
-BEGINNING OF TURN 528 COMBAT PHASE
-
-END OF TURN 528 COMBAT PHASE
-
-BEGINNING OF TURN 529 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 2) -> (5, 2)
-
-END OF TURN 529 MOVEMENT PHASE
-
-BEGINNING OF TURN 529 COMBAT PHASE
-
-END OF TURN 529 COMBAT PHASE
-
-BEGINNING OF TURN 530 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 1)
-
-END OF TURN 530 MOVEMENT PHASE
-
-BEGINNING OF TURN 530 COMBAT PHASE
-
-END OF TURN 530 COMBAT PHASE
-
-BEGINNING OF TURN 531 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 531 MOVEMENT PHASE
-
-BEGINNING OF TURN 531 COMBAT PHASE
-
-END OF TURN 531 COMBAT PHASE
-
-BEGINNING OF TURN 532 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 532 MOVEMENT PHASE
-
-BEGINNING OF TURN 532 COMBAT PHASE
-
-END OF TURN 532 COMBAT PHASE
-
-BEGINNING OF TURN 533 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (5, 1)
-
-END OF TURN 533 MOVEMENT PHASE
-
-BEGINNING OF TURN 533 COMBAT PHASE
-
-END OF TURN 533 COMBAT PHASE
-
-BEGINNING OF TURN 534 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (5, 1)
-
-END OF TURN 534 MOVEMENT PHASE
-
-BEGINNING OF TURN 534 COMBAT PHASE
-
-END OF TURN 534 COMBAT PHASE
-
-BEGINNING OF TURN 535 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (5, 1)
-
-END OF TURN 535 MOVEMENT PHASE
-
-BEGINNING OF TURN 535 COMBAT PHASE
-
-END OF TURN 535 COMBAT PHASE
-
-BEGINNING OF TURN 536 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 536 MOVEMENT PHASE
-
-BEGINNING OF TURN 536 COMBAT PHASE
-
-END OF TURN 536 COMBAT PHASE
-
-BEGINNING OF TURN 537 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 537 MOVEMENT PHASE
-
-BEGINNING OF TURN 537 COMBAT PHASE
-
-END OF TURN 537 COMBAT PHASE
-
-BEGINNING OF TURN 538 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (7, 1)
-
-END OF TURN 538 MOVEMENT PHASE
-
-BEGINNING OF TURN 538 COMBAT PHASE
-
-END OF TURN 538 COMBAT PHASE
-
-BEGINNING OF TURN 539 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 1) -> (7, 1)
-
-END OF TURN 539 MOVEMENT PHASE
-
-BEGINNING OF TURN 539 COMBAT PHASE
-
-END OF TURN 539 COMBAT PHASE
-
-BEGINNING OF TURN 540 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 1) -> (6, 1)
-
-END OF TURN 540 MOVEMENT PHASE
-
-BEGINNING OF TURN 540 COMBAT PHASE
-
-END OF TURN 540 COMBAT PHASE
-
-BEGINNING OF TURN 541 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 541 MOVEMENT PHASE
-
-BEGINNING OF TURN 541 COMBAT PHASE
-
-END OF TURN 541 COMBAT PHASE
-
-BEGINNING OF TURN 542 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 542 MOVEMENT PHASE
-
-BEGINNING OF TURN 542 COMBAT PHASE
-
-END OF TURN 542 COMBAT PHASE
-
-BEGINNING OF TURN 543 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 543 MOVEMENT PHASE
-
-BEGINNING OF TURN 543 COMBAT PHASE
-
-END OF TURN 543 COMBAT PHASE
-
-BEGINNING OF TURN 544 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 544 MOVEMENT PHASE
-
-BEGINNING OF TURN 544 COMBAT PHASE
-
-END OF TURN 544 COMBAT PHASE
-
-BEGINNING OF TURN 545 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 545 MOVEMENT PHASE
-
-BEGINNING OF TURN 545 COMBAT PHASE
-
-END OF TURN 545 COMBAT PHASE
-
-BEGINNING OF TURN 546 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 546 MOVEMENT PHASE
-
-BEGINNING OF TURN 546 COMBAT PHASE
-
-END OF TURN 546 COMBAT PHASE
-
-BEGINNING OF TURN 547 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 547 MOVEMENT PHASE
-
-BEGINNING OF TURN 547 COMBAT PHASE
-
-END OF TURN 547 COMBAT PHASE
-
-BEGINNING OF TURN 548 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 548 MOVEMENT PHASE
-
-BEGINNING OF TURN 548 COMBAT PHASE
-
-END OF TURN 548 COMBAT PHASE
-
-BEGINNING OF TURN 549 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (7, 1)
-
-END OF TURN 549 MOVEMENT PHASE
-
-BEGINNING OF TURN 549 COMBAT PHASE
-
-END OF TURN 549 COMBAT PHASE
-
-BEGINNING OF TURN 550 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 1) -> (7, 1)
-
-END OF TURN 550 MOVEMENT PHASE
-
-BEGINNING OF TURN 550 COMBAT PHASE
-
-END OF TURN 550 COMBAT PHASE
-
-BEGINNING OF TURN 551 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 1) -> (6, 1)
-
-END OF TURN 551 MOVEMENT PHASE
-
-BEGINNING OF TURN 551 COMBAT PHASE
-
-END OF TURN 551 COMBAT PHASE
-
-BEGINNING OF TURN 552 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 552 MOVEMENT PHASE
-
-BEGINNING OF TURN 552 COMBAT PHASE
-
-END OF TURN 552 COMBAT PHASE
-
-BEGINNING OF TURN 553 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 553 MOVEMENT PHASE
-
-BEGINNING OF TURN 553 COMBAT PHASE
-
-END OF TURN 553 COMBAT PHASE
-
-BEGINNING OF TURN 554 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (5, 2)
-
-END OF TURN 554 MOVEMENT PHASE
-
-BEGINNING OF TURN 554 COMBAT PHASE
-
-END OF TURN 554 COMBAT PHASE
-
-BEGINNING OF TURN 555 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (5, 1)
-
-END OF TURN 555 MOVEMENT PHASE
-
-BEGINNING OF TURN 555 COMBAT PHASE
-
-END OF TURN 555 COMBAT PHASE
-
-BEGINNING OF TURN 556 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (6, 1)
-
-END OF TURN 556 MOVEMENT PHASE
-
-BEGINNING OF TURN 556 COMBAT PHASE
-
-END OF TURN 556 COMBAT PHASE
-
-BEGINNING OF TURN 557 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (7, 1)
-
-END OF TURN 557 MOVEMENT PHASE
-
-BEGINNING OF TURN 557 COMBAT PHASE
-
-END OF TURN 557 COMBAT PHASE
-
-BEGINNING OF TURN 558 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 1) -> (7, 1)
-
-END OF TURN 558 MOVEMENT PHASE
-
-BEGINNING OF TURN 558 COMBAT PHASE
-
-END OF TURN 558 COMBAT PHASE
-
-BEGINNING OF TURN 559 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (7, 1) -> (6, 1)
-
-END OF TURN 559 MOVEMENT PHASE
-
-BEGINNING OF TURN 559 COMBAT PHASE
-
-END OF TURN 559 COMBAT PHASE
-
-BEGINNING OF TURN 560 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 560 MOVEMENT PHASE
-
-BEGINNING OF TURN 560 COMBAT PHASE
-
-END OF TURN 560 COMBAT PHASE
-
-BEGINNING OF TURN 561 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (6, 1)
-
-END OF TURN 561 MOVEMENT PHASE
-
-BEGINNING OF TURN 561 COMBAT PHASE
-
-END OF TURN 561 COMBAT PHASE
-
-BEGINNING OF TURN 562 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (6, 1) -> (5, 1)
-
-END OF TURN 562 MOVEMENT PHASE
-
-BEGINNING OF TURN 562 COMBAT PHASE
-
-END OF TURN 562 COMBAT PHASE
-
-BEGINNING OF TURN 563 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (4, 1)
-
-END OF TURN 563 MOVEMENT PHASE
-
-BEGINNING OF TURN 563 COMBAT PHASE
-
-END OF TURN 563 COMBAT PHASE
-
-BEGINNING OF TURN 564 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (5, 1)
-
-END OF TURN 564 MOVEMENT PHASE
-
-BEGINNING OF TURN 564 COMBAT PHASE
-
-END OF TURN 564 COMBAT PHASE
-
-BEGINNING OF TURN 565 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 1) -> (5, 2)
-
-END OF TURN 565 MOVEMENT PHASE
-
-BEGINNING OF TURN 565 COMBAT PHASE
-
-END OF TURN 565 COMBAT PHASE
-
-BEGINNING OF TURN 566 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (5, 2) -> (4, 2)
-
-END OF TURN 566 MOVEMENT PHASE
-
-BEGINNING OF TURN 566 COMBAT PHASE
-
-END OF TURN 566 COMBAT PHASE
-
-BEGINNING OF TURN 567 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 3)
-
-END OF TURN 567 MOVEMENT PHASE
-
-BEGINNING OF TURN 567 COMBAT PHASE
-
-END OF TURN 567 COMBAT PHASE
-
-BEGINNING OF TURN 568 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 4)
-
-END OF TURN 568 MOVEMENT PHASE
-
-BEGINNING OF TURN 568 COMBAT PHASE
-
-END OF TURN 568 COMBAT PHASE
-
-BEGINNING OF TURN 569 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 4) -> (4, 3)
-
-END OF TURN 569 MOVEMENT PHASE
-
-BEGINNING OF TURN 569 COMBAT PHASE
-
-END OF TURN 569 COMBAT PHASE
-
-BEGINNING OF TURN 570 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 2)
-
-END OF TURN 570 MOVEMENT PHASE
-
-BEGINNING OF TURN 570 COMBAT PHASE
-
-END OF TURN 570 COMBAT PHASE
-
-BEGINNING OF TURN 571 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 2) -> (4, 1)
-
-END OF TURN 571 MOVEMENT PHASE
-
-BEGINNING OF TURN 571 COMBAT PHASE
-
-END OF TURN 571 COMBAT PHASE
-
-BEGINNING OF TURN 572 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (4, 1)
-
-END OF TURN 572 MOVEMENT PHASE
-
-BEGINNING OF TURN 572 COMBAT PHASE
-
-END OF TURN 572 COMBAT PHASE
-
-BEGINNING OF TURN 573 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 1) -> (3, 1)
-
-END OF TURN 573 MOVEMENT PHASE
-
-BEGINNING OF TURN 573 COMBAT PHASE
-
-END OF TURN 573 COMBAT PHASE
-
-BEGINNING OF TURN 574 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 2)
-
-END OF TURN 574 MOVEMENT PHASE
-
-BEGINNING OF TURN 574 COMBAT PHASE
-
-END OF TURN 574 COMBAT PHASE
-
-BEGINNING OF TURN 575 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (3, 2)
-
-END OF TURN 575 MOVEMENT PHASE
-
-BEGINNING OF TURN 575 COMBAT PHASE
-
-END OF TURN 575 COMBAT PHASE
-
-BEGINNING OF TURN 576 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (2, 2)
-
-END OF TURN 576 MOVEMENT PHASE
-
-BEGINNING OF TURN 576 COMBAT PHASE
-
-END OF TURN 576 COMBAT PHASE
-
-BEGINNING OF TURN 577 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 2)
-
-END OF TURN 577 MOVEMENT PHASE
-
-BEGINNING OF TURN 577 COMBAT PHASE
-
-END OF TURN 577 COMBAT PHASE
-
-BEGINNING OF TURN 578 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 2) -> (2, 1)
-
-END OF TURN 578 MOVEMENT PHASE
-
-BEGINNING OF TURN 578 COMBAT PHASE
-
-END OF TURN 578 COMBAT PHASE
-
-BEGINNING OF TURN 579 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 579 MOVEMENT PHASE
-
-BEGINNING OF TURN 579 COMBAT PHASE
-
-END OF TURN 579 COMBAT PHASE
-
-BEGINNING OF TURN 580 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 580 MOVEMENT PHASE
-
-BEGINNING OF TURN 580 COMBAT PHASE
-
-END OF TURN 580 COMBAT PHASE
-
-BEGINNING OF TURN 581 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 581 MOVEMENT PHASE
-
-BEGINNING OF TURN 581 COMBAT PHASE
-
-END OF TURN 581 COMBAT PHASE
-
-BEGINNING OF TURN 582 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (2, 1)
-
-END OF TURN 582 MOVEMENT PHASE
-
-BEGINNING OF TURN 582 COMBAT PHASE
-
-END OF TURN 582 COMBAT PHASE
-
-BEGINNING OF TURN 583 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (1, 1)
-
-END OF TURN 583 MOVEMENT PHASE
-
-BEGINNING OF TURN 583 COMBAT PHASE
-
-END OF TURN 583 COMBAT PHASE
-
-BEGINNING OF TURN 584 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (1, 2)
-
-END OF TURN 584 MOVEMENT PHASE
-
-BEGINNING OF TURN 584 COMBAT PHASE
-
-END OF TURN 584 COMBAT PHASE
-
-BEGINNING OF TURN 585 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 2)
-
-END OF TURN 585 MOVEMENT PHASE
-
-BEGINNING OF TURN 585 COMBAT PHASE
-
-END OF TURN 585 COMBAT PHASE
-
-BEGINNING OF TURN 586 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 2) -> (1, 1)
-
-END OF TURN 586 MOVEMENT PHASE
-
-BEGINNING OF TURN 586 COMBAT PHASE
-
-END OF TURN 586 COMBAT PHASE
-
-BEGINNING OF TURN 587 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (1, 1)
-
-END OF TURN 587 MOVEMENT PHASE
-
-BEGINNING OF TURN 587 COMBAT PHASE
-
-END OF TURN 587 COMBAT PHASE
-
-BEGINNING OF TURN 588 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (1, 1)
-
-END OF TURN 588 MOVEMENT PHASE
-
-BEGINNING OF TURN 588 COMBAT PHASE
-
-END OF TURN 588 COMBAT PHASE
-
-BEGINNING OF TURN 589 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (1, 1) -> (2, 1)
-
-END OF TURN 589 MOVEMENT PHASE
-
-BEGINNING OF TURN 589 COMBAT PHASE
-
-END OF TURN 589 COMBAT PHASE
-
-BEGINNING OF TURN 590 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (3, 1)
-
-END OF TURN 590 MOVEMENT PHASE
-
-BEGINNING OF TURN 590 COMBAT PHASE
-
-END OF TURN 590 COMBAT PHASE
-
-BEGINNING OF TURN 591 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (2, 1)
-
-END OF TURN 591 MOVEMENT PHASE
-
-BEGINNING OF TURN 591 COMBAT PHASE
-
-END OF TURN 591 COMBAT PHASE
-
-BEGINNING OF TURN 592 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (2, 1) -> (3, 1)
-
-END OF TURN 592 MOVEMENT PHASE
-
-BEGINNING OF TURN 592 COMBAT PHASE
-
-END OF TURN 592 COMBAT PHASE
-
-BEGINNING OF TURN 593 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 1) -> (3, 2)
-
-END OF TURN 593 MOVEMENT PHASE
-
-BEGINNING OF TURN 593 COMBAT PHASE
-
-END OF TURN 593 COMBAT PHASE
-
-BEGINNING OF TURN 594 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 2) -> (3, 3)
-
-END OF TURN 594 MOVEMENT PHASE
-
-BEGINNING OF TURN 594 COMBAT PHASE
-
-END OF TURN 594 COMBAT PHASE
-
-BEGINNING OF TURN 595 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 3) -> (4, 3)
-
-END OF TURN 595 MOVEMENT PHASE
-
-BEGINNING OF TURN 595 COMBAT PHASE
-
-END OF TURN 595 COMBAT PHASE
-
-BEGINNING OF TURN 596 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 3) -> (4, 4)
-
-END OF TURN 596 MOVEMENT PHASE
-
-BEGINNING OF TURN 596 COMBAT PHASE
-
-END OF TURN 596 COMBAT PHASE
-
-BEGINNING OF TURN 597 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 4) -> (3, 4)
-
-END OF TURN 597 MOVEMENT PHASE
-
-BEGINNING OF TURN 597 COMBAT PHASE
-
-END OF TURN 597 COMBAT PHASE
-
-BEGINNING OF TURN 598 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 4) -> (3, 4)
-
-END OF TURN 598 MOVEMENT PHASE
-
-BEGINNING OF TURN 598 COMBAT PHASE
-
-END OF TURN 598 COMBAT PHASE
-
-BEGINNING OF TURN 599 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 4) -> (3, 5)
-
-END OF TURN 599 MOVEMENT PHASE
-
-BEGINNING OF TURN 599 COMBAT PHASE
-
-END OF TURN 599 COMBAT PHASE
-
-BEGINNING OF TURN 600 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 5) -> (3, 5)
-
-END OF TURN 600 MOVEMENT PHASE
-
-BEGINNING OF TURN 600 COMBAT PHASE
-
-END OF TURN 600 COMBAT PHASE
-
-BEGINNING OF TURN 601 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 5) -> (4, 5)
-
-END OF TURN 601 MOVEMENT PHASE
-
-BEGINNING OF TURN 601 COMBAT PHASE
-
-END OF TURN 601 COMBAT PHASE
-
-BEGINNING OF TURN 602 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 5) -> (4, 6)
-
-END OF TURN 602 MOVEMENT PHASE
-
-BEGINNING OF TURN 602 COMBAT PHASE
-
-END OF TURN 602 COMBAT PHASE
-
-BEGINNING OF TURN 603 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (4, 6) -> (3, 6)
-
-END OF TURN 603 MOVEMENT PHASE
-
-BEGINNING OF TURN 603 COMBAT PHASE
-
-END OF TURN 603 COMBAT PHASE
-
-BEGINNING OF TURN 604 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 6) -> (3, 5)
-
-END OF TURN 604 MOVEMENT PHASE
-
-BEGINNING OF TURN 604 COMBAT PHASE
-
-END OF TURN 604 COMBAT PHASE
-
-BEGINNING OF TURN 605 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 5) -> (3, 6)
-
-END OF TURN 605 MOVEMENT PHASE
-
-BEGINNING OF TURN 605 COMBAT PHASE
-
-END OF TURN 605 COMBAT PHASE
-
-BEGINNING OF TURN 606 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 6) -> (3, 7)
-
-END OF TURN 606 MOVEMENT PHASE
-
-BEGINNING OF TURN 606 COMBAT PHASE
-
-END OF TURN 606 COMBAT PHASE
-
-BEGINNING OF TURN 607 MOVEMENT PHASE
-
-	Player 1 Ship SC1: (3, 7) -> (4, 7)
-
-END OF TURN 607 MOVEMENT PHASE
-
-BEGINNING OF TURN 607 COMBAT PHASE
-
-END OF TURN 607 COMBAT PHASE
 
 WINNER: PLAYER 1

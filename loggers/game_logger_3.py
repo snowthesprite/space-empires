@@ -39,13 +39,10 @@ class GameLogger (Logger) :
         self.write('\n\t\t')
         self.write('Defender: Player {} Ship {}'.format(defender[0],defender[1]))
 
-        if hit == 1 :
+        if hit:
             self.write('\n\t\tHit!')
-            line = 'Player {} Ship {} was destroyed'.format(defender[0],defender[1])
         else :
-            line = '(Miss)'
-        self.write('\n\t\t')
-        self.write(line)
+            self.write('\n\t\t(Miss)')
         self.write('\n')
             
     def log_survivors(self, battle_survivors) :

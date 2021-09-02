@@ -6,6 +6,7 @@ class Scout() :
         self.pn = player_number
         self.id = 'SC' + str(id)
         self.type = 'E'
+        self.list_id = None
 
 
 class BattleCruiser () :
@@ -16,3 +17,4 @@ class BattleCruiser () :
         self.pn = player_number
         self.id = 'BC' + str(id)
         self.type = 'B'
+        self.list_id = None
