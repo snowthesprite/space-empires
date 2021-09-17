@@ -110,7 +110,7 @@ class Game:
                     continue
 
                 translations = self.get_in_bounds_translations(coords)
-                chosen_trans = player.choose_translation(self.plr_data, translations)
+                chosen_trans = player.choose_translation(self.plr_data, coords, translations)
                 new_coords = (coords[0] + chosen_trans[0], coords[1] + chosen_trans[1])
 
                 if new_coords not in list(self.used_coords) :
@@ -163,15 +163,18 @@ class Game:
                     attacker = self.find_ship_from_id(plr_id, ship_id)
                     if attacker == None :
                         continue
-                    defender = self.find_ship_from_id(alt_id, current_battle[alt_id][0])
+                    defender = self.players[plr_id - 1].pick_opponent(self.plr_data, attacker, current_battle)
+                    #print(attacker, defender)
                     hit = self.if_hit(rand.randint(1,10), attacker, defender)
                     self.log.log_combat((plr_id,ship_id),(alt_id, defender.id), hit)
                     if hit : 
                         defender.hp -= 1
-                        self.log.write('\t\tPlayer {} Ship {} HP reduced to {}!\n'.format(alt_id, defender.id, defender.hp))
+                        self.log.write('\n\t\tPlayer {} Ship {} HP reduced to {}!\n'.format(alt_id, defender.id, defender.hp))
                     if defender.hp == 0 :
                         self.plr_data[alt_id]['ships'].pop(defender.list_id)
                         battlefield.pop(battlefield.index((alt_id,defender.id)))
+                        current_battle[alt_id].remove(defender.id)
+                        self.log.write('\t\tPlayer {} Ship {} was destroyed!\n'.format(alt_id, defender.id))
         
         self.log.log_survivors(survivors)
         self.log.end_phase(self.turn, 'COMBAT')

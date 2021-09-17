@@ -11,12 +11,12 @@ class CustomPlayer():
         else :
             return (self.player_number % 2) + 1
 
-    def choose_translation(self, player_data, choices, ship_id = 1):
+    def choose_translation(self, player_data, coord, choices, ship_id = 1):
         myself = player_data[self.player_number]
         opponent_player_number = self.get_opponent_player_number()
         opponent = player_data[opponent_player_number]
 
-        my_ship_coords = myself['ships'][ship_id]
+        my_ship_coords = coord
         opponent_home_colony_coords = opponent['Home Colony']
 
         dist_sqr = (my_ship_coords[0] - opponent_home_colony_coords[0]) ** 2 + (my_ship_coords[1] - opponent_home_colony_coords[1]) ** 2
@@ -30,3 +30,7 @@ class CustomPlayer():
                 dist_sqr = option_dist_sqr
 
         return best_movement
+
+    def pick_opponent(self, player_data, ship, current_battle) :
+        pass
+        

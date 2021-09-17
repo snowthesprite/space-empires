@@ -2,7 +2,7 @@ import sys
 sys.path.append('player_classes')
 sys.path.append('games')
 from game_1_0 import Game
-from custom_playerMK3 import CustomPlayer
+from strat_plr_0 import CustomPlayer
 from random_playerMK2 import RandomPlayer
 
 players = [RandomPlayer(), RandomPlayer()]
