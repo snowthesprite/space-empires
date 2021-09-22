@@ -40,7 +40,7 @@ class Game:
 
     def set_player_numbers(self):
         for i, player in enumerate(self.players):
-            player.set_player_number(i+1)
+            player.set_plr_num(i+1)
 
     def check_if_coords_are_in_bounds(self, coords):
         x, y = coords
@@ -100,30 +100,33 @@ class Game:
         self.log.begin_phase(self.turn, 'MOVEMENT')
         self.log.write('\n')
         for player in self.players :
-            player_data = self.plr_data[player.player_number]
+            player_data = self.plr_data[player.plr_num]
             for ship in player_data['ships'] :
+                player.set_data(self.plr_data, self.used_coords)
 
-                coords = self.find_ship_coords(player.player_number, ship.id)
+                coords = self.find_ship_coords(player.plr_num, ship.id)
 
-                if self.opponent_there(coords, player.player_number) :
-                    self.log.write('\n\tPlayer {} Ship {} is caught in battle at {}'.format(player.player_number, ship.id, coords))
+                if self.opponent_there(coords, player.plr_num) :
+                    self.log.write('\n\tPlayer {} Ship {} is caught in battle at {}'.format(player.plr_num, ship.id, coords))
                     continue
 
                 translations = self.get_in_bounds_translations(coords)
-                chosen_trans = player.choose_translation(self.plr_data, coords, translations)
+                chosen_trans = player.pick_translation(coords, translations)
                 new_coords = (coords[0] + chosen_trans[0], coords[1] + chosen_trans[1])
 
                 if new_coords not in list(self.used_coords) :
-                    self.used_coords[new_coords] = [(player.player_number, ship.id)]
+                    self.used_coords[new_coords] = [(player.plr_num, ship.id)]
                 else :
-                    self.used_coords[new_coords].append((player.player_number, ship.id))
-                self.used_coords[coords].remove((player.player_number, ship.id))
+                    self.used_coords[new_coords].append((player.plr_num, ship.id))
+                self.used_coords[coords].remove((player.plr_num, ship.id))
 
-                self.log.log_movement(player.player_number, ship.id, coords, new_coords)
+                self.log.log_movement(player.plr_num, ship.id, coords, new_coords)
         self.log.end_phase(self.turn, 'MOVEMENT')
         for (key, ships) in self.used_coords.copy().items() :
             if ships == [] :
                 self.used_coords.pop(key)
+        self.players[0].set_data(self.plr_data, self.used_coords)
+        self.players[1].set_data(self.plr_data, self.used_coords)
     
     def if_hit(self, rolled, attacker, defender) :
         max_hit = attacker.atk - defender.df
@@ -163,7 +166,7 @@ class Game:
                     attacker = self.find_ship_from_id(plr_id, ship_id)
                     if attacker == None :
                         continue
-                    defender = self.players[plr_id - 1].pick_opponent(self.plr_data, attacker, current_battle)
+                    defender = self.players[plr_id - 1].pick_opponent( attacker, current_battle)
                     #print(attacker, defender)
                     hit = self.if_hit(rand.randint(1,10), attacker, defender)
                     self.log.log_combat((plr_id,ship_id),(alt_id, defender.id), hit)
@@ -175,6 +178,7 @@ class Game:
                         battlefield.pop(battlefield.index((alt_id,defender.id)))
                         current_battle[alt_id].remove(defender.id)
                         self.log.write('\t\tPlayer {} Ship {} was destroyed!\n'.format(alt_id, defender.id))
+                    self.players 
         
         self.log.log_survivors(survivors)
         self.log.end_phase(self.turn, 'COMBAT')
