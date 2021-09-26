@@ -24,13 +24,13 @@ class Game:
         self.plr_data = {
             1:{
                 'Home Colony' : (mid_x,1), #Alive
-                'ships': [Scout(1,0), Scout(1,1), BattleCruiser(1,0)],
+                'ships': [Scout(1,0)],
                 'Total Scouts': 2,
                 'Battlecruiser': 1,
             },
             2: {
                 'Home Colony' : (mid_x,7), #Alive
-                'ships': [Scout(2,0), Scout(2,1), BattleCruiser(2,0)],
+                'ships': [Scout(2,0)],
                 'Total Scouts': 2,
                 'Battlecruiser': 1,
             }
@@ -102,6 +102,7 @@ class Game:
         for player in self.players :
             player_data = self.plr_data[player.plr_num]
             for ship in player_data['ships'] :
+                #print()
                 player.set_data(self.plr_data, self.used_coords)
 
                 coords = self.find_ship_coords(player.plr_num, ship.id)
@@ -112,6 +113,11 @@ class Game:
 
                 translations = self.get_in_bounds_translations(coords)
                 chosen_trans = player.pick_translation(coords, translations)
+
+                if chosen_trans not in translations :
+                    chosen_trans = (0,0)
+                    self.log.write('\n\tAttempt at illegal move, no move made')
+                #print(self.used_coords)
                 new_coords = (coords[0] + chosen_trans[0], coords[1] + chosen_trans[1])
 
                 if new_coords not in list(self.used_coords) :
@@ -125,6 +131,7 @@ class Game:
         for (key, ships) in self.used_coords.copy().items() :
             if ships == [] :
                 self.used_coords.pop(key)
+        #print(self.used_coords)
         self.players[0].set_data(self.plr_data, self.used_coords)
         self.players[1].set_data(self.plr_data, self.used_coords)
     
@@ -166,7 +173,8 @@ class Game:
                     attacker = self.find_ship_from_id(plr_id, ship_id)
                     if attacker == None :
                         continue
-                    defender = self.players[plr_id - 1].pick_opponent( attacker, current_battle)
+                    defender = self.players[plr_id - 1].pick_opponent(attacker, current_battle)
+                    defender = self.find_ship_from_id(defender[0], defender[1])
                     #print(attacker, defender)
                     hit = self.if_hit(rand.randint(1,10), attacker, defender)
                     self.log.log_combat((plr_id,ship_id),(alt_id, defender.id), hit)

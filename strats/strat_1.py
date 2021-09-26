@@ -6,7 +6,7 @@ class StraightToEnemyColony () :
         self.plr_num = None
         self.board = None
 
-    def pick_translation(self, coord, choices, ship_id = 1):
+    def pick_translation(self, coord, choices) :
         myself = self.plr_data[self.plr_num]
         opponent_plr_num = (self.plr_num % 2) + 1
         opponent = plr_data[opponent_plr_num]

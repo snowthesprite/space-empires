@@ -8,8 +8,16 @@ class StratPlayer():
         self.plr_num = n
     
     def set_data(self, plr_data, board) :
-        self.strat.plr_data = plr_data
-        self.strat.board = board
+        plr_data_copy = {plr_num : 
+            {'Home Colony' : 
+                (plr_data[plr_num]['Home Colony'][0],plr_data[plr_num]['Home Colony'][1]),
+                'ships' : [(ship.id, ship.hp) 
+                for ship in plr_data[plr_num]['ships']]}
+                for plr_num in range(1,3) }
+        board_copy = {coord : [(plr_num, ship_id) for plr_num, ship_id in board[coord]] for coord in board.keys()}
+
+        self.strat.plr_data = plr_data_copy
+        self.strat.board = board_copy
 
     def pick_translation(self, coord, choices):
         choice = self.strat.pick_translation(coord, choices)
