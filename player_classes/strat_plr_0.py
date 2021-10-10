@@ -1,3 +1,4 @@
+## Compatable w/ game 1.0
 class StratPlayer():
     def __init__(self, stratagy):
         self.plr_num = None
@@ -10,11 +11,11 @@ class StratPlayer():
     def set_data(self, plr_data, board) :
         plr_data_copy = {plr_num : 
             {'Home Colony' : 
-                (plr_data[plr_num]['Home Colony'][0],plr_data[plr_num]['Home Colony'][1]),
+                plr_data[plr_num]['Home Colony'],
                 'ships' : [(ship.id, ship.hp) 
                 for ship in plr_data[plr_num]['ships']]}
                 for plr_num in range(1,3) }
-        board_copy = {coord : [(plr_num, ship_id) for plr_num, ship_id in board[coord]] for coord in board.keys()}
+        board_copy = {coord : board[coord].copy() for coord in board.keys()}
 
         self.strat.plr_data = plr_data_copy
         self.strat.board = board_copy

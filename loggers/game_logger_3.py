@@ -1,8 +1,8 @@
 from logger import *
 
 class GameLogger (Logger) :
-    def __init__(self, filename='log.txt'):
-        self.filename = filename
+    def __init__(self, filename='log.txt', loc='/home/runner/space-empires/logs/') :
+        self.filename = loc + filename
     
     def log_movement(self, player_id, ship_id, start, stop) :
         self.write('\n\t')
@@ -44,6 +44,15 @@ class GameLogger (Logger) :
         else :
             self.write('\n\t\t(Miss)')
         self.write('\n')
+    
+    def log_damage(self, ship) :
+        self.write('\n\t\t')
+        self.write('Player {} Ship {} HP reduced to {}!'.format(ship.pn, ship.id, ship.hp))
+        self.write('\n')
+        if ship.hp == 0 :
+            self.write('\t\t')
+            self.write('Player {} Ship {} was destroyed!'.format(ship.pn, ship.id))
+            self.write('\n')
             
     def log_survivors(self, battle_survivors) :
         if battle_survivors != {} :

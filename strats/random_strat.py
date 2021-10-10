@@ -1,4 +1,5 @@
 ## Picks a random move and random enemy
+## Compatable w/ strat_plr_0
 from random import random
 import math
 

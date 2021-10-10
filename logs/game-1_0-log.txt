@@ -1,6 +1,7 @@
 BEGINNING OF TURN 1 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (4, 1) -> (4, 2)
+	Attempt at illegal move, no move made
+	Player 1 Ship SC0: (4, 1) -> (4, 1)
 	Player 2 Ship SC0: (4, 7) -> (4, 6)
 
 END OF TURN 1 MOVEMENT PHASE
@@ -11,7 +12,8 @@ END OF TURN 1 COMBAT PHASE
 
 BEGINNING OF TURN 2 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (4, 2) -> (4, 3)
+	Attempt at illegal move, no move made
+	Player 1 Ship SC0: (4, 1) -> (4, 1)
 	Player 2 Ship SC0: (4, 6) -> (4, 5)
 
 END OF TURN 2 MOVEMENT PHASE
@@ -22,8 +24,9 @@ END OF TURN 2 COMBAT PHASE
 
 BEGINNING OF TURN 3 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (4, 3) -> (4, 4)
-	Player 2 Ship SC0: (4, 5) -> (4, 5)
+	Attempt at illegal move, no move made
+	Player 1 Ship SC0: (4, 1) -> (4, 1)
+	Player 2 Ship SC0: (4, 5) -> (4, 4)
 
 END OF TURN 3 MOVEMENT PHASE
 
@@ -33,8 +36,9 @@ END OF TURN 3 COMBAT PHASE
 
 BEGINNING OF TURN 4 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (4, 4) -> (4, 4)
-	Player 2 Ship SC0: (4, 5) -> (4, 5)
+	Attempt at illegal move, no move made
+	Player 1 Ship SC0: (4, 1) -> (4, 1)
+	Player 2 Ship SC0: (4, 4) -> (4, 3)
 
 END OF TURN 4 MOVEMENT PHASE
 
@@ -44,8 +48,9 @@ END OF TURN 4 COMBAT PHASE
 
 BEGINNING OF TURN 5 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (4, 4) -> (4, 4)
-	Player 2 Ship SC0: (4, 5) -> (4, 5)
+	Attempt at illegal move, no move made
+	Player 1 Ship SC0: (4, 1) -> (4, 1)
+	Player 2 Ship SC0: (4, 3) -> (4, 2)
 
 END OF TURN 5 MOVEMENT PHASE
 
@@ -55,8 +60,9 @@ END OF TURN 5 COMBAT PHASE
 
 BEGINNING OF TURN 6 MOVEMENT PHASE
 
-	Player 1 Ship SC0: (4, 4) -> (4, 5)
-	Player 2 Ship SC0 is caught in battle at (4, 5)
+	Attempt at illegal move, no move made
+	Player 1 Ship SC0: (4, 1) -> (4, 1)
+	Player 2 Ship SC0: (4, 2) -> (4, 1)
 
 END OF TURN 6 MOVEMENT PHASE
 
@@ -64,14 +70,29 @@ BEGINNING OF TURN 6 COMBAT PHASE
 
 	Combat Locations:
 
-		(4, 5)
+		(4, 1)
 
-			Player 2 Ship SC0
 			Player 1 Ship SC0
+			Player 2 Ship SC0
 
-	Combat at (4, 5)
+	Combat at (4, 1)
 
-		Rolled a 1, less than or equal to 3
+		Rolled a 4, less than or equal to 3
+		Attacker: Player 1 Ship SC0
+		Defender: Player 2 Ship SC0
+		(Miss)
+
+		Rolled a 10, less than or equal to 3
+		Attacker: Player 2 Ship SC0
+		Defender: Player 1 Ship SC0
+		(Miss)
+
+		Rolled a 9, less than or equal to 3
+		Attacker: Player 1 Ship SC0
+		Defender: Player 2 Ship SC0
+		(Miss)
+
+		Rolled a 3, less than or equal to 3
 		Attacker: Player 2 Ship SC0
 		Defender: Player 1 Ship SC0
 		Hit!
@@ -81,50 +102,10 @@ BEGINNING OF TURN 6 COMBAT PHASE
 
 	Survivors:
 
-		(4, 5)
+		(4, 1)
 
 			Player 2 Ship SC0
 
 END OF TURN 6 COMBAT PHASE
-
-BEGINNING OF TURN 7 MOVEMENT PHASE
-
-	Player 2 Ship SC0: (4, 5) -> (4, 4)
-
-END OF TURN 7 MOVEMENT PHASE
-
-BEGINNING OF TURN 7 COMBAT PHASE
-
-END OF TURN 7 COMBAT PHASE
-
-BEGINNING OF TURN 8 MOVEMENT PHASE
-
-	Player 2 Ship SC0: (4, 4) -> (4, 3)
-
-END OF TURN 8 MOVEMENT PHASE
-
-BEGINNING OF TURN 8 COMBAT PHASE
-
-END OF TURN 8 COMBAT PHASE
-
-BEGINNING OF TURN 9 MOVEMENT PHASE
-
-	Player 2 Ship SC0: (4, 3) -> (4, 2)
-
-END OF TURN 9 MOVEMENT PHASE
-
-BEGINNING OF TURN 9 COMBAT PHASE
-
-END OF TURN 9 COMBAT PHASE
-
-BEGINNING OF TURN 10 MOVEMENT PHASE
-
-	Player 2 Ship SC0: (4, 2) -> (4, 1)
-
-END OF TURN 10 MOVEMENT PHASE
-
-BEGINNING OF TURN 10 COMBAT PHASE
-
-END OF TURN 10 COMBAT PHASE
 
 WINNER: PLAYER 2

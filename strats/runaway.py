@@ -1,7 +1,7 @@
 ## Trys to run off the board
-
+## Compatable w/ strat_plr_0
 class Runaway () :
-    def __init__(self, wait) :
+    def __init__(self) :
         self.plr_data = None
         self.plr_num = None
         self.board = None

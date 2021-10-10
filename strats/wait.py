@@ -1,5 +1,5 @@
 ## Heads to enemy colony, if going to run into a ship, waits three turns then engages
-
+## Compatable w/ strat_plr_0
 class WaitToAttack () :
     def __init__(self, wait) :
         self.plr_data = None
@@ -8,7 +8,7 @@ class WaitToAttack () :
         self.wait = 0
         self.wait_time = wait
 
-    def pick_translation(self, coord, choices, ship_id = 1):
+    def pick_translation(self, coord, choices) :
         myself = self.plr_data[self.plr_num]
         opponent_plr_num = (self.plr_num % 2) + 1
         opponent = self.plr_data[opponent_plr_num]
