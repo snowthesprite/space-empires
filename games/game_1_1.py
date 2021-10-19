@@ -115,7 +115,7 @@ class Game:
                     continue
 
                 translations = self.get_in_bounds_translations(coords)
-                chosen_trans = player.pick_translation(ship, coords, translations)
+                chosen_trans = player.choose_translation(ship, coords, translations)
 
                 new_coords = (coords[0] + chosen_trans[0], coords[1] + chosen_trans[1])
 
@@ -174,7 +174,7 @@ class Game:
                     attacker = self.find_ship_from_id((plr_id, ship_id))
                     if attacker == None :
                         continue
-                    defender = self.players[plr_id-1].pick_opponent(attacker, current_battle)
+                    defender = self.players[plr_id-1].choose_opponent(attacker, current_battle)
                     defender = self.find_ship_from_id(defender)
                     hit = self.if_hit(attacker, defender)
                     self.log.log_combat((plr_id,ship_id),(alt_id, defender.id), hit)

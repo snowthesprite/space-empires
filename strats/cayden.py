@@ -36,7 +36,7 @@ class CustomStrategy():
 
         return best_option
 
-    def select_translation(self, ship_info, possible_translations):
+    def choose_translation(self, ship_info, possible_translations):
         opponent_home_colony = []
 
         for key in self.simple_board:
@@ -47,7 +47,7 @@ class CustomStrategy():
         closest_colony = self.best_option(opponent_home_colony, ship_info['coordinates'])
         return self.best_translation(possible_translations, ship_info['coordinates'], closest_colony)
 
-    def select_target(self, ship_info, combat_order):
+    def choose_target(self, ship_info, combat_order):
         enemies = []
 
         for ship in combat_order:
