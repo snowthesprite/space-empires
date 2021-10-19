@@ -24,7 +24,7 @@ class StraightToEnemyColony () :
         my_ship_coords = ship_info['coords']
         
         for coord, stuff in self.simple_board.items() :
-            if {'player_num': opp_plr_num, 'obj_type': 'colony'} in stuff :
+            if {'player_num': opp_plr_num, 'obj_type': 'HomeColony'} in stuff :
                 opp_home_col_coords = coord
                 break
 
@@ -41,7 +41,12 @@ class StraightToEnemyColony () :
         return best_mvmt
 
     def choose_target(self, ship, current_battle) :
-        alt_id = (self.plr_num % 2) + 1
+        plr_num = ship['player_num']
+
+        alt_id = (plr_num % 2) + 1
+
         opp_ships = [ship_info for ship_info in current_battle if ship_info['player_num'] == alt_id]
-        self_ships = [ship_info for ship_info in current_battle if ship_info['player_num'] == self.plr_num]
+
+        self_ships = [ship_info for ship_info in current_battle if ship_info['player_num'] == plr_num]
+
         return opp_ships[0]

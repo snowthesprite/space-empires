@@ -11,6 +11,7 @@ class CustomStrategy():
         return (x ** 2 + y ** 2) ** 0.5
 
     def best_option(self, options, coordinate):
+        #print(options)
         best_option = options[0]
         min_distance = self.calculate_distance(best_option, coordinate)
 
@@ -41,20 +42,20 @@ class CustomStrategy():
 
         for key in self.simple_board:
             for obj in self.simple_board[key]:
-                if obj['obj_type'] == 'HomeColony' and obj['player_number'] != ship_info['player_number']:
+                if obj['obj_type'] == 'HomeColony' and obj['player_num'] != ship_info['player_num'] :
                     opponent_home_colony.append(key)
 
-        closest_colony = self.best_option(opponent_home_colony, ship_info['coordinates'])
-        return self.best_translation(possible_translations, ship_info['coordinates'], closest_colony)
+        closest_colony = self.best_option(opponent_home_colony, ship_info['coords'])
+        return self.best_translation(possible_translations, ship_info['coords'], closest_colony)
 
     def choose_target(self, ship_info, combat_order):
         enemies = []
 
         for ship in combat_order:
-            if ship_info['player_number'] != ship['player_number']:
+            if ship_info['player_num'] != ship['player_num']:
                 enemies.append(ship)
 
         if len(enemies) == 1:
-            return enemies[0]['num']
+            return enemies[0]
 
-        return enemies[random.randint(0, len(enemies)-1)]['num']
+        return enemies[random.randint(0, len(enemies)-1)]

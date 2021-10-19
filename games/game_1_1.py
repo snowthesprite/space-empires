@@ -14,7 +14,7 @@ class Game:
         self.turn = 1
         self.board_size = board_size
         self.set_player_numbers()
-        rand.seed(3)
+        #rand.seed(3)
 
         board_x, board_y = board_size
         mid_x = (board_x + 1) // 2
