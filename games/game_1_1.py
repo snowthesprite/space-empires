@@ -6,8 +6,8 @@ sys.path.append('ships')
 from ships import *
 
 class Game:
-    def __init__(self, players, board_size=[7,7]):
-        self.log = GameLogger('game-1_1-log.txt')
+    def __init__(self, players, log_name = 'game-1_1', board_size=[7,7]):
+        self.log = GameLogger(log_name+'-log.txt')
         self.log.clear_log()
         self.winner = None
         self.players = players

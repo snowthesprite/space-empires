@@ -38,34 +38,46 @@ BEGINNING OF TURN 3 COMBAT PHASE
 
 	Combat at (4, 3)
 
-		Rolled a 7, less than or equal to 4
+		Rolled a 2, less than or equal to 4
 		Attacker: Player 1 Ship BC0
 		Defender: Player 2 Ship BC0
-		(Miss)
-
-		Rolled a 3, less than or equal to 4
-		Attacker: Player 2 Ship BC0
-		Defender: Player 1 Ship BC0
 		Hit!
 
-		Player 1 Ship BC0 HP reduced to 1!
+		Player 2 Ship BC0 HP reduced to 1!
+
+		Rolled a 10, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
 
 		Rolled a 9, less than or equal to 4
 		Attacker: Player 1 Ship BC0
 		Defender: Player 2 Ship BC0
 		(Miss)
 
-		Rolled a 5, less than or equal to 4
+		Rolled a 2, less than or equal to 4
 		Attacker: Player 2 Ship BC0
 		Defender: Player 1 Ship BC0
-		(Miss)
+		Hit!
 
-		Rolled a 7, less than or equal to 4
+		Player 1 Ship BC0 HP reduced to 1!
+
+		Rolled a 5, less than or equal to 4
 		Attacker: Player 1 Ship BC0
 		Defender: Player 2 Ship BC0
 		(Miss)
 
-		Rolled a 3, less than or equal to 4
+		Rolled a 10, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
+
+		Rolled a 6, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		(Miss)
+
+		Rolled a 1, less than or equal to 4
 		Attacker: Player 2 Ship BC0
 		Defender: Player 1 Ship BC0
 		Hit!

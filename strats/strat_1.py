@@ -17,16 +17,19 @@ class StraightToEnemyColony () :
         else :
             self.simple_board[new_coords].append(ship_info)
 
+    def find_home_col(self, plr_num) :
+        for coord, stuff in self.simple_board.items() :
+            for obj in stuff :
+                if obj['player_num'] == plr_num and obj['obj_type'] == 'Colony' and obj['is_home_colony'] :
+                    return coord
+
     def choose_translation(self, ship_info, choices) :
         plr_num = ship_info['player_num']
         opp_plr_num = (plr_num % 2) + 1
 
         my_ship_coords = ship_info['coords']
-        
-        for coord, stuff in self.simple_board.items() :
-            if {'player_num': opp_plr_num, 'obj_type': 'Colony', 'is_home_colony': True} in stuff :
-                opp_home_col_coords = coord
-                break
+
+        opp_home_col_coords = self.find_home_col(opp_plr_num)
 
         dist_sqr = (my_ship_coords[0] - opp_home_col_coords[0]) ** 2 + (my_ship_coords[1] - opp_home_col_coords[1]) ** 2
         best_mvmt = None
