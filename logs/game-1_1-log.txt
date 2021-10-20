@@ -38,79 +38,52 @@ BEGINNING OF TURN 3 COMBAT PHASE
 
 	Combat at (4, 3)
 
-		Rolled a 6, less than or equal to 4
+		Rolled a 7, less than or equal to 4
 		Attacker: Player 1 Ship BC0
 		Defender: Player 2 Ship BC0
 		(Miss)
 
-		Rolled a 2, less than or equal to 4
+		Rolled a 3, less than or equal to 4
 		Attacker: Player 2 Ship BC0
 		Defender: Player 1 Ship BC0
 		Hit!
 
 		Player 1 Ship BC0 HP reduced to 1!
 
+		Rolled a 9, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		(Miss)
+
+		Rolled a 5, less than or equal to 4
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
+
+		Rolled a 7, less than or equal to 4
+		Attacker: Player 1 Ship BC0
+		Defender: Player 2 Ship BC0
+		(Miss)
+
 		Rolled a 3, less than or equal to 4
-		Attacker: Player 1 Ship BC0
-		Defender: Player 2 Ship BC0
+		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
 		Hit!
 
-		Player 2 Ship BC0 HP reduced to 1!
-
-		Rolled a 8, less than or equal to 4
-		Attacker: Player 2 Ship BC0
-		Defender: Player 1 Ship BC0
-		(Miss)
-
-		Rolled a 9, less than or equal to 4
-		Attacker: Player 1 Ship BC0
-		Defender: Player 2 Ship BC0
-		(Miss)
-
-		Rolled a 6, less than or equal to 4
-		Attacker: Player 2 Ship BC0
-		Defender: Player 1 Ship BC0
-		(Miss)
-
-		Rolled a 6, less than or equal to 4
-		Attacker: Player 1 Ship BC0
-		Defender: Player 2 Ship BC0
-		(Miss)
-
-		Rolled a 9, less than or equal to 4
-		Attacker: Player 2 Ship BC0
-		Defender: Player 1 Ship BC0
-		(Miss)
-
-		Rolled a 6, less than or equal to 4
-		Attacker: Player 1 Ship BC0
-		Defender: Player 2 Ship BC0
-		(Miss)
-
-		Rolled a 8, less than or equal to 4
-		Attacker: Player 2 Ship BC0
-		Defender: Player 1 Ship BC0
-		(Miss)
-
-		Rolled a 4, less than or equal to 4
-		Attacker: Player 1 Ship BC0
-		Defender: Player 2 Ship BC0
-		Hit!
-
-		Player 2 Ship BC0 HP reduced to 0!
-		Player 2 Ship BC0 was destroyed!
+		Player 1 Ship BC0 HP reduced to 0!
+		Player 1 Ship BC0 was destroyed!
 
 	Survivors:
 
 		(4, 3)
 
-			Player 1 Ship BC0
+			Player 2 Ship BC0
 
 END OF TURN 3 COMBAT PHASE
 
 BEGINNING OF TURN 4 MOVEMENT PHASE
 
-	Player 1 Ship BC0: (4, 3) -> (4, 4)
+	Player 2 Ship BC0: (4, 3) -> (4, 2)
 
 END OF TURN 4 MOVEMENT PHASE
 
@@ -120,7 +93,7 @@ END OF TURN 4 COMBAT PHASE
 
 BEGINNING OF TURN 5 MOVEMENT PHASE
 
-	Player 1 Ship BC0: (4, 4) -> (4, 5)
+	Player 2 Ship BC0: (4, 2) -> (4, 1)
 
 END OF TURN 5 MOVEMENT PHASE
 
@@ -130,7 +103,7 @@ END OF TURN 5 COMBAT PHASE
 
 BEGINNING OF TURN 6 MOVEMENT PHASE
 
-	Player 1 Ship BC0: (4, 5) -> (4, 6)
+	Player 2 Ship BC0: (4, 1) -> (4, 0)
 
 END OF TURN 6 MOVEMENT PHASE
 
@@ -138,4 +111,4 @@ BEGINNING OF TURN 6 COMBAT PHASE
 
 END OF TURN 6 COMBAT PHASE
 
-WINNER: PLAYER 1
+WINNER: PLAYER 2

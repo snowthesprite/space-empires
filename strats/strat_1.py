@@ -24,7 +24,7 @@ class StraightToEnemyColony () :
         my_ship_coords = ship_info['coords']
         
         for coord, stuff in self.simple_board.items() :
-            if {'player_num': opp_plr_num, 'obj_type': 'HomeColony'} in stuff :
+            if {'player_num': opp_plr_num, 'obj_type': 'Colony', 'is_home_colony': True} in stuff :
                 opp_home_col_coords = coord
                 break
 
