@@ -1,21 +1,16 @@
 import math
 import random
 
-class CustomStrategy():
+class MoveToEnemyHomeColony():
     def __init__(self):
         self.simple_board = None
 
-    def calculate_distance(self, initial_point, ending_point):
-        x = ending_point[0] - initial_point[0]
-        y = ending_point[1] - initial_point[1]
-        return (x ** 2 + y ** 2) ** 0.5
-
     def best_option(self, options, coordinate):
         best_option = options[0]
-        min_distance = self.calculate_distance(best_option, coordinate)
+        min_distance = math.dist(best_option, coordinate)
 
         for option in options:
-            if self.calculate_distance(option, coordinate) < min_distance:
+            if math.dist(option, coordinate) < min_distance:
                 best_option = option
                 min_distance = self.distance(option, coordinate)
 
@@ -24,15 +19,15 @@ class CustomStrategy():
     def best_translation(self, options, coordinate, desired_location):
         best_option = options[0]
         updated_coordinate = [best_option[n] + coordinate[n] for n in range(len(best_option))]
-        distance = self.calculate_distance(updated_coordinate, desired_location)
+        distance = math.dist(updated_coordinate, desired_location)
 
         for option in options:
             new_coordinate = [option[n] + coordinate[n] for n in range(len(option))]
 
-            if self.calculate_distance(new_coordinate, desired_location) < distance:
+            if math.dist(new_coordinate, desired_location) < distance:
                 best_option = option
                 updated_coordinate = new_coordinate
-                distance = self.calculate_distance(new_coordinate, desired_location)
+                distance = math.dist(new_coordinate, desired_location)
 
         return best_option
 
@@ -54,7 +49,5 @@ class CustomStrategy():
             if ship_info['player_num'] != ship['player_num']:
                 enemies.append(ship)
 
-        if len(enemies) == 1:
-            return enemies[0]
-
-        return enemies[random.randint(0, len(enemies) - 1)]
+        return random.choice(enemies)
+        #return enemies[0]

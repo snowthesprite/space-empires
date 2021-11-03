@@ -14,7 +14,7 @@ class Game:
         self.turn = 1
         self.board_size = board_size
         self.set_player_numbers()
-        #rand.seed(3)
+        rand.seed(3)
 
         board_x, board_y = board_size
         mid_x = (board_x + 1) // 2
@@ -23,20 +23,22 @@ class Game:
 
         self.plr_data = {
             1:{
-                'Home Colony' : (mid_x,0), #Alive
-                'ships': [BattleCruiser(1,0)],
-                'Total Scouts': 1,
-                'Battlecruiser': 0,
+                'Home Colony' : (mid_x-1,0), #Alive
+                #'ships': [BattleCruiser(1,0)],
+                'ships': [BattleCruiser(1,0), BattleCruiser(1,1), BattleCruiser(1,2), Scout(1,0), Scout(1,1), Scout(1,2)],
+                'Total Scouts': 3,
+                'Battlecruiser': 3,
             },
             2: {
-                'Home Colony' : (mid_x,6), #Alive
-                'ships': [BattleCruiser(2,0)],
-                'Total Scouts': 1,
-                'Battlecruiser': 0  ,
+                'Home Colony' : (mid_x-1,6), #Alive
+                #'ships': [BattleCruiser(2,0)],
+                'ships': [BattleCruiser(2,0), BattleCruiser(2,1), BattleCruiser(2,2), Scout(2,0), Scout(2,1), Scout(2,2)],
+                'Total Scouts': 3,
+                'Battlecruiser': 3  ,
             }
         }
 
-        self.used_coords = {(mid_x,6) : [(2,ship.id) for ship in self.plr_data[2]['ships']], (mid_x,0) : [(1,ship.id) for ship in self.plr_data[1]['ships']]}
+        self.used_coords = {(mid_x-1,6) : [(2,ship.id) for ship in self.plr_data[2]['ships']], (mid_x-1,0) : [(1,ship.id) for ship in self.plr_data[1]['ships']]}
 
     def set_player_numbers(self):
         for i, player in enumerate(self.players):
@@ -143,12 +145,12 @@ class Game:
     
     def find_ship_from_id(self, ship_ref) :
         plr_id, ship_id = ship_ref
-        index = 0
+        print('\n\n', plr_id)
         for ship in self.plr_data[plr_id]['ships'] :
             if ship.id == ship_id :
-                ship.list_id = index
+                print(ship_id)
+                print(ship.pn, ship.id)
                 return ship
-            index += 1
         #print('ERROR: NO SUCH SHIP WITH ID')
             
 
@@ -163,7 +165,7 @@ class Game:
             current_battle = all_battles[fight_coords]
             battlefield = self.used_coords[fight_coords]
             while keep_running :
-                for ship_info in current_battle :
+                for ship_info in current_battle.copy() :
                     plr_id = ship_info['player_num']
                     ship_id = ship_info['name'] + str(ship_info['ship_num'])
                     alt_id = (plr_id % 2) + 1
@@ -183,7 +185,8 @@ class Game:
                         defender.hp -= 1
                         self.log.log_damage(defender)
                         if defender.hp == 0 :
-                            self.plr_data[alt_id]['ships'].pop(defender.list_id)
+                            print(alt_id, defender.id)
+                            self.plr_data[alt_id]['ships'].remove(defender)
                             battlefield.remove((alt_id,defender.id))
                             current_battle.remove(defender_info)
                             continue

@@ -4,19 +4,6 @@ class StraightToEnemyColony () :
     def __init__(self) :
         self.simple_board = {}
 
-    def update_data(self, ship_info, mvmt) :
-        old_coords = ship_info['coords']
-        new_coords = (old_coords[0]+mvmt[0], old_coords[1]+mvmt[1])
-
-        self.simple_board[old_coords].remove(ship_info)
-
-        ship_info['coords'] = new_coords
-
-        if new_coords not in list(self.simple_board) :
-            self.simple_board[new_coords] = [ship_info]
-        else :
-            self.simple_board[new_coords].append(ship_info)
-
     def find_home_col(self, plr_num) :
         for coord, stuff in self.simple_board.items() :
             for obj in stuff :
@@ -40,7 +27,6 @@ class StraightToEnemyColony () :
             if option_dist_sqr <= dist_sqr :
                 best_mvmt = choice
                 dist_sqr = option_dist_sqr
-        self.update_data(ship_info, best_mvmt)
         return best_mvmt
 
     def choose_target(self, ship, current_battle) :

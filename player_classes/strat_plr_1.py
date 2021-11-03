@@ -4,7 +4,7 @@ class StratPlayer():
         self.plr_num = None
 
     def set_plr_num(self, n):
-        self.strat.plr_num = n
+        #self.strat.plr_num = n
         self.plr_num = n
     
     def set_data(self, plr_data, board) :
@@ -24,14 +24,27 @@ class StratPlayer():
                         board_copy[coords].append(ship_dict)
                         break
 
-        board_copy[plr_data[1]['Home Colony']].insert(0,{'player_num': 1, 'obj_type': 'Colony', 'is_home_colony': True})
-        board_copy[plr_data[2]['Home Colony']].insert(0,{'player_num': 2, 'obj_type': 'Colony', 'is_home_colony': True})
+        board_copy[plr_data[1]['Home Colony']].insert(0,{'player_num': 1, 'obj_type': 'Colony', 'is_home_colony': True, 'coords': plr_data[1]['Home Colony']})
+        board_copy[plr_data[2]['Home Colony']].insert(0,{'player_num': 2, 'obj_type': 'Colony', 'is_home_colony': True, 'coords': plr_data[2]['Home Colony']})
 
         self.strat.simple_board = board_copy
+
+    def update_data(self, ship_info, coords, mvmt) :
+        new_coords = (coords[0]+mvmt[0], coords[1]+mvmt[1])
+
+        self.strat.simple_board[coords].remove(ship_info)
+
+        ship_info['coords'] = new_coords
+
+        if new_coords not in list(self.strat.simple_board) :
+            self.strat.simple_board[new_coords] = [ship_info]
+        else :
+            self.strat.simple_board[new_coords].append(ship_info)
 
     def choose_translation(self, ship, coord, choices):
         ship_info = ship.class_to_dict(coord)
         choice = self.strat.choose_translation(ship_info, choices)
+        self.update_data(ship_info, coord, choice)
         if choice not in choices :
             return (0,0)
         return choice

@@ -95,105 +95,60 @@ BEGINNING OF TURN 3 COMBAT PHASE
 		Defender: Player 2 Ship BC0
 		(Miss)
 
-		Rolled a 3, less than or equal to 4
+		Rolled a 10, less than or equal to 4
 		Attacker: Player 2 Ship BC0
+		Defender: Player 1 Ship BC0
+		(Miss)
+
+		Rolled a 10, less than or equal to 4
+		Attacker: Player 2 Ship BC1
+		Defender: Player 1 Ship BC2
+		(Miss)
+
+		Rolled a 1, less than or equal to 4
+		Attacker: Player 2 Ship BC2
 		Defender: Player 1 Ship BC0
 		Hit!
 
 		Player 1 Ship BC0 HP reduced to 1!
 
-		Rolled a 6, less than or equal to 4
-		Attacker: Player 2 Ship BC1
-		Defender: Player 1 Ship BC0
-		(Miss)
-
-		Rolled a 10, less than or equal to 4
-		Attacker: Player 2 Ship BC2
-		Defender: Player 1 Ship BC0
-		(Miss)
-
 		Rolled a 8, less than or equal to 2
 		Attacker: Player 1 Ship SC0
 		Defender: Player 2 Ship BC0
 		(Miss)
 
-		Rolled a 10, less than or equal to 2
+		Rolled a 5, less than or equal to 2
 		Attacker: Player 1 Ship SC1
 		Defender: Player 2 Ship BC0
 		(Miss)
 
-		Rolled a 2, less than or equal to 2
+		Rolled a 9, less than or equal to 2
 		Attacker: Player 1 Ship SC2
+		Defender: Player 2 Ship BC0
+		(Miss)
+
+		Rolled a 8, less than or equal to 2
+		Attacker: Player 2 Ship SC0
+		Defender: Player 1 Ship BC1
+		(Miss)
+
+		Rolled a 9, less than or equal to 3
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship SC0
+		(Miss)
+
+		Rolled a 3, less than or equal to 2
+		Attacker: Player 2 Ship SC2
+		Defender: Player 1 Ship BC2
+		(Miss)
+
+		Rolled a 4, less than or equal to 4
+		Attacker: Player 1 Ship BC0
 		Defender: Player 2 Ship BC0
 		Hit!
 
 		Player 2 Ship BC0 HP reduced to 0!
 		Player 2 Ship BC0 was destroyed!
-
-		Rolled a 10, less than or equal to 2
-		Attacker: Player 2 Ship SC1
-		Defender: Player 1 Ship BC0
-		(Miss)
-
-		Rolled a 1, less than or equal to 2
-		Attacker: Player 2 Ship SC2
-		Defender: Player 1 Ship BC0
-		Hit!
-
-		Player 1 Ship BC0 HP reduced to 0!
-		Player 1 Ship BC0 was destroyed!
-
-		Rolled a 8, less than or equal to 4
-		Attacker: Player 1 Ship BC1
-		Defender: Player 2 Ship BC1
-		(Miss)
-
-		Rolled a 5, less than or equal to 4
-		Attacker: Player 1 Ship BC2
-		Defender: Player 2 Ship BC1
-		(Miss)
-
-		Rolled a 9, less than or equal to 4
-		Attacker: Player 2 Ship BC1
-		Defender: Player 1 Ship BC1
-		(Miss)
-
-		Rolled a 4, less than or equal to 4
-		Attacker: Player 2 Ship BC2
-		Defender: Player 1 Ship BC1
-		Hit!
-
-		Player 1 Ship BC1 HP reduced to 1!
-
-		Rolled a 4, less than or equal to 2
-		Attacker: Player 1 Ship SC0
-		Defender: Player 2 Ship BC1
-		(Miss)
-
-		Rolled a 8, less than or equal to 2
-		Attacker: Player 1 Ship SC1
-		Defender: Player 2 Ship BC1
-		(Miss)
-
-		Rolled a 9, less than or equal to 2
-		Attacker: Player 1 Ship SC2
-		Defender: Player 2 Ship BC1
-		(Miss)
-
-		Rolled a 9, less than or equal to 2
-		Attacker: Player 2 Ship SC0
-		Defender: Player 1 Ship BC1
-		(Miss)
-
-		Rolled a 8, less than or equal to 2
-		Attacker: Player 2 Ship SC1
-		Defender: Player 1 Ship BC1
-		(Miss)
-
-		Rolled a 7, less than or equal to 2
-		Attacker: Player 2 Ship SC2
-		Defender: Player 1 Ship BC1
-		(Miss)
 
 		Rolled a 3, less than or equal to 4
 		Attacker: Player 1 Ship BC1
@@ -202,46 +157,147 @@ BEGINNING OF TURN 3 COMBAT PHASE
 
 		Player 2 Ship BC1 HP reduced to 1!
 
-		Rolled a 4, less than or equal to 4
+		Rolled a 9, less than or equal to 4
 		Attacker: Player 1 Ship BC2
+		Defender: Player 2 Ship BC1
+		(Miss)
+
+		Rolled a 1, less than or equal to 4
+		Attacker: Player 2 Ship BC1
+		Defender: Player 1 Ship BC2
+		Hit!
+
+		Player 1 Ship BC2 HP reduced to 1!
+
+		Rolled a 2, less than or equal to 5
+		Attacker: Player 2 Ship BC2
+		Defender: Player 1 Ship SC1
+		Hit!
+
+		Player 1 Ship SC1 HP reduced to 0!
+		Player 1 Ship SC1 was destroyed!
+
+		Rolled a 3, less than or equal to 2
+		Attacker: Player 1 Ship SC0
+		Defender: Player 2 Ship BC1
+		(Miss)
+
+		Rolled a 10, less than or equal to 2
+		Attacker: Player 1 Ship SC2
+		Defender: Player 2 Ship BC1
+		(Miss)
+
+		Rolled a 1, less than or equal to 2
+		Attacker: Player 2 Ship SC0
+		Defender: Player 1 Ship BC0
+		Hit!
+
+		Player 1 Ship BC0 HP reduced to 0!
+		Player 1 Ship BC0 was destroyed!
+
+		Rolled a 5, less than or equal to 3
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship SC2
+		(Miss)
+
+		Rolled a 7, less than or equal to 2
+		Attacker: Player 2 Ship SC2
+		Defender: Player 1 Ship BC2
+		(Miss)
+
+		Rolled a 7, less than or equal to 4
+		Attacker: Player 1 Ship BC1
+		Defender: Player 2 Ship BC1
+		(Miss)
+
+		Rolled a 7, less than or equal to 4
+		Attacker: Player 1 Ship BC2
+		Defender: Player 2 Ship BC1
+		(Miss)
+
+		Rolled a 10, less than or equal to 5
+		Attacker: Player 2 Ship BC1
+		Defender: Player 1 Ship SC0
+		(Miss)
+
+		Rolled a 3, less than or equal to 4
+		Attacker: Player 2 Ship BC2
+		Defender: Player 1 Ship BC2
+		Hit!
+
+		Player 1 Ship BC2 HP reduced to 0!
+		Player 1 Ship BC2 was destroyed!
+
+		Rolled a 6, less than or equal to 2
+		Attacker: Player 1 Ship SC0
+		Defender: Player 2 Ship BC1
+		(Miss)
+
+		Rolled a 2, less than or equal to 2
+		Attacker: Player 1 Ship SC2
 		Defender: Player 2 Ship BC1
 		Hit!
 
 		Player 2 Ship BC1 HP reduced to 0!
 		Player 2 Ship BC1 was destroyed!
 
-		Rolled a 3, less than or equal to 4
-		Attacker: Player 2 Ship BC2
+		Rolled a 8, less than or equal to 2
+		Attacker: Player 2 Ship SC0
 		Defender: Player 1 Ship BC1
-		Hit!
-
-		Player 1 Ship BC1 HP reduced to 0!
-		Player 1 Ship BC1 was destroyed!
-
-		Rolled a 9, less than or equal to 2
-		Attacker: Player 1 Ship SC1
-		Defender: Player 2 Ship BC2
 		(Miss)
 
 		Rolled a 7, less than or equal to 2
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship BC1
+		(Miss)
+
+		Rolled a 5, less than or equal to 3
+		Attacker: Player 2 Ship SC2
+		Defender: Player 1 Ship SC2
+		(Miss)
+
+		Rolled a 7, less than or equal to 4
+		Attacker: Player 1 Ship BC1
+		Defender: Player 2 Ship BC2
+		(Miss)
+
+		Rolled a 7, less than or equal to 5
+		Attacker: Player 2 Ship BC2
+		Defender: Player 1 Ship SC0
+		(Miss)
+
+		Rolled a 10, less than or equal to 2
+		Attacker: Player 1 Ship SC0
+		Defender: Player 2 Ship BC2
+		(Miss)
+
+		Rolled a 6, less than or equal to 2
 		Attacker: Player 1 Ship SC2
 		Defender: Player 2 Ship BC2
 		(Miss)
 
-		Rolled a 1, less than or equal to 2
+		Rolled a 7, less than or equal to 3
 		Attacker: Player 2 Ship SC0
-		Defender: Player 1 Ship BC2
-		Hit!
+		Defender: Player 1 Ship SC0
+		(Miss)
 
-		Player 1 Ship BC2 HP reduced to 1!
-
-		Rolled a 2, less than or equal to 2
+		Rolled a 6, less than or equal to 3
 		Attacker: Player 2 Ship SC1
-		Defender: Player 1 Ship BC2
+		Defender: Player 1 Ship SC0
+		(Miss)
+
+		Rolled a 1, less than or equal to 3
+		Attacker: Player 2 Ship SC2
+		Defender: Player 1 Ship SC2
 		Hit!
 
-		Player 1 Ship BC2 HP reduced to 0!
-		Player 1 Ship BC2 was destroyed!
+		Player 1 Ship SC2 HP reduced to 0!
+		Player 1 Ship SC2 was destroyed!
+
+		Rolled a 5, less than or equal to 4
+		Attacker: Player 1 Ship BC1
+		Defender: Player 2 Ship BC2
+		(Miss)
 
 		Rolled a 3, less than or equal to 5
 		Attacker: Player 2 Ship BC2
@@ -251,38 +307,45 @@ BEGINNING OF TURN 3 COMBAT PHASE
 		Player 1 Ship SC0 HP reduced to 0!
 		Player 1 Ship SC0 was destroyed!
 
-		Rolled a 10, less than or equal to 2
-		Attacker: Player 1 Ship SC1
-		Defender: Player 2 Ship BC2
-		(Miss)
-
-		Rolled a 1, less than or equal to 2
-		Attacker: Player 1 Ship SC2
-		Defender: Player 2 Ship BC2
-		Hit!
-
-		Player 2 Ship BC2 HP reduced to 1!
-
-		Rolled a 5, less than or equal to 3
+		Rolled a 6, less than or equal to 2
 		Attacker: Player 2 Ship SC0
-		Defender: Player 1 Ship SC1
+		Defender: Player 1 Ship BC1
 		(Miss)
 
-		Rolled a 1, less than or equal to 3
+		Rolled a 10, less than or equal to 2
 		Attacker: Player 2 Ship SC1
-		Defender: Player 1 Ship SC1
-		Hit!
+		Defender: Player 1 Ship BC1
+		(Miss)
 
-		Player 1 Ship SC1 HP reduced to 0!
-		Player 1 Ship SC1 was destroyed!
+		Rolled a 4, less than or equal to 2
+		Attacker: Player 2 Ship SC2
+		Defender: Player 1 Ship BC1
+		(Miss)
 
-		Rolled a 5, less than or equal to 5
+		Rolled a 10, less than or equal to 4
+		Attacker: Player 1 Ship BC1
+		Defender: Player 2 Ship BC2
+		(Miss)
+
+		Rolled a 2, less than or equal to 4
 		Attacker: Player 2 Ship BC2
-		Defender: Player 1 Ship SC2
+		Defender: Player 1 Ship BC1
 		Hit!
 
-		Player 1 Ship SC2 HP reduced to 0!
-		Player 1 Ship SC2 was destroyed!
+		Player 1 Ship BC1 HP reduced to 1!
+
+		Rolled a 8, less than or equal to 2
+		Attacker: Player 2 Ship SC0
+		Defender: Player 1 Ship BC1
+		(Miss)
+
+		Rolled a 2, less than or equal to 2
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship BC1
+		Hit!
+
+		Player 1 Ship BC1 HP reduced to 0!
+		Player 1 Ship BC1 was destroyed!
 
 	Survivors:
 

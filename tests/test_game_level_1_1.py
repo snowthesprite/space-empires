@@ -6,6 +6,14 @@ from game_1_1 import Game
 from strat_plr_1 import StratPlayer
 from strat_1 import StraightToEnemyColony
 
+'''
+players = [StratPlayer(StraightToEnemyColony()), StratPlayer(StraightToEnemyColony())]
+game = Game(players)
+game.run_to_completion()
+#print(game.winner)
+#'''
+
+##Testing battle_strat_0_1
 players = [StratPlayer(StraightToEnemyColony()), StratPlayer(StraightToEnemyColony())]
 game = Game(players)
 game.run_to_completion()
