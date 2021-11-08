@@ -87,9 +87,16 @@ class BattleStrat () :
         plr_num = ship_info['player_num']
         opp_plr_num = (plr_num % 2) + 1
 
-        my_ship_coords = ship_info['coords']
+        ship_coords = ship_info['coords']
 
         opp_home_col_coords = self.find_home_col(opp_plr_num)
+
+        mvmt = self.to_col(my_ship_coords, opp_home_col_coords, choices)
+
+        best_coord = (ship_coords[0]+mvmt[0], ship_coords[1]+mvmt[1])
+
+        if self.opp_there(plr_num, best_coord) :
+            return [0,0]
 
         return self.to_col(my_ship_coords, opp_home_col_coords, choices)
         #enemy_loc = []

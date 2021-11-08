@@ -14,7 +14,7 @@ class Game:
         self.turn = 1
         self.board_size = board_size
         self.set_player_numbers()
-        rand.seed(3)
+        #rand.seed(3)
 
         board_x, board_y = board_size
         mid_x = (board_x + 1) // 2
@@ -145,11 +145,11 @@ class Game:
     
     def find_ship_from_id(self, ship_ref) :
         plr_id, ship_id = ship_ref
-        print('\n\n', plr_id)
+        #print('\n\n', plr_id)
         for ship in self.plr_data[plr_id]['ships'] :
             if ship.id == ship_id :
-                print(ship_id)
-                print(ship.pn, ship.id)
+                #print(ship_id)
+                #print(ship.pn, ship.id)
                 return ship
         #print('ERROR: NO SUCH SHIP WITH ID')
             
@@ -185,7 +185,7 @@ class Game:
                         defender.hp -= 1
                         self.log.log_damage(defender)
                         if defender.hp == 0 :
-                            print(alt_id, defender.id)
+                            #print(alt_id, defender.id)
                             self.plr_data[alt_id]['ships'].remove(defender)
                             battlefield.remove((alt_id,defender.id))
                             current_battle.remove(defender_info)
