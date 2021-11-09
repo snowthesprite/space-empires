@@ -9,7 +9,8 @@ class Ship () :
                 'ship_num': att['other'][1],
                 'name': att['other'][0],
                 'ship_class': att['type'],
-                'obj_type': att['other'][2]}
+                'obj_type': att['other'][2],
+                'ship_id': att['id']}
         return ship_dict
 
 class Scout (Ship) :
@@ -21,7 +22,7 @@ class Scout (Ship) :
         self.id = 'SC' + str(id)
         self.type = 'E'
         self.list_id = None
-        self.other = ['SC', id, 'Ship']
+        self.other = ['Scout', id, 'Ship']
 
 
     
@@ -34,4 +35,4 @@ class BattleCruiser (Ship) :
         self.id = 'BC' + str(id)
         self.type = 'B'
         self.list_id = None
-        self.other = ['BC', id, 'Ship']
+        self.other = ['BattleCruiser', id, 'Ship']

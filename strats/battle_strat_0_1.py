@@ -1,5 +1,7 @@
-## Sends three scouts out dif areas, finds shortest mvmt to enemy colony while avoiding enemies. Battle cruisers stay w/in a 3 space radius seek and destroy. All move as one unit unless multiple, then 2 goes after one w/ most health, 1 after other, or 1 for each
+## Sends Scouts foward, finds shortest mvmt to enemy colony while avoiding enemies. Battle cruisers go foward, but lay in wait for enemies
 ## Compatable w/ strat_plr_1
+import random as rand
+
 class BattleStrat () :
     def __init__(self) :
         self.simple_board = {}
@@ -21,7 +23,7 @@ class BattleStrat () :
 
         ship_init = current_battle.index(ship)
 
-        for index in range(current_battle) :
+        for index in range(len(current_battle)) :
             ship_info = current_battle[index]
             if ship_info['player_num'] == plr_num :
                 if index > ship_init :
@@ -49,14 +51,22 @@ class BattleStrat () :
     def opp_there(self, plr_num, coord) :
         if coord not in self.simple_board.keys() :
             return False
-        test = {ship_info['player_num'] for ship_info in self.simple_board[coord] if ship_info['obj_type'] == 'ship'}
+        test = {ship_info['player_num'] for ship_info in self.simple_board[coord] if ship_info['obj_type'] == 'Ship'}
         if ((plr_num % 2) + 1) in test :
             return True
         return False
     
-    def to_col(self, ship_coords, colony_coords, choices = [(1,0),(0,1), (-1,0), (0,-1), (0,0)]) :
+    def friend_there(self, plr_num, coord) :
+        if coord not in self.simple_board.keys() :
+            return False
+        test = {ship_info['player_num'] for ship_info in self.simple_board[coord] if ship_info['obj_type'] == 'Ship'}
+        if plr_num in test :
+            return True
+        return False
+    
+    def to_col(self, ship_coords, colony_coords, choices = [(1,0),(0,1), (-1,0), (0,-1)]) :
         dist_sqr = (ship_coords[0] - colony_coords[0]) ** 2 + (ship_coords[1] - colony_coords[1]) ** 2
-        best_mvmt = [0,0]
+        best_mvmt = (0,0)
 
         for choice in choices :
             option = (choice[0] + ship_coords[0], choice[1] + ship_coords[1])
@@ -74,12 +84,19 @@ class BattleStrat () :
         ship_coords = ship_info['coords']
 
         opp_home_col_coords = self.find_home_col(opp_plr_num)
-        worst_choice = self.to_col(ship_coords, self.find_home_col(plr_num), choices)
+        worst_mvmt = self.to_col(ship_coords, self.find_home_col(plr_num), choices)
+        worst_coord = (ship_coords[0]+worst_mvmt[0], ship_coords[1]+worst_mvmt[1])
         mvmt = self.to_col(ship_coords, opp_home_col_coords, choices)
         new_coord = (ship_coords[0]+mvmt[0], ship_coords[1]+mvmt[1])
         while self.opp_there(plr_num, new_coord) :
+            if self.friend_there(plr_num, (ship_coords[0]+1, ship_coords[1])) or self.friend_there(plr_num, (ship_coords[0]-1, ship_coords[1])) :
+                return self.battlecruiser_trans(ship_info, choices)
             choices.remove(mvmt)
-            mvmt = self.to_col(ship_coords, opp_home_col_coords, choices)
+            mvmt = self.to_col(worst_coord, opp_home_col_coords, choices) 
+            if mvmt == (0,0) :
+                choice = [(1,0), (-1,0)]
+                mvmt = choice[round(rand.random())]
+
             new_coord = (ship_coords[0]+mvmt[0], ship_coords[1]+mvmt[1])
         return mvmt
 
@@ -91,15 +108,14 @@ class BattleStrat () :
 
         opp_home_col_coords = self.find_home_col(opp_plr_num)
 
-        mvmt = self.to_col(my_ship_coords, opp_home_col_coords, choices)
+        mvmt = self.to_col(ship_coords, opp_home_col_coords, choices)
 
         best_coord = (ship_coords[0]+mvmt[0], ship_coords[1]+mvmt[1])
 
-        if self.opp_there(plr_num, best_coord) :
-            return [0,0]
+        #print(self.opp_there(plr_num, best_coord))
 
-        return self.to_col(my_ship_coords, opp_home_col_coords, choices)
-        #enemy_loc = []
-        #for x in range(4) :
-            #for y in range(4) :
+        if self.opp_there(plr_num, best_coord) :
+            return (0,0)
+
+        return mvmt
 

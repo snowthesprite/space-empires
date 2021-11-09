@@ -165,7 +165,7 @@ class Game:
             while keep_running :
                 for ship_info in current_battle.copy() :
                     plr_id = ship_info['player_num']
-                    ship_id = ship_info['name'] + str(ship_info['ship_num'])
+                    ship_id = ship_info['ship_id']
                     alt_id = (plr_id % 2) + 1
                     if not self.opponent_there(fight_coords, plr_id) :
                         keep_running = False

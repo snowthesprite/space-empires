@@ -26,6 +26,8 @@ class StratPlayer():
 
         board_copy[plr_data[1]['Home Colony']].insert(0,{'player_num': 1, 'obj_type': 'Colony', 'is_home_colony': True, 'coords': plr_data[1]['Home Colony']})
         board_copy[plr_data[2]['Home Colony']].insert(0,{'player_num': 2, 'obj_type': 'Colony', 'is_home_colony': True, 'coords': plr_data[2]['Home Colony']})
+        #print(self.plr_num)
+        #print(board, '\n\n')
 
         self.strat.simple_board = board_copy
 
@@ -53,6 +55,6 @@ class StratPlayer():
         coord = current_battle[0]['coords']
         ship_info = ship.class_to_dict(coord)
         enemy = self.strat.choose_target(ship_info, current_battle)
-        enemy_ref = (enemy['player_num'], enemy['name'] + str(enemy['ship_num']))
+        enemy_ref = (enemy['player_num'], enemy['ship_id'])
         return enemy_ref
         

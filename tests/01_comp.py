@@ -5,6 +5,7 @@ sys.path.append('strats')
 from game_1_1 import Game
 from strat_plr_1 import StratPlayer
 from strat_1 import StraightToEnemyColony
+from battle_strat_0_1 import BattleStrat
 
 from anton import PriorityAttacker
 from charlie import MoveToOpponent
@@ -16,6 +17,8 @@ from william import Custom
 names = ['Maia', 'Anton', 'Charlie', 'Justin', 'Cayden', 'William']
 
 strats = [StraightToEnemyColony(), PriorityAttacker(), MoveToOpponent(), CompetitionStrat(), CaydenStrat(), Custom()]
+
+#strats = [BattleStrat(), PriorityAttacker(), MoveToOpponent(), CompetitionStrat(), CaydenStrat(), Custom()]
 
 all_wins = []
 
