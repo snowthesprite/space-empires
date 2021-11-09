@@ -75,15 +75,13 @@ class Game:
 
     def run_to_completion(self) :
         while self.winner == None :
-            
-            assert (3,0) not in self.used_coords.keys() or not self.opponent_there((3,0),1)
-            assert (3,6) not in self.used_coords.keys() or not self.opponent_there((3,6),2)
-            
             self.complete_turn()
             self.check_winner()
         self.log.write('WINNER: PLAYER {}'.format(self.winner))
 
     def check_winner(self) :
+        if self.turn > 100 :
+            self.winner = 3
         for player_num in range(1, 3) :
             if self.plr_data[player_num]['Home Colony'] not in self.used_coords.keys() :
                 continue
