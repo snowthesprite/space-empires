@@ -13,7 +13,7 @@ battlecruiser = {'name':"BattleCruiser",
                 'atk': 5,
                 'df': 1,
                 'ship_class': "B",
-                'cp_cost':15,
+                'cp_cost': 15,
                 'obj': BattleCruiser}
 
 cruiser = {'name':"Cruiser",
@@ -21,7 +21,7 @@ cruiser = {'name':"Cruiser",
             'atk': 4,
             'df': 1,
             'ship_class': "C",
-            'cp_cost':12,
+            'cp_cost': 12,
             'obj': Cruiser}
 
 destroyer = {'name':"Destroyer",
@@ -29,7 +29,7 @@ destroyer = {'name':"Destroyer",
             'atk': 4,
             'df': 0,
             'ship_class': "D",
-            'cp_cost':9,
+            'cp_cost':  9,
             'obj': Destroyer}
 
 dreadnaught = {'name':"Dreadnaught",
@@ -37,7 +37,9 @@ dreadnaught = {'name':"Dreadnaught",
                 'atk': 6,
                 'df': 3,
                 'ship_class': "A",
-                'cp_cost':24,
+                'cp_cost': 24,
                 'obj': Dreadnaught}
 
-all_ship_infos = [scout, battlecruiser, cruiser, destroyer, dreadnaught]
+all_ship_infos = [scout, battlecruiser, cruiser, dreadnaught, destroyer]
+
+#{'Scout': 0, 'BattleCruiser': 0, 'Cruiser': 0, 'Destroyer': 0, 'Dreadnaught': 0}
