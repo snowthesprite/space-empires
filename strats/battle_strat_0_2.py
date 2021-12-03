@@ -8,7 +8,6 @@ class BattleStrat () :
         self.simple_board = {}
         self.all_to_me = False
 
-
     def buy_ships(self, cp_amount) :
         #ship_amounts = {'Destroyer': 6, 'Dreadnaught': 6}
         ship_amounts = {'Scout': 5, 'BattleCruiser': 0, 'Cruiser': 0, 'Destroyer': 0, 'Dreadnaught': 7}
@@ -137,6 +136,8 @@ class BattleStrat () :
             if mvmt == (0,0) :
                 if (0,0) in choices :
                     choices.remove((0,0))
+                if choices == [] :
+                    return (0,0)
                 mvmt = choices[0]
 
             new_coords = (coords[0]+mvmt[0], coords[1]+mvmt[1])

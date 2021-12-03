@@ -160,7 +160,6 @@ class Game:
         survivors = {}
         self.log.log_combat_locations(all_battles)
         for (fight_coords, players) in all_battles.items() :
-            print('fight')
             keep_running = True
             self.log.write('\n\tCombat at {}\n'.format(fight_coords))
             current_battle = all_battles[fight_coords]

@@ -7,6 +7,7 @@ from strat_plr_2 import StratPlayer
 from tester_strat import TestStrat
 from battle_strat_0_2 import BattleStrat
 from dummy_strat import DummyStrat
+from william import WallStrat
 
 #print([chr(i) for i in range(ord('A'),ord('E')+1)])
 
@@ -19,7 +20,7 @@ print(game.winner)
 #'''
 
 #''''
-players = [StratPlayer(TestStrat()), StratPlayer(BattleStrat())]
+players = [StratPlayer(WallStrat()), StratPlayer(BattleStrat())]
 names = ['Dummy', 'Battle', 'tie']
 
 wins = {'Dummy': 0, 'Battle': 0, 'tie': 0}
