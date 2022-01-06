@@ -12,14 +12,17 @@ from justin import CompetitionStrat
 from cayden import CaydenStrat
 from william import WallStrat
 
-
+''''
 names = ['Maia', 'Anton', 'Charlie', 'Justin', 'Cayden', 'William']
 
-#strats = [StraightToEnemyColony(), SmartRush(), MoveToOpponent(), CompetitionStrat(), CaydenStrat(), WallStrat()]
-
 strats = [BattleStrat(), SmartRush(), MoveToOpponent(), CompetitionStrat(), CaydenStrat(), WallStrat()]
+#'''
 
 all_wins = []
+
+names = ['Maia', 'William']
+
+strats = [BattleStrat(), WallStrat()]
 
 for plr_1 in range(len(names)) :
     for plr_2 in range(plr_1+1, len(names)) :

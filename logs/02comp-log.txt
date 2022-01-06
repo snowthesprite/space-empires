@@ -1,13 +1,19 @@
 BEGINNING OF TURN 1 MOVEMENT PHASE
 
+	Player 1 Ship SC1: (3, 0) -> (3, 1)
+	Player 1 Ship CA1: (3, 0) -> (2, 0)
+	Player 1 Ship CA2: (3, 0) -> (2, 0)
+	Player 1 Ship CA3: (3, 0) -> (2, 0)
+	Player 1 Ship CA4: (3, 0) -> (3, 1)
+	Player 1 Ship CA5: (3, 0) -> (4, 0)
+	Player 1 Ship CA6: (3, 0) -> (4, 0)
+	Player 1 Ship CA7: (3, 0) -> (4, 0)
+	Player 1 Ship CA8: (3, 0) -> (3, 1)
+	Player 1 Ship CA9: (3, 0) -> (3, 1)
+	Player 1 Ship CA10: (3, 0) -> (3, 1)
 	Player 1 Ship DN1: (3, 0) -> (3, 1)
-	Player 1 Ship DN2: (3, 0) -> (3, 1)
-	Player 1 Ship DN3: (3, 0) -> (3, 1)
-	Player 1 Ship DN4: (3, 0) -> (3, 1)
-	Player 1 Ship DN5: (3, 0) -> (3, 1)
-	Player 1 Ship DN6: (3, 0) -> (3, 1)
-	Player 1 Ship DN7: (3, 0) -> (3, 1)
-	Player 1 Ship DN8: (3, 0) -> (3, 1)
+	Player 1 Ship DN2: (3, 0) -> (4, 0)
+	Player 1 Ship DN3: (3, 0) -> (2, 0)
 	Player 2 Ship SC1: (3, 6) -> (4, 6)
 	Player 2 Ship SC2: (3, 6) -> (3, 6)
 	Player 2 Ship SC3: (3, 6) -> (3, 6)
@@ -29,14 +35,20 @@ END OF TURN 1 COMBAT PHASE
 
 BEGINNING OF TURN 2 MOVEMENT PHASE
 
-	Player 1 Ship DN1: (3, 1) -> (3, 2)
-	Player 1 Ship DN2: (3, 1) -> (3, 2)
-	Player 1 Ship DN3: (3, 1) -> (3, 2)
-	Player 1 Ship DN4: (3, 1) -> (3, 2)
-	Player 1 Ship DN5: (3, 1) -> (3, 2)
-	Player 1 Ship DN6: (3, 1) -> (3, 2)
-	Player 1 Ship DN7: (3, 1) -> (3, 2)
-	Player 1 Ship DN8: (3, 1) -> (3, 2)
+	Player 1 Ship SC1: (3, 1) -> (3, 2)
+	Player 1 Ship CA1: (2, 0) -> (1, 0)
+	Player 1 Ship CA2: (2, 0) -> (1, 0)
+	Player 1 Ship CA3: (2, 0) -> (2, 1)
+	Player 1 Ship CA4: (3, 1) -> (3, 2)
+	Player 1 Ship CA5: (4, 0) -> (4, 1)
+	Player 1 Ship CA6: (4, 0) -> (5, 0)
+	Player 1 Ship CA7: (4, 0) -> (5, 0)
+	Player 1 Ship CA8: (3, 1) -> (3, 2)
+	Player 1 Ship CA9: (3, 1) -> (3, 2)
+	Player 1 Ship CA10: (3, 1) -> (3, 2)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
 	Player 2 Ship SC1: (4, 6) -> (4, 5)
 	Player 2 Ship SC2: (3, 6) -> (3, 6)
 	Player 2 Ship SC3: (3, 6) -> (3, 6)
@@ -58,14 +70,20 @@ END OF TURN 2 COMBAT PHASE
 
 BEGINNING OF TURN 3 MOVEMENT PHASE
 
-	Player 1 Ship DN1: (3, 2) -> (3, 3)
-	Player 1 Ship DN2: (3, 2) -> (3, 3)
-	Player 1 Ship DN3: (3, 2) -> (3, 3)
-	Player 1 Ship DN4: (3, 2) -> (3, 3)
-	Player 1 Ship DN5: (3, 2) -> (3, 3)
-	Player 1 Ship DN6: (3, 2) -> (3, 3)
-	Player 1 Ship DN7: (3, 2) -> (3, 3)
-	Player 1 Ship DN8: (3, 2) -> (3, 3)
+	Player 1 Ship SC1: (3, 2) -> (3, 3)
+	Player 1 Ship CA1: (1, 0) -> (0, 0)
+	Player 1 Ship CA2: (1, 0) -> (1, 1)
+	Player 1 Ship CA3: (2, 1) -> (2, 2)
+	Player 1 Ship CA4: (3, 2) -> (3, 3)
+	Player 1 Ship CA5: (4, 1) -> (4, 2)
+	Player 1 Ship CA6: (5, 0) -> (5, 1)
+	Player 1 Ship CA7: (5, 0) -> (6, 0)
+	Player 1 Ship CA8: (3, 2) -> (3, 3)
+	Player 1 Ship CA9: (3, 2) -> (3, 3)
+	Player 1 Ship CA10: (3, 2) -> (3, 3)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
 	Player 2 Ship SC1: (4, 5) -> (4, 4)
 	Player 2 Ship SC2: (3, 6) -> (3, 6)
 	Player 2 Ship SC3: (3, 6) -> (3, 6)
@@ -87,15 +105,21 @@ END OF TURN 3 COMBAT PHASE
 
 BEGINNING OF TURN 4 MOVEMENT PHASE
 
-	Player 1 Ship DN1: (3, 3) -> (3, 4)
-	Player 1 Ship DN2: (3, 3) -> (3, 4)
-	Player 1 Ship DN3: (3, 3) -> (3, 4)
-	Player 1 Ship DN4: (3, 3) -> (3, 4)
-	Player 1 Ship DN5: (3, 3) -> (3, 4)
-	Player 1 Ship DN6: (3, 3) -> (3, 4)
-	Player 1 Ship DN7: (3, 3) -> (3, 4)
-	Player 1 Ship DN8: (3, 3) -> (3, 4)
-	Player 2 Ship SC1: (4, 4) -> (4, 3)
+	Player 1 Ship SC1: (3, 3) -> (3, 4)
+	Player 1 Ship CA1: (0, 0) -> (0, 1)
+	Player 1 Ship CA2: (1, 1) -> (1, 2)
+	Player 1 Ship CA3: (2, 2) -> (2, 3)
+	Player 1 Ship CA4: (3, 3) -> (3, 4)
+	Player 1 Ship CA5: (4, 2) -> (4, 3)
+	Player 1 Ship CA6: (5, 1) -> (5, 2)
+	Player 1 Ship CA7: (6, 0) -> (6, 1)
+	Player 1 Ship CA8: (3, 3) -> (3, 4)
+	Player 1 Ship CA9: (3, 3) -> (3, 4)
+	Player 1 Ship CA10: (3, 3) -> (3, 4)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC1: (4, 4) -> (4, 5)
 	Player 2 Ship SC2: (3, 6) -> (3, 6)
 	Player 2 Ship SC3: (3, 6) -> (3, 6)
 	Player 2 Ship SC4: (3, 6) -> (3, 6)
@@ -116,15 +140,21 @@ END OF TURN 4 COMBAT PHASE
 
 BEGINNING OF TURN 5 MOVEMENT PHASE
 
-	Player 1 Ship DN1: (3, 4) -> (3, 5)
-	Player 1 Ship DN2: (3, 4) -> (3, 5)
-	Player 1 Ship DN3: (3, 4) -> (3, 5)
-	Player 1 Ship DN4: (3, 4) -> (3, 5)
-	Player 1 Ship DN5: (3, 4) -> (3, 5)
-	Player 1 Ship DN6: (3, 4) -> (3, 5)
-	Player 1 Ship DN7: (3, 4) -> (3, 5)
-	Player 1 Ship DN8: (3, 4) -> (3, 5)
-	Player 2 Ship SC1: (4, 3) -> (4, 2)
+	Player 1 Ship SC1: (3, 4) -> (3, 5)
+	Player 1 Ship CA1: (0, 1) -> (0, 2)
+	Player 1 Ship CA2: (1, 2) -> (1, 3)
+	Player 1 Ship CA3: (2, 3) -> (2, 4)
+	Player 1 Ship CA4: (3, 4) -> (3, 5)
+	Player 1 Ship CA5: (4, 3) -> (4, 4)
+	Player 1 Ship CA6: (5, 2) -> (5, 3)
+	Player 1 Ship CA7: (6, 1) -> (6, 2)
+	Player 1 Ship CA8: (3, 4) -> (3, 5)
+	Player 1 Ship CA9: (3, 4) -> (3, 5)
+	Player 1 Ship CA10: (3, 4) -> (3, 5)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC1: (4, 5) -> (4, 6)
 	Player 2 Ship SC2: (3, 6) -> (3, 6)
 	Player 2 Ship SC3: (3, 6) -> (3, 6)
 	Player 2 Ship SC4: (3, 6) -> (3, 6)
@@ -145,15 +175,21 @@ END OF TURN 5 COMBAT PHASE
 
 BEGINNING OF TURN 6 MOVEMENT PHASE
 
-	Player 1 Ship DN1: (3, 5) -> (3, 6)
-	Player 1 Ship DN2: (3, 5) -> (3, 6)
-	Player 1 Ship DN3: (3, 5) -> (3, 6)
-	Player 1 Ship DN4: (3, 5) -> (3, 6)
-	Player 1 Ship DN5: (3, 5) -> (3, 6)
-	Player 1 Ship DN6: (3, 5) -> (3, 6)
-	Player 1 Ship DN7: (3, 5) -> (3, 6)
-	Player 1 Ship DN8: (3, 5) -> (3, 6)
-	Player 2 Ship SC1: (4, 2) -> (4, 1)
+	Player 1 Ship SC1: (3, 5) -> (3, 6)
+	Player 1 Ship CA1: (0, 2) -> (0, 3)
+	Player 1 Ship CA2: (1, 3) -> (1, 4)
+	Player 1 Ship CA3: (2, 4) -> (2, 5)
+	Player 1 Ship CA4: (3, 5) -> (3, 6)
+	Player 1 Ship CA5: (4, 4) -> (4, 5)
+	Player 1 Ship CA6: (5, 3) -> (5, 4)
+	Player 1 Ship CA7: (6, 2) -> (6, 3)
+	Player 1 Ship CA8: (3, 5) -> (3, 6)
+	Player 1 Ship CA9: (3, 5) -> (3, 6)
+	Player 1 Ship CA10: (3, 5) -> (3, 6)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC1: (4, 6) -> (5, 6)
 	Player 2 Ship SC2 is caught in battle at (3, 6)
 	Player 2 Ship SC3 is caught in battle at (3, 6)
 	Player 2 Ship SC4 is caught in battle at (3, 6)
@@ -181,53 +217,1068 @@ BEGINNING OF TURN 6 COMBAT PHASE
 			Player 2 Ship DN5
 			Player 2 Ship DN6
 			Player 2 Ship DN7
-			Player 1 Ship DN1
-			Player 1 Ship DN2
-			Player 1 Ship DN3
-			Player 1 Ship DN4
-			Player 1 Ship DN5
-			Player 1 Ship DN6
-			Player 1 Ship DN7
-			Player 1 Ship DN8
+			Player 1 Ship CA4
+			Player 1 Ship CA8
+			Player 1 Ship CA9
+			Player 1 Ship CA10
 			Player 2 Ship SC2
 			Player 2 Ship SC3
 			Player 2 Ship SC4
 			Player 2 Ship SC5
+			Player 1 Ship SC1
 
 	Combat at (3, 6)
 
-		Rolled a 2, less than or equal to 3
+		Rolled a 6, less than or equal to 6
 		Attacker: Player 2 Ship DN1
-		Defender: Player 1 Ship DN1
+		Defender: Player 1 Ship SC1
 		Hit!
 
-		Player 1 Ship DN1 HP reduced to 2!
+		Player 1 Ship SC1 HP reduced to 0!
+		Player 1 Ship SC1 was destroyed!
 
-		Rolled a 3, less than or equal to 3
+		Rolled a 5, less than or equal to 5
 		Attacker: Player 2 Ship DN2
-		Defender: Player 1 Ship DN1
+		Defender: Player 1 Ship CA4
 		Hit!
 
-		Player 1 Ship DN1 HP reduced to 1!
+		Player 1 Ship CA4 HP reduced to 1!
 
-		Rolled a 1, less than or equal to 3
+		Rolled a 3, less than or equal to 5
 		Attacker: Player 2 Ship DN3
-		Defender: Player 1 Ship DN1
+		Defender: Player 1 Ship CA4
 		Hit!
 
-		Player 1 Ship DN1 HP reduced to 0!
-		Player 1 Ship DN1 was destroyed!
+		Player 1 Ship CA4 HP reduced to 0!
+		Player 1 Ship CA4 was destroyed!
 
-		Rolled a 8, less than or equal to 3
+		Rolled a 6, less than or equal to 5
 		Attacker: Player 2 Ship DN4
-		Defender: Player 1 Ship DN2
+		Defender: Player 1 Ship CA8
 		(Miss)
 
-		Rolled a 7, less than or equal to 3
+		Rolled a 9, less than or equal to 5
 		Attacker: Player 2 Ship DN5
-		Defender: Player 1 Ship DN2
+		Defender: Player 1 Ship CA8
 		(Miss)
 
-		Rolled a 4, less than or equal to 3
+		Rolled a 4, less than or equal to 5
 		Attacker: Player 2 Ship DN6
-		Defender: Player 1 Ship DN2
+		Defender: Player 1 Ship CA8
+		Hit!
+
+		Player 1 Ship CA8 HP reduced to 1!
+
+		Rolled a 9, less than or equal to 5
+		Attacker: Player 2 Ship DN7
+		Defender: Player 1 Ship CA8
+		(Miss)
+
+		Rolled a 6, less than or equal to 4
+		Attacker: Player 1 Ship CA8
+		Defender: Player 2 Ship SC5
+		(Miss)
+
+		Rolled a 4, less than or equal to 4
+		Attacker: Player 1 Ship CA9
+		Defender: Player 2 Ship SC4
+		Hit!
+
+		Player 2 Ship SC4 HP reduced to 0!
+		Player 2 Ship SC4 was destroyed!
+
+		Rolled a 9, less than or equal to 4
+		Attacker: Player 1 Ship CA10
+		Defender: Player 2 Ship SC2
+		(Miss)
+
+		Rolled a 7, less than or equal to 2
+		Attacker: Player 2 Ship SC2
+		Defender: Player 1 Ship CA8
+		(Miss)
+
+		Rolled a 5, less than or equal to 2
+		Attacker: Player 2 Ship SC3
+		Defender: Player 1 Ship CA8
+		(Miss)
+
+		Rolled a 1, less than or equal to 2
+		Attacker: Player 2 Ship SC5
+		Defender: Player 1 Ship CA8
+		Hit!
+
+		Player 1 Ship CA8 HP reduced to 0!
+		Player 1 Ship CA8 was destroyed!
+
+		Rolled a 2, less than or equal to 5
+		Attacker: Player 2 Ship DN1
+		Defender: Player 1 Ship CA9
+		Hit!
+
+		Player 1 Ship CA9 HP reduced to 1!
+
+		Rolled a 4, less than or equal to 5
+		Attacker: Player 2 Ship DN2
+		Defender: Player 1 Ship CA9
+		Hit!
+
+		Player 1 Ship CA9 HP reduced to 0!
+		Player 1 Ship CA9 was destroyed!
+
+		Rolled a 5, less than or equal to 5
+		Attacker: Player 2 Ship DN3
+		Defender: Player 1 Ship CA10
+		Hit!
+
+		Player 1 Ship CA10 HP reduced to 1!
+
+		Rolled a 1, less than or equal to 5
+		Attacker: Player 2 Ship DN4
+		Defender: Player 1 Ship CA10
+		Hit!
+
+		Player 1 Ship CA10 HP reduced to 0!
+		Player 1 Ship CA10 was destroyed!
+
+	Survivors:
+
+		(3, 6)
+
+			Player 2 Ship SC2
+			Player 2 Ship SC3
+			Player 2 Ship SC5
+			Player 2 Ship DN1
+			Player 2 Ship DN2
+			Player 2 Ship DN3
+			Player 2 Ship DN4
+			Player 2 Ship DN5
+			Player 2 Ship DN6
+			Player 2 Ship DN7
+
+END OF TURN 6 COMBAT PHASE
+
+BEGINNING OF TURN 7 MOVEMENT PHASE
+
+	Player 1 Ship CA1: (0, 3) -> (0, 4)
+	Player 1 Ship CA2: (1, 4) -> (1, 5)
+	Player 1 Ship CA3: (2, 5) -> (2, 6)
+	Player 1 Ship CA5: (4, 5) -> (4, 6)
+	Player 1 Ship CA6: (5, 4) -> (5, 5)
+	Player 1 Ship CA7: (6, 3) -> (6, 4)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC1: (5, 6) -> (6, 6)
+	Player 2 Ship SC2: (3, 6) -> (3, 6)
+	Player 2 Ship SC3: (3, 6) -> (3, 6)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 7 MOVEMENT PHASE
+
+BEGINNING OF TURN 7 COMBAT PHASE
+
+END OF TURN 7 COMBAT PHASE
+
+BEGINNING OF TURN 8 MOVEMENT PHASE
+
+	Player 1 Ship CA1: (0, 4) -> (0, 5)
+	Player 1 Ship CA2: (1, 5) -> (1, 6)
+	Player 1 Ship CA3: (2, 6) -> (3, 6)
+	Player 1 Ship CA5: (4, 6) -> (3, 6)
+	Player 1 Ship CA6: (5, 5) -> (5, 6)
+	Player 1 Ship CA7: (6, 4) -> (6, 5)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC1: (6, 6) -> (6, 6)
+	Player 2 Ship SC2 is caught in battle at (3, 6)
+	Player 2 Ship SC3 is caught in battle at (3, 6)
+	Player 2 Ship SC5 is caught in battle at (3, 6)
+	Player 2 Ship DN1 is caught in battle at (3, 6)
+	Player 2 Ship DN2 is caught in battle at (3, 6)
+	Player 2 Ship DN3 is caught in battle at (3, 6)
+	Player 2 Ship DN4 is caught in battle at (3, 6)
+	Player 2 Ship DN5 is caught in battle at (3, 6)
+	Player 2 Ship DN6 is caught in battle at (3, 6)
+	Player 2 Ship DN7 is caught in battle at (3, 6)
+
+END OF TURN 8 MOVEMENT PHASE
+
+BEGINNING OF TURN 8 COMBAT PHASE
+
+	Combat Locations:
+
+		(3, 6)
+
+			Player 2 Ship DN1
+			Player 2 Ship DN2
+			Player 2 Ship DN3
+			Player 2 Ship DN4
+			Player 2 Ship DN5
+			Player 2 Ship DN6
+			Player 2 Ship DN7
+			Player 1 Ship CA3
+			Player 1 Ship CA5
+			Player 2 Ship SC2
+			Player 2 Ship SC3
+			Player 2 Ship SC5
+
+	Combat at (3, 6)
+
+		Rolled a 1, less than or equal to 5
+		Attacker: Player 2 Ship DN1
+		Defender: Player 1 Ship CA3
+		Hit!
+
+		Player 1 Ship CA3 HP reduced to 1!
+
+		Rolled a 10, less than or equal to 5
+		Attacker: Player 2 Ship DN2
+		Defender: Player 1 Ship CA3
+		(Miss)
+
+		Rolled a 1, less than or equal to 5
+		Attacker: Player 2 Ship DN3
+		Defender: Player 1 Ship CA3
+		Hit!
+
+		Player 1 Ship CA3 HP reduced to 0!
+		Player 1 Ship CA3 was destroyed!
+
+		Rolled a 7, less than or equal to 5
+		Attacker: Player 2 Ship DN4
+		Defender: Player 1 Ship CA5
+		(Miss)
+
+		Rolled a 8, less than or equal to 5
+		Attacker: Player 2 Ship DN5
+		Defender: Player 1 Ship CA5
+		(Miss)
+
+		Rolled a 1, less than or equal to 5
+		Attacker: Player 2 Ship DN6
+		Defender: Player 1 Ship CA5
+		Hit!
+
+		Player 1 Ship CA5 HP reduced to 1!
+
+		Rolled a 3, less than or equal to 5
+		Attacker: Player 2 Ship DN7
+		Defender: Player 1 Ship CA5
+		Hit!
+
+		Player 1 Ship CA5 HP reduced to 0!
+		Player 1 Ship CA5 was destroyed!
+
+	Survivors:
+
+		(3, 6)
+
+			Player 2 Ship SC2
+			Player 2 Ship SC3
+			Player 2 Ship SC5
+			Player 2 Ship DN1
+			Player 2 Ship DN2
+			Player 2 Ship DN3
+			Player 2 Ship DN4
+			Player 2 Ship DN5
+			Player 2 Ship DN6
+			Player 2 Ship DN7
+
+END OF TURN 8 COMBAT PHASE
+
+BEGINNING OF TURN 9 MOVEMENT PHASE
+
+	Player 1 Ship CA1: (0, 5) -> (0, 6)
+	Player 1 Ship CA2: (1, 6) -> (2, 6)
+	Player 1 Ship CA6: (5, 6) -> (4, 6)
+	Player 1 Ship CA7: (6, 5) -> (6, 6)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC1 is caught in battle at (6, 6)
+	Player 2 Ship SC2: (3, 6) -> (3, 6)
+	Player 2 Ship SC3: (3, 6) -> (3, 6)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 9 MOVEMENT PHASE
+
+BEGINNING OF TURN 9 COMBAT PHASE
+
+	Combat Locations:
+
+		(6, 6)
+
+			Player 1 Ship CA7
+			Player 2 Ship SC1
+
+	Combat at (6, 6)
+
+		Rolled a 7, less than or equal to 4
+		Attacker: Player 1 Ship CA7
+		Defender: Player 2 Ship SC1
+		(Miss)
+
+		Rolled a 10, less than or equal to 2
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship CA7
+		(Miss)
+
+		Rolled a 5, less than or equal to 4
+		Attacker: Player 1 Ship CA7
+		Defender: Player 2 Ship SC1
+		(Miss)
+
+		Rolled a 9, less than or equal to 2
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship CA7
+		(Miss)
+
+		Rolled a 7, less than or equal to 4
+		Attacker: Player 1 Ship CA7
+		Defender: Player 2 Ship SC1
+		(Miss)
+
+		Rolled a 5, less than or equal to 2
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship CA7
+		(Miss)
+
+		Rolled a 5, less than or equal to 4
+		Attacker: Player 1 Ship CA7
+		Defender: Player 2 Ship SC1
+		(Miss)
+
+		Rolled a 10, less than or equal to 2
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship CA7
+		(Miss)
+
+		Rolled a 5, less than or equal to 4
+		Attacker: Player 1 Ship CA7
+		Defender: Player 2 Ship SC1
+		(Miss)
+
+		Rolled a 4, less than or equal to 2
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship CA7
+		(Miss)
+
+		Rolled a 10, less than or equal to 4
+		Attacker: Player 1 Ship CA7
+		Defender: Player 2 Ship SC1
+		(Miss)
+
+		Rolled a 1, less than or equal to 2
+		Attacker: Player 2 Ship SC1
+		Defender: Player 1 Ship CA7
+		Hit!
+
+		Player 1 Ship CA7 HP reduced to 1!
+
+		Rolled a 2, less than or equal to 4
+		Attacker: Player 1 Ship CA7
+		Defender: Player 2 Ship SC1
+		Hit!
+
+		Player 2 Ship SC1 HP reduced to 0!
+		Player 2 Ship SC1 was destroyed!
+
+	Survivors:
+
+		(6, 6)
+
+			Player 1 Ship CA7
+
+END OF TURN 9 COMBAT PHASE
+
+BEGINNING OF TURN 10 MOVEMENT PHASE
+
+	Player 1 Ship CA1: (0, 6) -> (1, 6)
+	Player 1 Ship CA2: (2, 6) -> (3, 6)
+	Player 1 Ship CA6: (4, 6) -> (3, 6)
+	Player 1 Ship CA7: (6, 6) -> (5, 6)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC2 is caught in battle at (3, 6)
+	Player 2 Ship SC3 is caught in battle at (3, 6)
+	Player 2 Ship SC5 is caught in battle at (3, 6)
+	Player 2 Ship DN1 is caught in battle at (3, 6)
+	Player 2 Ship DN2 is caught in battle at (3, 6)
+	Player 2 Ship DN3 is caught in battle at (3, 6)
+	Player 2 Ship DN4 is caught in battle at (3, 6)
+	Player 2 Ship DN5 is caught in battle at (3, 6)
+	Player 2 Ship DN6 is caught in battle at (3, 6)
+	Player 2 Ship DN7 is caught in battle at (3, 6)
+
+END OF TURN 10 MOVEMENT PHASE
+
+BEGINNING OF TURN 10 COMBAT PHASE
+
+	Combat Locations:
+
+		(3, 6)
+
+			Player 2 Ship DN1
+			Player 2 Ship DN2
+			Player 2 Ship DN3
+			Player 2 Ship DN4
+			Player 2 Ship DN5
+			Player 2 Ship DN6
+			Player 2 Ship DN7
+			Player 1 Ship CA2
+			Player 1 Ship CA6
+			Player 2 Ship SC2
+			Player 2 Ship SC3
+			Player 2 Ship SC5
+
+	Combat at (3, 6)
+
+		Rolled a 3, less than or equal to 5
+		Attacker: Player 2 Ship DN1
+		Defender: Player 1 Ship CA2
+		Hit!
+
+		Player 1 Ship CA2 HP reduced to 1!
+
+		Rolled a 10, less than or equal to 5
+		Attacker: Player 2 Ship DN2
+		Defender: Player 1 Ship CA2
+		(Miss)
+
+		Rolled a 5, less than or equal to 5
+		Attacker: Player 2 Ship DN3
+		Defender: Player 1 Ship CA2
+		Hit!
+
+		Player 1 Ship CA2 HP reduced to 0!
+		Player 1 Ship CA2 was destroyed!
+
+		Rolled a 1, less than or equal to 5
+		Attacker: Player 2 Ship DN4
+		Defender: Player 1 Ship CA6
+		Hit!
+
+		Player 1 Ship CA6 HP reduced to 1!
+
+		Rolled a 2, less than or equal to 5
+		Attacker: Player 2 Ship DN5
+		Defender: Player 1 Ship CA6
+		Hit!
+
+		Player 1 Ship CA6 HP reduced to 0!
+		Player 1 Ship CA6 was destroyed!
+
+	Survivors:
+
+		(3, 6)
+
+			Player 2 Ship SC2
+			Player 2 Ship SC3
+			Player 2 Ship SC5
+			Player 2 Ship DN1
+			Player 2 Ship DN2
+			Player 2 Ship DN3
+			Player 2 Ship DN4
+			Player 2 Ship DN5
+			Player 2 Ship DN6
+			Player 2 Ship DN7
+
+END OF TURN 10 COMBAT PHASE
+
+BEGINNING OF TURN 11 MOVEMENT PHASE
+
+	Player 1 Ship CA1: (1, 6) -> (2, 6)
+	Player 1 Ship CA7: (5, 6) -> (4, 6)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC2: (3, 6) -> (4, 6)
+	Player 2 Ship SC3: (3, 6) -> (3, 6)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 11 MOVEMENT PHASE
+
+BEGINNING OF TURN 11 COMBAT PHASE
+
+	Combat Locations:
+
+		(4, 6)
+
+			Player 1 Ship CA7
+			Player 2 Ship SC2
+
+	Combat at (4, 6)
+
+		Rolled a 1, less than or equal to 4
+		Attacker: Player 1 Ship CA7
+		Defender: Player 2 Ship SC2
+		Hit!
+
+		Player 2 Ship SC2 HP reduced to 0!
+		Player 2 Ship SC2 was destroyed!
+
+	Survivors:
+
+		(4, 6)
+
+			Player 1 Ship CA7
+
+END OF TURN 11 COMBAT PHASE
+
+BEGINNING OF TURN 12 MOVEMENT PHASE
+
+	Player 1 Ship CA1: (2, 6) -> (3, 6)
+	Player 1 Ship CA7: (4, 6) -> (3, 6)
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3 is caught in battle at (3, 6)
+	Player 2 Ship SC5 is caught in battle at (3, 6)
+	Player 2 Ship DN1 is caught in battle at (3, 6)
+	Player 2 Ship DN2 is caught in battle at (3, 6)
+	Player 2 Ship DN3 is caught in battle at (3, 6)
+	Player 2 Ship DN4 is caught in battle at (3, 6)
+	Player 2 Ship DN5 is caught in battle at (3, 6)
+	Player 2 Ship DN6 is caught in battle at (3, 6)
+	Player 2 Ship DN7 is caught in battle at (3, 6)
+
+END OF TURN 12 MOVEMENT PHASE
+
+BEGINNING OF TURN 12 COMBAT PHASE
+
+	Combat Locations:
+
+		(3, 6)
+
+			Player 2 Ship DN1
+			Player 2 Ship DN2
+			Player 2 Ship DN3
+			Player 2 Ship DN4
+			Player 2 Ship DN5
+			Player 2 Ship DN6
+			Player 2 Ship DN7
+			Player 1 Ship CA1
+			Player 1 Ship CA7
+			Player 2 Ship SC3
+			Player 2 Ship SC5
+
+	Combat at (3, 6)
+
+		Rolled a 10, less than or equal to 5
+		Attacker: Player 2 Ship DN1
+		Defender: Player 1 Ship CA7
+		(Miss)
+
+		Rolled a 2, less than or equal to 5
+		Attacker: Player 2 Ship DN2
+		Defender: Player 1 Ship CA7
+		Hit!
+
+		Player 1 Ship CA7 HP reduced to 0!
+		Player 1 Ship CA7 was destroyed!
+
+		Rolled a 4, less than or equal to 5
+		Attacker: Player 2 Ship DN3
+		Defender: Player 1 Ship CA1
+		Hit!
+
+		Player 1 Ship CA1 HP reduced to 1!
+
+		Rolled a 10, less than or equal to 5
+		Attacker: Player 2 Ship DN4
+		Defender: Player 1 Ship CA1
+		(Miss)
+
+		Rolled a 5, less than or equal to 5
+		Attacker: Player 2 Ship DN5
+		Defender: Player 1 Ship CA1
+		Hit!
+
+		Player 1 Ship CA1 HP reduced to 0!
+		Player 1 Ship CA1 was destroyed!
+
+	Survivors:
+
+		(3, 6)
+
+			Player 2 Ship SC3
+			Player 2 Ship SC5
+			Player 2 Ship DN1
+			Player 2 Ship DN2
+			Player 2 Ship DN3
+			Player 2 Ship DN4
+			Player 2 Ship DN5
+			Player 2 Ship DN6
+			Player 2 Ship DN7
+
+END OF TURN 12 COMBAT PHASE
+
+BEGINNING OF TURN 13 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (3, 6) -> (4, 6)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 13 MOVEMENT PHASE
+
+BEGINNING OF TURN 13 COMBAT PHASE
+
+END OF TURN 13 COMBAT PHASE
+
+BEGINNING OF TURN 14 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 6) -> (4, 5)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 14 MOVEMENT PHASE
+
+BEGINNING OF TURN 14 COMBAT PHASE
+
+END OF TURN 14 COMBAT PHASE
+
+BEGINNING OF TURN 15 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 5) -> (4, 4)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 15 MOVEMENT PHASE
+
+BEGINNING OF TURN 15 COMBAT PHASE
+
+END OF TURN 15 COMBAT PHASE
+
+BEGINNING OF TURN 16 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 4) -> (4, 3)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 16 MOVEMENT PHASE
+
+BEGINNING OF TURN 16 COMBAT PHASE
+
+END OF TURN 16 COMBAT PHASE
+
+BEGINNING OF TURN 17 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 3) -> (4, 2)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 17 MOVEMENT PHASE
+
+BEGINNING OF TURN 17 COMBAT PHASE
+
+END OF TURN 17 COMBAT PHASE
+
+BEGINNING OF TURN 18 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 2) -> (4, 1)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 18 MOVEMENT PHASE
+
+BEGINNING OF TURN 18 COMBAT PHASE
+
+END OF TURN 18 COMBAT PHASE
+
+BEGINNING OF TURN 19 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 1) -> (4, 2)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 19 MOVEMENT PHASE
+
+BEGINNING OF TURN 19 COMBAT PHASE
+
+END OF TURN 19 COMBAT PHASE
+
+BEGINNING OF TURN 20 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 2) -> (4, 1)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 20 MOVEMENT PHASE
+
+BEGINNING OF TURN 20 COMBAT PHASE
+
+END OF TURN 20 COMBAT PHASE
+
+BEGINNING OF TURN 21 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 1) -> (4, 2)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 21 MOVEMENT PHASE
+
+BEGINNING OF TURN 21 COMBAT PHASE
+
+END OF TURN 21 COMBAT PHASE
+
+BEGINNING OF TURN 22 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 2) -> (4, 1)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 22 MOVEMENT PHASE
+
+BEGINNING OF TURN 22 COMBAT PHASE
+
+END OF TURN 22 COMBAT PHASE
+
+BEGINNING OF TURN 23 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 1) -> (4, 2)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 23 MOVEMENT PHASE
+
+BEGINNING OF TURN 23 COMBAT PHASE
+
+END OF TURN 23 COMBAT PHASE
+
+BEGINNING OF TURN 24 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 2) -> (4, 1)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 24 MOVEMENT PHASE
+
+BEGINNING OF TURN 24 COMBAT PHASE
+
+END OF TURN 24 COMBAT PHASE
+
+BEGINNING OF TURN 25 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 1) -> (4, 2)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 25 MOVEMENT PHASE
+
+BEGINNING OF TURN 25 COMBAT PHASE
+
+END OF TURN 25 COMBAT PHASE
+
+BEGINNING OF TURN 26 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 2) -> (4, 1)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 26 MOVEMENT PHASE
+
+BEGINNING OF TURN 26 COMBAT PHASE
+
+END OF TURN 26 COMBAT PHASE
+
+BEGINNING OF TURN 27 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 1) -> (4, 2)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 27 MOVEMENT PHASE
+
+BEGINNING OF TURN 27 COMBAT PHASE
+
+END OF TURN 27 COMBAT PHASE
+
+BEGINNING OF TURN 28 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 2) -> (4, 1)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 28 MOVEMENT PHASE
+
+BEGINNING OF TURN 28 COMBAT PHASE
+
+END OF TURN 28 COMBAT PHASE
+
+BEGINNING OF TURN 29 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 1) -> (4, 2)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 29 MOVEMENT PHASE
+
+BEGINNING OF TURN 29 COMBAT PHASE
+
+END OF TURN 29 COMBAT PHASE
+
+BEGINNING OF TURN 30 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 2) -> (4, 1)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 30 MOVEMENT PHASE
+
+BEGINNING OF TURN 30 COMBAT PHASE
+
+END OF TURN 30 COMBAT PHASE
+
+BEGINNING OF TURN 31 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 1) -> (4, 2)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 31 MOVEMENT PHASE
+
+BEGINNING OF TURN 31 COMBAT PHASE
+
+END OF TURN 31 COMBAT PHASE
+
+BEGINNING OF TURN 32 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 2) -> (4, 1)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 32 MOVEMENT PHASE
+
+BEGINNING OF TURN 32 COMBAT PHASE
+
+END OF TURN 32 COMBAT PHASE
+
+BEGINNING OF TURN 33 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)
+	Player 2 Ship SC3: (4, 1) -> (4, 2)
+	Player 2 Ship SC5: (3, 6) -> (3, 6)
+	Player 2 Ship DN1: (3, 6) -> (3, 6)
+	Player 2 Ship DN2: (3, 6) -> (3, 6)
+	Player 2 Ship DN3: (3, 6) -> (3, 6)
+	Player 2 Ship DN4: (3, 6) -> (3, 6)
+	Player 2 Ship DN5: (3, 6) -> (3, 6)
+	Player 2 Ship DN6: (3, 6) -> (3, 6)
+	Player 2 Ship DN7: (3, 6) -> (3, 6)
+
+END OF TURN 33 MOVEMENT PHASE
+
+BEGINNING OF TURN 33 COMBAT PHASE
+
+END OF TURN 33 COMBAT PHASE
+
+BEGINNING OF TURN 34 MOVEMENT PHASE
+
+	Player 1 Ship DN1: (3, 1) -> (3, 1)
+	Player 1 Ship DN2: (4, 0) -> (4, 0)
+	Player 1 Ship DN3: (2, 0) -> (2, 0)

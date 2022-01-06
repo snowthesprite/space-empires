@@ -19,11 +19,10 @@ class StratPlayer():
         if self.cp - total_cost < 0 :
             return {}
         return checkout
-        
 
-
-    def set_plr_num(self, n):
+    def set_start_data(self, n, cp):
         self.plr_num = n
+        self.cp = cp
     
     def set_data(self, plr_data, board) :
         board_copy = {}
@@ -67,6 +66,7 @@ class StratPlayer():
         self.update_data(ship_info, coord, choice)
         if choice not in choices : 
             return (0,0)
+            print('Bad Move Plr {}'.format(self.plr_num))
         return choice
 
     def choose_opponent(self, ship, current_battle) :
